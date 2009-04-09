@@ -1,5 +1,0 @@
-%h2= ViewData.Item.Displayname
-= ViewData.Item.UserName
-
-%textarea{ name = "content[body]" }
-  = ViewData.Item.Email

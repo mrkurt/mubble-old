@@ -1,6 +1,0 @@
-%p
-  %input{type = "submit", value = "Save"}
-  - if(ViewData.Item is IPublished && (int)ViewData.Item["status"] != 1)
-    %input{type = "submit", name = "content[status]=1", value = "Publish Now"}
-  - else if(ViewData.Item is IPublished && (int)ViewData.Item["status"] != 0)
-    %input{type = "submit", name = "content[status]=0", value = "Revert to Draft"}

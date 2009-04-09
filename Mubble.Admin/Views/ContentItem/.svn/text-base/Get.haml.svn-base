@@ -1,3 +1,0 @@
-%h2= ViewData.Item["Title"]
-_ Details
-_ Children

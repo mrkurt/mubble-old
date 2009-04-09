@@ -1,3 +1,0 @@
-%h2 Contents
-- foreach(var a in ViewData.List)
-  %li= a["Title"]

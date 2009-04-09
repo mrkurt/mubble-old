@@ -1,49 +1,0 @@
-8
-
-dir
-661
-http://svn.mubble.net/mubble/trunk/Mubble.Admin/Views
-http://svn.mubble.net/mubble
-
-
-
-2008-02-09T20:16:28.282286Z
-661
-kurt
-
-
-svn:special svn:externals svn:needs-lock
-
-
-
-
-
-
-
-
-
-
-
-e9299cb4-260d-0410-a363-f84a8d58d427
-
-Web.config
-file
-672
-
-
-
-2008-03-05T22:08:55.122000Z
-3737a2e3f29485d54d00b31098ab02a2
-2008-03-15T23:04:41.329605Z
-672
-kurt
-
-Author
-dir
-
-Shared
-dir
-
-ContentItem
-dir
-

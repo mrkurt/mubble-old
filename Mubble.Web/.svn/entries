@@ -1,46 +1,0 @@
-8
-
-dir
-672
-http://svn.mubble.net/mubble/trunk/Mubble.Web
-http://svn.mubble.net/mubble
-
-
-
-2008-03-15T23:04:41.329605Z
-672
-kurt
-has-props
-
-svn:special svn:externals svn:needs-lock
-
-Output
-dir
-
-Mubble.Web.csproj
-file
-
-
-
-
-2008-03-14T22:58:26.170000Z
-18d04d419d10825aac4e007732c30449
-2008-03-15T23:04:41.329605Z
-672
-kurt
-
-Response.cs
-file
-
-
-
-
-2008-03-14T22:37:38.956000Z
-7955a0f3d1d582901355be2ac29598c8
-2008-03-15T23:04:41.329605Z
-672
-kurt
-
-Properties
-dir
-

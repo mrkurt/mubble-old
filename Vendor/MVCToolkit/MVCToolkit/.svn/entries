@@ -1,32 +1,0 @@
-8
-
-dir
-672
-http://svn.mubble.net/mubble/trunk/Vendor/MVCToolkit/MVCToolkit
-http://svn.mubble.net/mubble
-
-
-
-2008-03-15T23:04:41.329605Z
-672
-kurt
-
-
-svn:special svn:externals svn:needs-lock
-
-MVCToolkit.suo
-file
-
-
-
-
-2008-02-09T21:58:31.148000Z
-0d803e55951477592f0c03ccb4485a34
-2008-03-15T23:04:41.329605Z
-672
-kurt
-has-props
-
-Binaries
-dir
-

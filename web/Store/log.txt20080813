@@ -1,0 +1,63 @@
+INFO  2008-08-13 10:01:37,278  3388ms Lucene                 ResetSearcher      - Opened searcher
+INFO  2008-08-13 10:01:37,365  3475ms Global                 Application_Start  - Application startup too 00:00:03.3460000
+INFO  2008-08-13 10:01:38,190  4300ms BenchmarkModule        EndRequest         - Request for /mubble/Default.aspx took 0.781 seconds to load. 69 queries.
+INFO  2008-08-13 10:01:44,031 10141ms BenchmarkModule        EndRequest         - Request for /mubble/index.aspx took 5.837 seconds to load. 18 queries.
+ERROR 2008-08-13 10:01:57,090 23200ms BenchmarkModule        RequestError       - An error occured while processing /mubble/news.aspx for ::1
+System.Web.HttpUnhandledException: Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> System.Web.HttpException: The Controls collection cannot be modified because the control contains code blocks (i.e. <% ... %>).
+   at System.Web.UI.ControlCollection.RemoveAt(Int32 index)
+   at System.Web.UI.ControlCollection.Clear()
+   at Mubble.UI.Conditionals.Conditional.Conditional_Load(Object sender, EventArgs e) in C:\Users\Kurt\Documents\Projects\Mubble\MubbleCore\UI\Conditionals\Conditional.cs:line 19
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   --- End of inner exception stack trace ---
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.templates_ars_pages_news_aspx.ProcessRequest(HttpContext context)
+   at Mubble.Handlers.HtmlHandler.ProcessMubbleRequest(HttpContext context) in C:\Users\Kurt\Documents\Projects\Mubble\MubbleCore\Handlers\HtmlHandler.cs:line 52
+   at Mubble.Handlers.HttpHandler.ProcessRequest(HttpContext context) in C:\Users\Kurt\Documents\Projects\Mubble\MubbleCore\Handlers\HttpHandler.cs:line 95
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+INFO  2008-08-13 10:01:57,129 23239ms BenchmarkModule        EndRequest         - Request for /mubble/news.aspx took 6.816 seconds to load. 66 queries.
+INFO  2008-08-13 10:39:48,628  3272ms Lucene                 ResetSearcher      - Opened searcher
+INFO  2008-08-13 10:39:48,714  3358ms Global                 Application_Start  - Application startup too 00:00:03.2330000
+INFO  2008-08-13 10:39:55,694 10338ms BenchmarkModule        EndRequest         - Request for /mubble/index.aspx took 6.94 seconds to load. 87 queries.
+INFO  2008-08-13 15:40:59,218  3942ms Lucene                 ResetSearcher      - Opened searcher
+INFO  2008-08-13 15:40:59,320  4044ms Global                 Application_Start  - Application startup too 00:00:03.8520000
+ERROR 2008-08-13 15:41:07,338 12062ms BenchmarkModule        RequestError       - An error occured while processing /mubble/news.aspx for ::1
+System.Web.HttpUnhandledException: Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> System.Web.HttpException: The Controls collection cannot be modified because the control contains code blocks (i.e. <% ... %>).
+   at System.Web.UI.ControlCollection.RemoveAt(Int32 index)
+   at System.Web.UI.ControlCollection.Clear()
+   at Mubble.UI.Conditionals.Conditional.Conditional_Load(Object sender, EventArgs e) in C:\Users\Kurt\Documents\Projects\Mubble\MubbleCore\UI\Conditionals\Conditional.cs:line 19
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   --- End of inner exception stack trace ---
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.templates_ars_pages_news_aspx.ProcessRequest(HttpContext context)
+   at Mubble.Handlers.HtmlHandler.ProcessMubbleRequest(HttpContext context) in C:\Users\Kurt\Documents\Projects\Mubble\MubbleCore\Handlers\HtmlHandler.cs:line 52
+   at Mubble.Handlers.HttpHandler.ProcessRequest(HttpContext context) in C:\Users\Kurt\Documents\Projects\Mubble\MubbleCore\Handlers\HttpHandler.cs:line 95
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+INFO  2008-08-13 15:41:07,351 12075ms BenchmarkModule        EndRequest         - Request for /mubble/news.aspx took 7.979 seconds to load. 144 queries.

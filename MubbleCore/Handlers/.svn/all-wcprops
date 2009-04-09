@@ -1,0 +1,125 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/mubble/!svn/ver/608/trunk/MubbleCore/Handlers
+END
+HttpHandler.cs
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/mubble/!svn/ver/462/trunk/MubbleCore/Handlers/HttpHandler.cs
+END
+MediaHandler.cs
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/mubble/!svn/ver/706/trunk/MubbleCore/Handlers/MediaHandler.cs
+END
+PerformanceCounters.cs
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/mubble/!svn/ver/408/trunk/MubbleCore/Handlers/PerformanceCounters.cs
+END
+AdminHandler.cs
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/mubble/!svn/ver/311/trunk/MubbleCore/Handlers/AdminHandler.cs
+END
+UnhandledExceptionModule.cs
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/mubble/!svn/ver/450/trunk/MubbleCore/Handlers/UnhandledExceptionModule.cs
+END
+StaticFileHelper.cs
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/mubble/!svn/ver/705/trunk/MubbleCore/Handlers/StaticFileHelper.cs
+END
+MailerResponse.cs
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/mubble/!svn/ver/269/trunk/MubbleCore/Handlers/MailerResponse.cs
+END
+NotFoundHandler.cs
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/mubble/!svn/ver/460/trunk/MubbleCore/Handlers/NotFoundHandler.cs
+END
+WebServiceHandler.cs
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/mubble/!svn/ver/114/trunk/MubbleCore/Handlers/WebServiceHandler.cs
+END
+Settings.cs
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/mubble/!svn/ver/68/trunk/MubbleCore/Handlers/Settings.cs
+END
+BenchmarkModule.cs
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/mubble/!svn/ver/467/trunk/MubbleCore/Handlers/BenchmarkModule.cs
+END
+HtmlHandler.cs
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/mubble/!svn/ver/462/trunk/MubbleCore/Handlers/HtmlHandler.cs
+END
+MetricsHandler.cs
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/mubble/!svn/ver/394/trunk/MubbleCore/Handlers/MetricsHandler.cs
+END
+RssHandler.cs
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/mubble/!svn/ver/608/trunk/MubbleCore/Handlers/RssHandler.cs
+END
+CachedHttpHandler.cs
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/mubble/!svn/ver/425/trunk/MubbleCore/Handlers/CachedHttpHandler.cs
+END
+Indexing.cs
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/mubble/!svn/ver/479/trunk/MubbleCore/Handlers/Indexing.cs
+END
+Javascript.cs
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/mubble/!svn/ver/432/trunk/MubbleCore/Handlers/Javascript.cs
+END
+JsonHandler.cs
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/mubble/!svn/ver/425/trunk/MubbleCore/Handlers/JsonHandler.cs
+END
+ApiHandler.cs
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/mubble/!svn/ver/276/trunk/MubbleCore/Handlers/ApiHandler.cs
+END
+Mailer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/mubble/!svn/ver/458/trunk/MubbleCore/Handlers/Mailer.cs
+END

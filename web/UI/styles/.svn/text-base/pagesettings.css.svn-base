@@ -1,0 +1,53 @@
+        div#SettingsForm
+        {
+            margin: 0px auto 0px auto;
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            width: 580px;
+            background-color: #F0F0EE;
+            border: 1px solid #cccccc;
+            padding-top: 3px;
+            padding-bottom: 5px;
+        }
+        div.Collapsed h2
+        {
+            font-size: 11px;
+            font-weight: bold;
+            margin: 0px;
+            padding: 2px;
+            padding-left: 15px;
+            background-image: url(../Images/icon_collapsed.gif);
+            background-repeat: no-repeat;
+            background-position: left center;
+            cursor: pointer;
+            width: 200px;
+        }
+        div.Collapsible h2
+        {
+            font-size: 11px;
+            font-weight: bold;
+            margin: 0px;
+            padding: 2px;
+            padding-left: 15px;
+            background-image: url(../Images/icon_expanded.gif);
+            background-repeat: no-repeat;
+            background-position: left center;
+            cursor: pointer;
+            width: 200px;    
+        }
+        div.Collapsible div.OptionsContainer
+        {
+            padding: 0px;
+            font-size: 11px;
+            margin-left: 3px;
+            margin-right: 3px;
+            margin-bottom: 3px;
+            margin-top: 5px;
+            border: 1px solid #dddddd;
+            background-color: #ffffff;
+        }
+        div.Collapsed div.OptionsContainer
+        {
+            display: none;
+        }

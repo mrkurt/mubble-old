@@ -1,0 +1,85 @@
+8
+
+dir
+960
+http://svn.mubble.net/mubble/trunk/web/Templates/shared/images
+http://svn.mubble.net/mubble
+
+
+
+2006-12-23T03:12:40.540042Z
+276
+kurt
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+e9299cb4-260d-0410-a363-f84a8d58d427
+
+toolbar
+dir
+
+grid
+dir
+
+Thumbs.db
+file
+
+
+
+
+2007-11-27T14:48:22.277131Z
+f8195e2b3d73ad2939fdf710c2e48252
+2006-12-23T03:12:40.540042Z
+276
+kurt
+has-props
+
+s.gif
+file
+
+
+
+
+2007-11-27T14:48:22.455131Z
+fc94fb0c3ed8a8f909dbc7630a0987ff
+2006-12-23T03:12:40.540042Z
+276
+kurt
+has-props
+
+gradient-bg.gif
+file
+
+
+
+
+2007-11-27T14:48:22.459131Z
+e117fca9d088e4cd5bbbcec7b99a8408
+2006-12-23T03:12:40.540042Z
+276
+kurt
+has-props
+
+tabs
+dir
+
+sizer
+dir
+
+layout
+dir
+
+basic-dialog
+dir
+

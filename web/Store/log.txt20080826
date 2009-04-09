@@ -1,0 +1,99 @@
+INFO  2008-08-26 11:05:16,956 13651ms Lucene                 ResetSearcher      - Opened searcher
+INFO  2008-08-26 11:05:17,328 14023ms Global                 Application_Start  - Application startup too 00:00:13.8530000
+ERROR 2008-08-26 11:06:05,439 62134ms BenchmarkModule        RequestError       - An error occured while processing /mubble/news.aspx for ::1
+System.Web.HttpUnhandledException: Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> System.Data.SqlClient.SqlException: Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at ActiveObjects.SqlServer.SqlDataManager`1.List(String command, Dictionary`2 parameters, IActiveCollection list, Int32 startRow, Int32 endRow) in c:\CCnet\Activeobjects\WorkingSource\ActiveObjects\SqlServer\SqlDataManager.cs:line 141
+   at ActiveObjects.DataManager.List(Dictionary`2 parameters, IActiveCollection container, Int32 startRow, Int32 endRow) in c:\CCnet\Activeobjects\WorkingSource\ActiveObjects\DataManager.cs:line 455
+   at ActiveObjects.DataManager.List(Dictionary`2 parameters, IActiveCollection container) in c:\CCnet\Activeobjects\WorkingSource\ActiveObjects\DataManager.cs:line 450
+   at Mubble.Models.Post.Find(Dictionary`2 parameters) in C:\Users\Kurt\Documents\Projects\Mubble\Models\Post.activeobjects.cs:line 170
+   at Mubble.DataBroker.GetPosts(Dictionary`2 parameters) in C:\Users\Kurt\Documents\Projects\Mubble\MubbleCore\DataBroker.posts.cs:line 26
+   at Mubble.UI.Data.Posts.GetPosts() in C:\Users\Kurt\Documents\Projects\Mubble\MubbleCore\UI\Data\Posts.cs:line 94
+   at Mubble.UI.Data.Posts.EnsurePosts() in C:\Users\Kurt\Documents\Projects\Mubble\MubbleCore\UI\Data\Posts.cs:line 202
+   at Mubble.UI.Data.Posts.Posts_Load(Object sender, EventArgs e) in C:\Users\Kurt\Documents\Projects\Mubble\MubbleCore\UI\Data\Posts.cs:line 43
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   --- End of inner exception stack trace ---
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.templates_ars_pages_news_aspx.ProcessRequest(HttpContext context)
+   at Mubble.Handlers.HtmlHandler.ProcessMubbleRequest(HttpContext context) in C:\Users\Kurt\Documents\Projects\Mubble\MubbleCore\Handlers\HtmlHandler.cs:line 52
+   at Mubble.Handlers.HttpHandler.ProcessRequest(HttpContext context) in C:\Users\Kurt\Documents\Projects\Mubble\MubbleCore\Handlers\HttpHandler.cs:line 95
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+INFO  2008-08-26 11:06:05,645 62340ms BenchmarkModule        EndRequest         - Request for /mubble/news.aspx took 47.887 seconds to load. 82 queries.
+INFO  2008-08-26 11:07:09,366 126061ms BenchmarkModule        EndRequest         - Request for /mubble/news.aspx took 17.237 seconds to load. 74 queries.
+INFO  2008-08-26 11:07:10,661 127356ms BenchmarkModule        EndRequest         - Request for /mubble/news.aspx took 17.984 seconds to load. 81 queries.
+INFO  2008-08-26 11:09:47,201 283896ms BenchmarkModule        EndRequest         - Request for /mubble/news.aspx/post/20080110-intel-responds-to-new-antitrust-inquiry-by-new-york-ag.html?comments=1 took 1.24 seconds to load. 1 queries.
+INFO  2008-08-26 12:07:07,696  5630ms Lucene                 ResetSearcher      - Opened searcher
+INFO  2008-08-26 12:07:07,790  5724ms Global                 Application_Start  - Application startup too 00:00:05.5850000
+INFO  2008-08-26 12:07:20,990 18924ms BenchmarkModule        EndRequest         - Request for /mubble/news.aspx/post/20080110-intel-responds-to-new-antitrust-inquiry-by-new-york-ag.html?comments=1 took 13.128 seconds to load. 148 queries.
+ERROR 2008-08-26 12:10:21,646 199580ms BenchmarkModule        RequestError       - An error occured while processing /mubble/news.aspx/post/20080110-intel-responds-to-new-antitrust-inquiry-by-new-york-ag.html?comments=1 for ::1
+System.Web.HttpParseException: C:\Users\Kurt\Documents\Projects\Mubble\web\Templates\ars\Pages\FullNewsDisplay.ascx(52): error BC30516: Overload resolution failed because no accessible 'TryParse' accepts this number of arguments. ---> System.Web.HttpCompileException: C:\Users\Kurt\Documents\Projects\Mubble\web\Templates\ars\Pages\FullNewsDisplay.ascx(52): error BC30516: Overload resolution failed because no accessible 'TryParse' accepts this number of arguments.
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.UI.BaseTemplateParser.GetReferencedType(VirtualPath virtualPath, Boolean allowNoCompile)
+   at System.Web.UI.BaseTemplateParser.GetUserControlType(VirtualPath virtualPath)
+   at System.Web.UI.MainTagNameToTypeMapper.ProcessUserControlRegistration(UserControlRegisterEntry ucRegisterEntry)
+   at System.Web.UI.BaseTemplateParser.ProcessDirective(String directiveName, IDictionary directive)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   --- End of inner exception stack trace ---
+   at System.Web.UI.TemplateParser.ProcessException(Exception ex)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseFile(String physicalPath, VirtualPath virtualPath)
+   at System.Web.UI.TemplateParser.ParseInternal()
+   at System.Web.UI.TemplateParser.Parse()
+   at System.Web.Compilation.BaseTemplateBuildProvider.get_CodeCompilerType()
+   at System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   at System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(String virtualPath, Type requiredBaseType)
+   at Mubble.Handlers.HtmlHandler.ProcessMubbleRequest(HttpContext context) in C:\Users\Kurt\Documents\Projects\Mubble\MubbleCore\Handlers\HtmlHandler.cs:line 47
+   at Mubble.Handlers.HttpHandler.ProcessRequest(HttpContext context) in C:\Users\Kurt\Documents\Projects\Mubble\MubbleCore\Handlers\HttpHandler.cs:line 95
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+INFO  2008-08-26 12:10:21,684 199618ms BenchmarkModule        EndRequest         - Request for /mubble/news.aspx/post/20080110-intel-responds-to-new-antitrust-inquiry-by-new-york-ag.html?comments=1 took 2.113 seconds to load. 0 queries.
+INFO  2008-08-26 12:10:45,211 223145ms BenchmarkModule        EndRequest         - Request for /mubble/news.aspx/post/20080110-intel-responds-to-new-antitrust-inquiry-by-new-york-ag.html?comments=1 took 1.081 seconds to load. 1 queries.
+INFO  2008-08-26 12:12:04,559 302493ms BenchmarkModule        EndRequest         - Request for /mubble/news.aspx/post/20080110-intel-responds-to-new-antitrust-inquiry-by-new-york-ag.html?comments=2 took 1.005 seconds to load. 1 queries.
+INFO  2008-08-26 12:13:54,733 412667ms BenchmarkModule        EndRequest         - Request for /mubble/news.aspx/post/20080110-intel-responds-to-new-antitrust-inquiry-by-new-york-ag.html?comments=2 took 3.513 seconds to load. 1 queries.
+INFO  2008-08-26 12:15:26,286 504220ms BenchmarkModule        EndRequest         - Request for /mubble/news.aspx/post/20080110-intel-responds-to-new-antitrust-inquiry-by-new-york-ag.html?comments=2 took 1.031 seconds to load. 1 queries.
+INFO  2008-08-26 12:15:44,873 522807ms BenchmarkModule        EndRequest         - Request for /mubble/index.aspx took 1.716 seconds to load. 48 queries.
+INFO  2008-08-26 12:21:50,418 888352ms BenchmarkModule        EndRequest         - Request for /mubble/news.aspx/post/20080110-intel-responds-to-new-antitrust-inquiry-by-new-york-ag.html?comments=2 took 3.479 seconds to load. 3 queries.
+INFO  2008-08-26 12:30:03,583 1381517ms BenchmarkModule        EndRequest         - Request for /mubble/news.aspx/post/20080110-intel-responds-to-new-antitrust-inquiry-by-new-york-ag.html?comments=2 took 4.824 seconds to load. 1 queries.
+INFO  2008-08-26 12:35:09,580 1687514ms BenchmarkModule        EndRequest         - Request for /mubble/news.aspx/post/20080110-intel-responds-to-new-antitrust-inquiry-by-new-york-ag.html?comments=2 took 3.129 seconds to load. 1 queries.
+INFO  2008-08-26 12:43:42,466 2200400ms BenchmarkModule        EndRequest         - Request for /mubble/news.aspx/post/20080110-intel-responds-to-new-antitrust-inquiry-by-new-york-ag.html?comments=1 took 3.904 seconds to load. 1 queries.
+INFO  2008-08-26 15:18:51,073  8722ms Lucene                 ResetSearcher      - Opened searcher
+INFO  2008-08-26 15:18:51,424  9073ms Global                 Application_Start  - Application startup too 00:00:08.9510000
+INFO  2008-08-26 15:19:02,884 20533ms BenchmarkModule        EndRequest         - Request for /mubble/guides.aspx took 11.135 seconds to load. 188 queries.
+INFO  2008-08-26 15:19:07,855 25504ms BenchmarkModule        EndRequest         - Request for /mubble/guides/buyer/2007-holiday-upgrade-guide.aspx took 1.863 seconds to load. 7 queries.
+INFO  2008-08-26 15:20:13,625 91274ms BenchmarkModule        EndRequest         - Request for /mubble/guides.aspx took 1.066 seconds to load. 2 queries.
+INFO  2008-08-26 15:20:23,287 100936ms BenchmarkModule        EndRequest         - Request for /mubble/guides/tweaks.aspx took 1.415 seconds to load. 64 queries.
+INFO  2008-08-26 15:20:41,475 119124ms BenchmarkModule        EndRequest         - Request for /mubble/guides/tweaks.aspx took 1.13 seconds to load. 0 queries.
+INFO  2008-08-26 15:38:52,646 1210295ms BenchmarkModule        EndRequest         - Request for /mubble/guides/tweaks.aspx took 1.19 seconds to load. 89 queries.

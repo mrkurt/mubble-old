@@ -1,0 +1,8 @@
+- var published = ViewData.Item as IPublished
+- if(published != null)
+  #metadata
+    %h2 Authors
+    = Html.TextArea("content[authors]", published.Authors.ToLines(a => (string)a["Username"]))
+    %ul
+    - foreach(var a in published.Authors)
+      %li= a["Username"]

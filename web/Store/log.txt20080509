@@ -1,0 +1,124 @@
+INFO  2008-05-09 16:38:17,589 16310ms Lucene                 ResetSearcher      - Opened searcher
+INFO  2008-05-09 16:38:17,903 16624ms Global                 Application_Start  - Application startup too 00:00:16.0650000
+INFO  2008-05-09 16:38:19,006 17727ms BenchmarkModule        EndRequest         - Request for /mubble/Default.aspx took 0.836 seconds to load. 69 queries.
+ERROR 2008-05-09 16:38:23,808 22529ms BenchmarkModule        RequestError       - An error occured while processing /mubble/index.aspx for ::1
+System.Web.HttpCompileException: C:\Users\Kurt\Documents\Projects\Mubble\web\Templates\ars\Pages\Index.aspx(19): error BC30560: 'templates_ars_bubbles_ascx' is ambiguous in the namespace 'ASP'.
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(String virtualPath, Type requiredBaseType)
+   at Mubble.Handlers.HtmlHandler.ProcessMubbleRequest(HttpContext context) in C:\Users\Kurt\Documents\Projects\Mubble\MubbleCore\Handlers\HtmlHandler.cs:line 47
+   at Mubble.Handlers.HttpHandler.ProcessRequest(HttpContext context) in C:\Users\Kurt\Documents\Projects\Mubble\MubbleCore\Handlers\HttpHandler.cs:line 95
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+INFO  2008-05-09 16:38:23,874 22595ms BenchmarkModule        EndRequest         - Request for /mubble/index.aspx took 4.85 seconds to load. 5 queries.
+INFO  2008-05-09 16:39:28,929  3025ms Lucene                 ResetSearcher      - Opened searcher
+INFO  2008-05-09 16:39:29,033  3129ms Global                 Application_Start  - Application startup too 00:00:03.0310000
+INFO  2008-05-09 16:39:36,167 10263ms BenchmarkModule        EndRequest         - Request for /mubble/index.aspx took 7.087 seconds to load. 79 queries.
+ERROR 2008-05-09 16:42:58,446 212542ms BenchmarkModule        RequestError       - An error occured while processing /mubble/index.aspx for ::1
+System.Web.HttpUnhandledException: Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> System.FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+   at System.Text.StringBuilder.AppendFormat(IFormatProvider provider, String format, Object[] args)
+   at System.String.Format(IFormatProvider provider, String format, Object[] args)
+   at Templates_ars_Intel.BuildLink(Object link, Object title) in c:\Users\Kurt\documents\projects\mubble\web\Templates\ars\Bubbles\Intel.ascx.cs:line 44
+   at ASP.templates_ars_bubbles_intel_ascx.__DataBind__control3(Object sender, EventArgs e) in c:\Users\Kurt\documents\projects\mubble\web\Templates\ars\Bubbles\Intel.ascx:line 10
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.WebControls.Repeater.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   at Mubble.UI.Repeater.OnDataBinding(EventArgs e) in C:\Users\Kurt\Documents\Projects\Mubble\MubbleCore\UI\Repeater.cs:line 121
+   at Mubble.UI.WebControls.Listings.RssFeed.DataBind() in C:\Users\Kurt\Documents\Projects\Mubble\MubbleCore\UI\WebControls\Listings\RssFeed.cs:line 119
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at Templates_ars_Intel.DataBind() in c:\Users\Kurt\documents\projects\mubble\web\Templates\ars\Bubbles\Intel.ascx.cs:line 30
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at Mubble.UI.Page.MubblePage_PreRender(Object sender, EventArgs e) in C:\Users\Kurt\Documents\Projects\Mubble\MubbleCore\UI\MubblePage.cs:line 351
+   at System.Web.UI.Control.OnPreRender(EventArgs e)
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   --- End of inner exception stack trace ---
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.templates_ars_pages_index_aspx.ProcessRequest(HttpContext context)
+   at Mubble.Handlers.HtmlHandler.ProcessMubbleRequest(HttpContext context) in C:\Users\Kurt\Documents\Projects\Mubble\MubbleCore\Handlers\HtmlHandler.cs:line 52
+   at Mubble.Handlers.HttpHandler.ProcessRequest(HttpContext context) in C:\Users\Kurt\Documents\Projects\Mubble\MubbleCore\Handlers\HttpHandler.cs:line 95
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+INFO  2008-05-09 16:42:58,500 212596ms BenchmarkModule        EndRequest         - Request for /mubble/index.aspx took 2.943 seconds to load. 0 queries.
+INFO  2008-05-09 16:43:14,519 228615ms BenchmarkModule        EndRequest         - Request for /mubble/index.aspx took 2.553 seconds to load. 0 queries.
+INFO  2008-05-09 16:44:03,736  3278ms Lucene                 ResetSearcher      - Opened searcher
+INFO  2008-05-09 16:44:03,816  3358ms Global                 Application_Start  - Application startup too 00:00:03.2630000
+INFO  2008-05-09 16:44:09,446  8988ms BenchmarkModule        EndRequest         - Request for /mubble/index.aspx took 5.597 seconds to load. 79 queries.
+INFO  2008-05-09 16:44:26,738 26280ms BenchmarkModule        EndRequest         - Request for /mubble/index.aspx took 2.757 seconds to load. 0 queries.
+ERROR 2008-05-09 16:57:31,747 811289ms BenchmarkModule        RequestError       - An error occured while processing /mubble/index.aspx for ::1
+System.Web.HttpParseException: External component has thrown an exception. ---> System.Web.HttpCompileException: External component has thrown an exception.
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.UI.BaseTemplateParser.GetReferencedType(VirtualPath virtualPath, Boolean allowNoCompile)
+   at System.Web.UI.BaseTemplateParser.GetUserControlType(VirtualPath virtualPath)
+   at System.Web.UI.MainTagNameToTypeMapper.ProcessUserControlRegistration(UserControlRegisterEntry ucRegisterEntry)
+   at System.Web.UI.BaseTemplateParser.ProcessDirective(String directiveName, IDictionary directive)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   --- End of inner exception stack trace ---
+   at System.Web.UI.TemplateParser.ProcessException(Exception ex)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseFile(String physicalPath, VirtualPath virtualPath)
+   at System.Web.UI.TemplateParser.ParseInternal()
+   at System.Web.UI.TemplateParser.Parse()
+   at System.Web.Compilation.BaseTemplateBuildProvider.get_CodeCompilerType()
+   at System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   at System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(String virtualPath, Type requiredBaseType)
+   at Mubble.Handlers.HtmlHandler.ProcessMubbleRequest(HttpContext context) in C:\Users\Kurt\Documents\Projects\Mubble\MubbleCore\Handlers\HtmlHandler.cs:line 47
+   at Mubble.Handlers.HttpHandler.ProcessRequest(HttpContext context) in C:\Users\Kurt\Documents\Projects\Mubble\MubbleCore\Handlers\HttpHandler.cs:line 95
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+INFO  2008-05-09 16:57:31,769 811311ms BenchmarkModule        EndRequest         - Request for /mubble/index.aspx took 1.548 seconds to load. 5 queries.
+INFO  2008-05-09 16:58:06,253 845795ms BenchmarkModule        EndRequest         - Request for /mubble/index.aspx took 4.516 seconds to load. 3 queries.
+INFO  2008-05-09 17:03:22,545  3048ms Lucene                 ResetSearcher      - Opened searcher
+INFO  2008-05-09 17:03:22,629  3132ms Global                 Application_Start  - Application startup too 00:00:03.0370000
+INFO  2008-05-09 17:03:27,943  8446ms BenchmarkModule        EndRequest         - Request for /mubble/index.aspx took 5.284 seconds to load. 79 queries.
+INFO  2008-05-09 17:06:14,707 175210ms BenchmarkModule        EndRequest         - Request for /mubble/index.aspx took 2.196 seconds to load. 0 queries.
+INFO  2008-05-09 17:07:43,965 264468ms BenchmarkModule        EndRequest         - Request for /mubble/index.aspx took 2.118 seconds to load. 0 queries.
+INFO  2008-05-09 17:08:12,166  2792ms Lucene                 ResetSearcher      - Opened searcher
+INFO  2008-05-09 17:08:12,248  2874ms Global                 Application_Start  - Application startup too 00:00:02.7700000
+INFO  2008-05-09 17:08:20,088 10714ms BenchmarkModule        EndRequest         - Request for /mubble/index.aspx took 7.809 seconds to load. 79 queries.
+INFO  2008-05-09 17:09:02,303 52929ms BenchmarkModule        EndRequest         - Request for /mubble/index.aspx took 2.169 seconds to load. 0 queries.
+INFO  2008-05-09 17:11:21,060 191686ms BenchmarkModule        EndRequest         - Request for /mubble/index.aspx took 2.154 seconds to load. 0 queries.
+INFO  2008-05-09 17:11:41,412  3103ms Lucene                 ResetSearcher      - Opened searcher
+INFO  2008-05-09 17:11:41,498  3189ms Global                 Application_Start  - Application startup too 00:00:03.0870000
+INFO  2008-05-09 17:11:47,171  8862ms BenchmarkModule        EndRequest         - Request for /mubble/index.aspx took 5.637 seconds to load. 79 queries.
+INFO  2008-05-09 21:19:53,773  3151ms Lucene                 ResetSearcher      - Opened searcher
+INFO  2008-05-09 21:19:53,867  3244ms Global                 Application_Start  - Application startup too 00:00:03.1512000
+INFO  2008-05-09 21:19:54,007  3385ms BenchmarkModule        EndRequest         - Request for /mubble/Default.aspx took 0.078 seconds to load. 69 queries.
+INFO  2008-05-09 21:19:59,966  9344ms BenchmarkModule        EndRequest         - Request for /mubble/index.aspx took 5.9592 seconds to load. 10 queries.
+INFO  2008-05-09 21:20:31,115 40493ms BenchmarkModule        EndRequest         - Request for /mubble/index.aspx took 2.1684 seconds to load. 0 queries.

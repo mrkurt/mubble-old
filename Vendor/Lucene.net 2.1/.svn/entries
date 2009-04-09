@@ -1,0 +1,41 @@
+8
+
+dir
+661
+http://svn.mubble.net/mubble/trunk/Vendor/Lucene.net%202.1
+http://svn.mubble.net/mubble
+
+
+
+2008-01-18T14:05:14.737686Z
+650
+kurt
+
+
+svn:special svn:externals svn:needs-lock
+
+Lucene.Net.xml
+file
+
+
+
+
+2008-01-17T21:43:21.778000Z
+a3069eeb74220b98838c4913c3067f45
+2008-01-18T14:05:14.737686Z
+650
+kurt
+
+Lucene.Net.dll
+file
+
+
+
+
+2008-01-17T21:43:21.848000Z
+5d49cea8132c09b8681cd31ea200f36e
+2008-01-18T14:05:14.737686Z
+650
+kurt
+has-props
+

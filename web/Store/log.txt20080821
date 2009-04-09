@@ -1,0 +1,144 @@
+INFO  2008-08-21 09:09:11,582 15581ms Lucene                 ResetSearcher      - Opened searcher
+INFO  2008-08-21 09:09:11,939 15938ms Global                 Application_Start  - Application startup too 00:00:15.5370000
+INFO  2008-08-21 09:09:18,472 22471ms BenchmarkModule        EndRequest         - Request for /mubble/guides.aspx took 6.215 seconds to load. 81 queries.
+INFO  2008-08-21 09:11:25,139 149138ms BenchmarkModule        EndRequest         - Request for /mubble/login.aspx took 4.883 seconds to load. 5 queries.
+INFO  2008-08-21 09:11:32,850 156849ms BenchmarkModule        EndRequest         - Request for /mubble/index.aspx took 2.634 seconds to load. 10 queries.
+ERROR 2008-08-21 09:14:00,022 304021ms BenchmarkModule        RequestError       - An error occured while processing /mubble/reindex-content.aspx for ::1
+System.Data.SqlClient.SqlException: Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at ActiveObjects.SqlServer.SqlDataManager`1.List(String command, Dictionary`2 parameters, IActiveCollection list, Int32 startRow, Int32 endRow) in c:\CCnet\Activeobjects\WorkingSource\ActiveObjects\SqlServer\SqlDataManager.cs:line 141
+   at ActiveObjects.DataManager.List(Dictionary`2 parameters, IActiveCollection container, Int32 startRow, Int32 endRow) in c:\CCnet\Activeobjects\WorkingSource\ActiveObjects\DataManager.cs:line 455
+   at ActiveObjects.DataManager.List(Dictionary`2 parameters, IActiveCollection container) in c:\CCnet\Activeobjects\WorkingSource\ActiveObjects\DataManager.cs:line 450
+   at Mubble.Models.Post.Find(Dictionary`2 parameters) in C:\Users\Kurt\Documents\Projects\Mubble\Models\Post.activeobjects.cs:line 170
+   at Mubble.Handlers.Indexing.ProcessRequest(HttpContext context) in C:\Users\Kurt\Documents\Projects\Mubble\MubbleCore\Handlers\Indexing.cs:line 72
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+INFO  2008-08-21 09:14:00,115 304114ms BenchmarkModule        EndRequest         - Request for /mubble/reindex-content.aspx took 145.152 seconds to load. 4156 queries.
+INFO  2008-08-21 09:14:45,985 349984ms Lucene                 ResetSearcher      - Opened searcher
+INFO  2008-08-21 09:15:43,096 407095ms BenchmarkModule        EndRequest         - Request for /mubble/guides.aspx took 1.761 seconds to load. 108 queries.
+INFO  2008-08-21 09:16:17,823 441822ms BenchmarkModule        EndRequest         - Request for /mubble/guides.aspx took 2.05 seconds to load. 2 queries.
+INFO  2008-08-21 09:30:03,192 1267191ms BenchmarkModule        EndRequest         - Request for /mubble/guides/buyer.aspx took 1.267 seconds to load. 103 queries.
+ERROR 2008-08-21 09:48:53,133 2397132ms BenchmarkModule        RequestError       - An error occured while processing /mubble/guides/buyer.aspx for ::1
+System.Web.HttpUnhandledException: Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at Mubble.UI.Conditionals.Article.Test() in C:\Users\Kurt\Documents\Projects\Mubble\MubbleCore\UI\Conditionals\Article.cs:line 23
+   at Mubble.UI.Conditionals.Conditional.get_IsTrue() in C:\Users\Kurt\Documents\Projects\Mubble\MubbleCore\UI\Conditionals\Conditional.cs:line 54
+   at Mubble.UI.Conditionals.Group.Test() in C:\Users\Kurt\Documents\Projects\Mubble\MubbleCore\UI\Conditionals\Group.cs:line 21
+   at Mubble.UI.Conditionals.Conditional.get_IsTrue() in C:\Users\Kurt\Documents\Projects\Mubble\MubbleCore\UI\Conditionals\Conditional.cs:line 54
+   at Mubble.UI.Conditionals.Conditional.Conditional_Load(Object sender, EventArgs e) in C:\Users\Kurt\Documents\Projects\Mubble\MubbleCore\UI\Conditionals\Conditional.cs:line 17
+   at System.EventHandler.Invoke(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   --- End of inner exception stack trace ---
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.templates_ars_modules_sections_section_aspx.ProcessRequest(HttpContext context)
+   at Mubble.Handlers.HtmlHandler.ProcessMubbleRequest(HttpContext context) in C:\Users\Kurt\Documents\Projects\Mubble\MubbleCore\Handlers\HtmlHandler.cs:line 52
+   at Mubble.Handlers.HttpHandler.ProcessRequest(HttpContext context) in C:\Users\Kurt\Documents\Projects\Mubble\MubbleCore\Handlers\HttpHandler.cs:line 95
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+INFO  2008-08-21 09:48:53,172 2397171ms BenchmarkModule        EndRequest         - Request for /mubble/guides/buyer.aspx took 1.757 seconds to load. 74 queries.
+ERROR 2008-08-21 09:50:50,645 2514644ms BenchmarkModule        RequestError       - An error occured while processing /mubble/guides/buyer.aspx for ::1
+System.Web.HttpUnhandledException: Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at Mubble.UI.Conditionals.Article.Test() in C:\Users\Kurt\Documents\Projects\Mubble\MubbleCore\UI\Conditionals\Article.cs:line 23
+   at Mubble.UI.Conditionals.Conditional.get_IsTrue() in C:\Users\Kurt\Documents\Projects\Mubble\MubbleCore\UI\Conditionals\Conditional.cs:line 54
+   at Mubble.UI.Conditionals.Group.Test() in C:\Users\Kurt\Documents\Projects\Mubble\MubbleCore\UI\Conditionals\Group.cs:line 21
+   at Mubble.UI.Conditionals.Conditional.get_IsTrue() in C:\Users\Kurt\Documents\Projects\Mubble\MubbleCore\UI\Conditionals\Conditional.cs:line 54
+   at Mubble.UI.Conditionals.Conditional.Conditional_Load(Object sender, EventArgs e) in C:\Users\Kurt\Documents\Projects\Mubble\MubbleCore\UI\Conditionals\Conditional.cs:line 17
+   at System.EventHandler.Invoke(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   --- End of inner exception stack trace ---
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.templates_ars_modules_sections_section_aspx.ProcessRequest(HttpContext context)
+   at Mubble.Handlers.HtmlHandler.ProcessMubbleRequest(HttpContext context) in C:\Users\Kurt\Documents\Projects\Mubble\MubbleCore\Handlers\HtmlHandler.cs:line 52
+   at Mubble.Handlers.HttpHandler.ProcessRequest(HttpContext context) in C:\Users\Kurt\Documents\Projects\Mubble\MubbleCore\Handlers\HttpHandler.cs:line 95
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+INFO  2008-08-21 09:50:50,647 2514646ms BenchmarkModule        EndRequest         - Request for /mubble/guides/buyer.aspx took 1.059 seconds to load. 0 queries.
+ERROR 2008-08-21 09:50:51,547 2515546ms BenchmarkModule        RequestError       - An error occured while processing /mubble/guides/buyer.aspx for ::1
+System.Web.HttpUnhandledException: Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at Mubble.UI.Conditionals.Article.Test() in C:\Users\Kurt\Documents\Projects\Mubble\MubbleCore\UI\Conditionals\Article.cs:line 23
+   at Mubble.UI.Conditionals.Conditional.get_IsTrue() in C:\Users\Kurt\Documents\Projects\Mubble\MubbleCore\UI\Conditionals\Conditional.cs:line 54
+   at Mubble.UI.Conditionals.Group.Test() in C:\Users\Kurt\Documents\Projects\Mubble\MubbleCore\UI\Conditionals\Group.cs:line 21
+   at Mubble.UI.Conditionals.Conditional.get_IsTrue() in C:\Users\Kurt\Documents\Projects\Mubble\MubbleCore\UI\Conditionals\Conditional.cs:line 54
+   at Mubble.UI.Conditionals.Conditional.Conditional_Load(Object sender, EventArgs e) in C:\Users\Kurt\Documents\Projects\Mubble\MubbleCore\UI\Conditionals\Conditional.cs:line 17
+   at System.EventHandler.Invoke(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   --- End of inner exception stack trace ---
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.templates_ars_modules_sections_section_aspx.ProcessRequest(HttpContext context)
+   at Mubble.Handlers.HtmlHandler.ProcessMubbleRequest(HttpContext context) in C:\Users\Kurt\Documents\Projects\Mubble\MubbleCore\Handlers\HtmlHandler.cs:line 52
+   at Mubble.Handlers.HttpHandler.ProcessRequest(HttpContext context) in C:\Users\Kurt\Documents\Projects\Mubble\MubbleCore\Handlers\HttpHandler.cs:line 95
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ERROR 2008-08-21 09:51:13,875 2537874ms BenchmarkModule        RequestError       - An error occured while processing /mubble/guides/buyer.aspx for ::1
+System.Web.HttpUnhandledException: Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at Mubble.UI.Conditionals.Article.Test() in C:\Users\Kurt\Documents\Projects\Mubble\MubbleCore\UI\Conditionals\Article.cs:line 23
+   at Mubble.UI.Conditionals.Conditional.get_IsTrue() in C:\Users\Kurt\Documents\Projects\Mubble\MubbleCore\UI\Conditionals\Conditional.cs:line 54
+   at Mubble.UI.Conditionals.Group.Test() in C:\Users\Kurt\Documents\Projects\Mubble\MubbleCore\UI\Conditionals\Group.cs:line 21
+   at Mubble.UI.Conditionals.Conditional.get_IsTrue() in C:\Users\Kurt\Documents\Projects\Mubble\MubbleCore\UI\Conditionals\Conditional.cs:line 54
+   at Mubble.UI.Conditionals.Conditional.Conditional_Load(Object sender, EventArgs e) in C:\Users\Kurt\Documents\Projects\Mubble\MubbleCore\UI\Conditionals\Conditional.cs:line 17
+   at System.EventHandler.Invoke(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   --- End of inner exception stack trace ---
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.templates_ars_modules_sections_section_aspx.ProcessRequest(HttpContext context)
+   at Mubble.Handlers.HtmlHandler.ProcessMubbleRequest(HttpContext context) in C:\Users\Kurt\Documents\Projects\Mubble\MubbleCore\Handlers\HtmlHandler.cs:line 52
+   at Mubble.Handlers.HttpHandler.ProcessRequest(HttpContext context) in C:\Users\Kurt\Documents\Projects\Mubble\MubbleCore\Handlers\HttpHandler.cs:line 95
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+INFO  2008-08-21 09:51:13,877 2537876ms BenchmarkModule        EndRequest         - Request for /mubble/guides/buyer.aspx took 1.059 seconds to load. 0 queries.
+INFO  2008-08-21 09:51:36,572 2560571ms BenchmarkModule        EndRequest         - Request for /mubble/guides/buyer.aspx took 1.699 seconds to load. 29 queries.
+INFO  2008-08-21 09:53:19,632 2663631ms BenchmarkModule        EndRequest         - Request for /mubble/guides/buyer.aspx took 1.119 seconds to load. 2 queries.

@@ -1,0 +1,40 @@
+INFO  2008-12-04 14:17:39,753 16731ms Lucene                 ResetSearcher      - Opened searcher
+INFO  2008-12-04 14:17:40,372 17350ms Global                 Application_Start  - Application startup too 00:00:16.8780000
+ERROR 2008-12-04 14:17:49,247 26225ms BenchmarkModule        RequestError       - An error occured while processing /mubble/index.aspx for ::1
+System.Web.HttpParseException: C:\Users\Kurt\Documents\Projects\Mubble\web\Templates\ars\Bubbles.ascx(14): error BC30560: 'templates_ars_bubbles_jobs_ascx' is ambiguous in the namespace 'ASP'. ---> System.Web.HttpCompileException: C:\Users\Kurt\Documents\Projects\Mubble\web\Templates\ars\Bubbles.ascx(14): error BC30560: 'templates_ars_bubbles_jobs_ascx' is ambiguous in the namespace 'ASP'.
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.UI.BaseTemplateParser.GetReferencedType(VirtualPath virtualPath, Boolean allowNoCompile)
+   at System.Web.UI.BaseTemplateParser.GetUserControlType(VirtualPath virtualPath)
+   at System.Web.UI.MainTagNameToTypeMapper.ProcessUserControlRegistration(UserControlRegisterEntry ucRegisterEntry)
+   at System.Web.UI.BaseTemplateParser.ProcessDirective(String directiveName, IDictionary directive)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   --- End of inner exception stack trace ---
+   at System.Web.UI.TemplateParser.ProcessException(Exception ex)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseFile(String physicalPath, VirtualPath virtualPath)
+   at System.Web.UI.TemplateParser.ParseInternal()
+   at System.Web.UI.TemplateParser.Parse()
+   at System.Web.Compilation.BaseTemplateBuildProvider.get_CodeCompilerType()
+   at System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   at System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(String virtualPath, Type requiredBaseType)
+   at Mubble.Handlers.HtmlHandler.ProcessMubbleRequest(HttpContext context) in C:\Users\Kurt\Documents\Projects\Mubble\MubbleCore\Handlers\HtmlHandler.cs:line 47
+   at Mubble.Handlers.HttpHandler.ProcessRequest(HttpContext context) in C:\Users\Kurt\Documents\Projects\Mubble\MubbleCore\Handlers\HttpHandler.cs:line 95
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+INFO  2008-12-04 14:17:49,293 26271ms BenchmarkModule        EndRequest         - Request for /mubble/index.aspx took 8.288 seconds to load. 74 queries.
+INFO  2008-12-04 14:19:41,628 138606ms BenchmarkModule        EndRequest         - Request for /mubble/index.aspx took 16.277 seconds to load. 107 queries.
+INFO  2008-12-04 14:19:44,051 141029ms BenchmarkModule        EndRequest         - Request for /mubble/articles/culture/looking-back-looking-forwards.media.aspx/back_forward.jpg took 1.403 seconds to load. 2 queries.
+INFO  2008-12-04 14:19:44,095 141073ms BenchmarkModule        EndRequest         - Request for /mubble/reviews/apps/mac-office-2008-review.media.aspx/mac_office_2008.jpg took 1.478 seconds to load. 4 queries.
+INFO  2008-12-04 14:19:44,116 141094ms BenchmarkModule        EndRequest         - Request for /mubble/reviews/hardware/2007-games-review.media.aspx/gaming_2007_spotlight.jpg took 1.494 seconds to load. 2 queries.
+INFO  2008-12-04 14:24:45,212 442190ms BenchmarkModule        EndRequest         - Request for /mubble/news.aspx/post/20080110-intel-responds-to-new-antitrust-inquiry-by-new-york-ag.html?adDebug took 4.639 seconds to load. 1 queries.

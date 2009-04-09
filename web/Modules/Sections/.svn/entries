@@ -1,0 +1,67 @@
+8
+
+dir
+661
+http://svn.mubble.net/mubble/trunk/web/Modules/Sections
+http://svn.mubble.net/mubble
+
+
+
+2007-02-08T19:17:54.782699Z
+352
+kurt
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+e9299cb4-260d-0410-a363-f84a8d58d427
+
+Query.aspx
+file
+
+
+
+
+2007-11-27T14:48:02.808131Z
+79e286f75730f752493aa2d2e76db8bf
+2007-02-08T19:17:54.782699Z
+352
+kurt
+
+Admin
+dir
+
+module.config
+file
+
+
+
+
+2007-11-27T14:48:02.812131Z
+07e431d4b39fd8c288be298bb40a7945
+2007-01-19T15:21:19.711016Z
+290
+kurt
+
+Section.aspx
+file
+
+
+
+
+2007-11-27T14:48:02.826131Z
+60c25004231554ce46798a00c66582bd
+2007-01-19T15:35:29.469241Z
+291
+kurt
+

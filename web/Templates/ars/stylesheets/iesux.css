@@ -1,0 +1,30 @@
+.Content .Inset {
+	background: #dcd5ce url('../images/related_stories_bg.gif') no-repeat scroll 0 36px;
+	float: right;
+	margin-right: -9px;
+	width: 210px;
+}
+
+#Main #Content .Bubbles {
+	padding-bottom: 17px;
+}
+
+.Content.Journal p.Paging {
+	padding: 0;
+}
+
+div.Content.Listing.News div.ContentFooter {
+	background: transparent url('../images/news-bottom-back.gif') no-repeat scroll bottom center;
+	height: 48px;
+}
+
+div.Content.Journal p.Paging {
+	padding: 0;
+	margin: -4px 0 0;
+}
+
+.Content.Journal .ContentHeader .JournalHeaderLink {
+	height: 50px !important;
+	padding-top: 0 !important;
+	margin-left: -70px !important;
+}

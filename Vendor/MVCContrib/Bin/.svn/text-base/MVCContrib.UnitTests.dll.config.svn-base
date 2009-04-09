@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+
+	<configSections>
+		<section name="nhamlViewEngine"
+			type="MvcContrib.NHamlViewEngine.Configuration.NHamlViewEngineSection, MvcContrib.NHamlViewEngine" />
+		<section name="brail" type="MvcContrib.BrailViewEngine.BrailConfigurationSection, MvcContrib.BrailViewEngine" />
+	</configSections>
+	
+	<nhamlViewEngine production="false">
+		<views>
+			<assemblies>
+				<clear />
+				<add assembly="System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=B77A5C561934E089" />
+			</assemblies>
+			<namespaces>
+				<clear />
+				<add namespace="System.Collections" />
+			</namespaces>
+		</views>
+	</nhamlViewEngine>
+
+	<brail
+		debug="true"
+		saveToDisk="false"
+		batch="false"
+		commonScriptsDirectory="CommonScripts"
+		saveDirectory="CompiledViews"
+	>
+		<reference assembly="System.Web.Extensions, Version=3.6.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+		<import namespace="Boo.Lang.Builtins" />
+		<import namespace="System" />
+	</brail>
+</configuration>

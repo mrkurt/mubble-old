@@ -1,0 +1,61 @@
+INFO  2008-05-30 09:53:26,653 10414ms Lucene                 ResetSearcher      - Opened searcher
+INFO  2008-05-30 09:53:26,953 10714ms Global                 Application_Start  - Application startup too 00:00:10.5880000
+INFO  2008-05-30 09:53:28,730 12491ms BenchmarkModule        EndRequest         - Request for /mubble/Default.aspx took 1.343 seconds to load. 69 queries.
+INFO  2008-05-30 09:53:47,508 31269ms BenchmarkModule        EndRequest         - Request for /mubble/index.aspx took 18.699 seconds to load. 18 queries.
+INFO  2008-05-30 09:58:18,178 301939ms AdminHandler           ocessMubbleRequest - Loading old style admin interface for /mubble/news.admin.aspx
+ERROR 2008-05-30 09:58:49,058 332819ms BenchmarkModule        RequestError       - An error occured while processing /mubble/news.admin.aspx for ::1
+System.Web.HttpUnhandledException: Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> System.Data.SqlClient.SqlException: Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at ActiveObjects.SqlServer.SqlDataManager`1.List(String command, Dictionary`2 parameters, IActiveCollection list, Int32 startRow, Int32 endRow) in c:\CCnet\Activeobjects\WorkingSource\ActiveObjects\SqlServer\SqlDataManager.cs:line 141
+   at ActiveObjects.DataManager.List(Dictionary`2 parameters, IActiveCollection container, Int32 startRow, Int32 endRow) in c:\CCnet\Activeobjects\WorkingSource\ActiveObjects\DataManager.cs:line 455
+   at ActiveObjects.DataManager.List(Dictionary`2 parameters, IActiveCollection container) in c:\CCnet\Activeobjects\WorkingSource\ActiveObjects\DataManager.cs:line 450
+   at Mubble.Models.Post.Find(Dictionary`2 parameters) in C:\Users\Kurt\Documents\Projects\Mubble\Models\Post.activeobjects.cs:line 170
+   at Mubble.UI.WebControls.Blog.Posts.EnsurePosts() in C:\Users\Kurt\Documents\Projects\Mubble\MubbleCore\UI\WebControls\Blog\Posts.cs:line 252
+   at Mubble.UI.WebControls.Blog.Posts.DataBind() in C:\Users\Kurt\Documents\Projects\Mubble\MubbleCore\UI\WebControls\Blog\Posts.cs:line 215
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at Mubble.UI.Page.MubblePage_PreRender(Object sender, EventArgs e) in C:\Users\Kurt\Documents\Projects\Mubble\MubbleCore\UI\MubblePage.cs:line 351
+   at System.Web.UI.Control.OnPreRender(EventArgs e)
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   --- End of inner exception stack trace ---
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.modules_blogs_admin_blog_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework64\v2.0.50727\Temporary ASP.NET Files\mubble\bb957043\80664b5d\App_Web_j73pok7n.2.cs:line 0
+   at Mubble.Handlers.AdminHandler.ProcessMubbleRequest(HttpContext context) in C:\Users\Kurt\Documents\Projects\Mubble\MubbleCore\Handlers\AdminHandler.cs:line 143
+   at Mubble.Handlers.HttpHandler.ProcessRequest(HttpContext context) in C:\Users\Kurt\Documents\Projects\Mubble\MubbleCore\Handlers\HttpHandler.cs:line 95
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+INFO  2008-05-30 09:58:49,360 333121ms BenchmarkModule        EndRequest         - Request for /mubble/news.admin.aspx took 31.216 seconds to load. 8 queries.
+INFO  2008-05-30 09:59:16,779 360540ms AdminHandler           ocessMubbleRequest - Loading old style admin interface for /mubble/news.admin.aspx
+INFO  2008-05-30 09:59:43,759 387520ms BenchmarkModule        EndRequest         - Request for /mubble/news.admin.aspx took 27.001 seconds to load. 47 queries.
+INFO  2008-05-30 09:59:46,117 389878ms AdminHandler           ocessMubbleRequest - Loading old style admin interface for /mubble/news.admin.aspx/m-blog/post/intel-responds-to-new-antitrust-inquiry-by-new-york-ag
+INFO  2008-05-30 09:59:46,995 390756ms BenchmarkModule        EndRequest         - Request for /mubble/news.admin.aspx/m-blog/post/intel-responds-to-new-antitrust-inquiry-by-new-york-ag took 0.902 seconds to load. 51 queries.
+INFO  2008-05-30 09:59:53,347 397108ms AdminHandler           ocessMubbleRequest - Loading old style admin interface for /mubble/news.admin.aspx/m-blog/post/intel-responds-to-new-antitrust-inquiry-by-new-york-ag
+INFO  2008-05-30 09:59:54,294 398055ms AdminHandler           ocessMubbleRequest - Loading old style admin interface for /mubble/news.admin.aspx
+INFO  2008-05-30 09:59:55,102 398863ms Lucene                 ResetSearcher      - Opened searcher
+INFO  2008-05-30 09:59:59,535 403296ms BenchmarkModule        EndRequest         - Request for /mubble/news.aspx/post/20080110-intel-responds-to-new-antitrust-inquiry-by-new-york-ag.html took 2.28 seconds to load. 10 queries.
+INFO  2008-05-30 10:03:54,258 638019ms BenchmarkModule        EndRequest         - Request for /mubble/business.aspx took 4.787 seconds to load. 4 queries.
+INFO  2008-05-30 10:05:32,861 736622ms BenchmarkModule        EndRequest         - Request for /mubble/news.aspx/post/20080110-intel-responds-to-new-antitrust-inquiry-by-new-york-ag.html took 1.811 seconds to load. 1 queries.
+INFO  2008-05-30 10:10:45,580 1049341ms BenchmarkModule        EndRequest         - Request for /mubble/index.aspx took 11.079 seconds to load. 0 queries.

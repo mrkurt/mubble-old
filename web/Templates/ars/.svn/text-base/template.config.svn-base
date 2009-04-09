@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Template xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Controls>
+    <TemplateControl Order="0" FileName="Default.master" Name="Main page layout"/>
+  </Controls>
+</Template>

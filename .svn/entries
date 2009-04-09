@@ -1,0 +1,127 @@
+8
+
+dir
+661
+http://svn.mubble.net/mubble/trunk
+http://svn.mubble.net/mubble
+
+
+
+2008-02-09T20:16:28.282286Z
+661
+kurt
+has-props
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+e9299cb4-260d-0410-a363-f84a8d58d427
+
+MubbleCore
+dir
+
+UI Mockups
+dir
+
+Mubble.Data.Tests
+dir
+
+Mubble.Web
+dir
+
+Models
+dir
+
+Mubble-admin.sln
+file
+672
+
+
+
+2008-03-14T20:49:28.450000Z
+d3215bca8a493ae61bfeccccbb98fc29
+2008-03-15T23:04:41.329605Z
+672
+kurt
+
+DatabaseRefactoring
+dir
+
+ActiveObjects.config
+file
+
+
+
+
+2007-11-27T14:48:26.661131Z
+2e4ae7a9cd633ed9948d4855ce83d4cc
+2006-08-24T20:53:34.412563Z
+77
+kurt
+
+MessageQueue
+dir
+
+Vendor
+dir
+
+Mubble.Admin
+dir
+
+Tools
+dir
+
+Mubble.Data.Mapper
+dir
+
+Mubble.sln
+file
+674
+
+
+
+2008-03-24T15:57:11.065132Z
+9b8f785bd3877d592bc592ae66c6225e
+2008-03-24T16:27:36.478135Z
+674
+kurt
+
+MubbleUtilities
+dir
+
+creator.bat
+file
+
+
+
+
+2007-11-27T14:48:26.626131Z
+f0fbf0684e76d5cb1ed030a336661555
+2007-01-19T15:21:19.711016Z
+290
+kurt
+
+MubbleTest
+dir
+
+Mubble.Indexing
+dir
+
+Migrations
+dir
+
+web
+dir
+
+Mubble.Data
+dir
+

@@ -1,0 +1,46 @@
+8
+
+dir
+672
+http://svn.mubble.net/mubble/trunk/Vendor/ASP.NET%20MVC
+http://svn.mubble.net/mubble
+
+
+
+2008-03-15T23:04:41.329605Z
+672
+kurt
+
+
+svn:special svn:externals svn:needs-lock
+
+EULA.rtf
+file
+
+
+
+
+2008-02-27T22:14:14.000000Z
+ff11cd7f16d34e5c1afa29bd17b071b3
+2008-03-15T23:04:41.329605Z
+672
+kurt
+
+readme.htm
+file
+
+
+
+
+2008-02-27T22:14:14.000000Z
+39bcf1c70377eabee86461a8e46f5724
+2008-03-15T23:04:41.329605Z
+672
+kurt
+
+Temp
+dir
+
+Assemblies
+dir
+

@@ -1,0 +1,16 @@
+INFO  2008-05-22 14:25:38,277 16539ms Lucene                 ResetSearcher      - Opened searcher
+INFO  2008-05-22 14:25:39,065 17327ms Global                 Application_Start  - Application startup too 00:00:16.7800000
+INFO  2008-05-22 14:25:42,576 20838ms BenchmarkModule        EndRequest         - Request for /mubble/Default.aspx took 2.743 seconds to load. 69 queries.
+INFO  2008-05-22 14:25:53,016 31278ms BenchmarkModule        EndRequest         - Request for /mubble/index.aspx took 10.398 seconds to load. 18 queries.
+INFO  2008-05-22 14:36:21,138 659400ms BenchmarkModule        EndRequest         - Request for /mubble/index.aspx took 4.392 seconds to load. 2 queries.
+INFO  2008-05-22 14:49:37,693 1455955ms BenchmarkModule        EndRequest         - Request for /mubble/business.aspx took 2.82 seconds to load. 15 queries.
+INFO  2008-05-22 14:56:14,298 1852560ms BenchmarkModule        EndRequest         - Request for /mubble/business.aspx took 2.271 seconds to load. 0 queries.
+INFO  2008-05-22 16:01:31,458  7759ms Lucene                 ResetSearcher      - Opened searcher
+INFO  2008-05-22 16:01:31,747  8048ms Global                 Application_Start  - Application startup too 00:00:07.9270000
+INFO  2008-05-22 16:01:33,012  9313ms BenchmarkModule        EndRequest         - Request for /mubble/Default.aspx took 0.96 seconds to load. 69 queries.
+INFO  2008-05-22 16:01:48,644 24945ms BenchmarkModule        EndRequest         - Request for /mubble/index.aspx took 15.564 seconds to load. 18 queries.
+INFO  2008-05-22 16:02:15,428 51729ms BenchmarkModule        EndRequest         - Request for /mubble/business.aspx took 1.575 seconds to load. 3 queries.
+INFO  2008-05-22 20:32:45,141  9121ms Lucene                 ResetSearcher      - Opened searcher
+INFO  2008-05-22 20:32:45,444  9424ms Global                 Application_Start  - Application startup too 00:00:09.3000000
+INFO  2008-05-22 20:32:57,592 21572ms BenchmarkModule        EndRequest         - Request for /mubble/business.aspx took 11.767 seconds to load. 81 queries.
+INFO  2008-05-22 20:32:57,662 21642ms BenchmarkModule        EndRequest         - Request for /mubble/business.aspx took 11.836 seconds to load. 8 queries.

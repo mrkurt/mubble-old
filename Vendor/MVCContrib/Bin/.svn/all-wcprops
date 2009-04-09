@@ -1,0 +1,125 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/mubble/!svn/ver/672/trunk/Vendor/MVCContrib/Bin
+END
+MvcContrib.dll
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/mubble/!svn/ver/672/trunk/Vendor/MVCContrib/Bin/MvcContrib.dll
+END
+MvcContrib.Spring.dll
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/mubble/!svn/ver/672/trunk/Vendor/MVCContrib/Bin/MvcContrib.Spring.dll
+END
+MVCContrib.UnitTests.dll
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/mubble/!svn/ver/672/trunk/Vendor/MVCContrib/Bin/MVCContrib.UnitTests.dll
+END
+MvcContrib.BrailViewEngine.pdb
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/mubble/!svn/ver/672/trunk/Vendor/MVCContrib/Bin/MvcContrib.BrailViewEngine.pdb
+END
+MvcContrib.Castle.pdb
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/mubble/!svn/ver/672/trunk/Vendor/MVCContrib/Bin/MvcContrib.Castle.pdb
+END
+MvcContrib.XsltViewEngine.pdb
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/mubble/!svn/ver/672/trunk/Vendor/MVCContrib/Bin/MvcContrib.XsltViewEngine.pdb
+END
+MVCContrib.UnitTests.dll.config
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/mubble/!svn/ver/672/trunk/Vendor/MVCContrib/Bin/MVCContrib.UnitTests.dll.config
+END
+MvcContrib.ObjectBuilder.pdb
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/mubble/!svn/ver/672/trunk/Vendor/MVCContrib/Bin/MvcContrib.ObjectBuilder.pdb
+END
+MvcContrib.NHamlViewEngine.pdb
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/mubble/!svn/ver/672/trunk/Vendor/MVCContrib/Bin/MvcContrib.NHamlViewEngine.pdb
+END
+MvcContrib.BrailViewEngine.dll
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/mubble/!svn/ver/672/trunk/Vendor/MVCContrib/Bin/MvcContrib.BrailViewEngine.dll
+END
+MvcContrib.Castle.dll
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/mubble/!svn/ver/672/trunk/Vendor/MVCContrib/Bin/MvcContrib.Castle.dll
+END
+MvcContrib.XsltViewEngine.dll
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/mubble/!svn/ver/672/trunk/Vendor/MVCContrib/Bin/MvcContrib.XsltViewEngine.dll
+END
+MvcContrib.ObjectBuilder.dll
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/mubble/!svn/ver/672/trunk/Vendor/MVCContrib/Bin/MvcContrib.ObjectBuilder.dll
+END
+MvcContrib.NHamlViewEngine.dll
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/mubble/!svn/ver/672/trunk/Vendor/MVCContrib/Bin/MvcContrib.NHamlViewEngine.dll
+END
+MVCToolkit.dll
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/mubble/!svn/ver/672/trunk/Vendor/MVCContrib/Bin/MVCToolkit.dll
+END
+MvcContrib.StructureMap.pdb
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/mubble/!svn/ver/672/trunk/Vendor/MVCContrib/Bin/MvcContrib.StructureMap.pdb
+END
+MvcContrib.pdb
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/mubble/!svn/ver/672/trunk/Vendor/MVCContrib/Bin/MvcContrib.pdb
+END
+MvcContrib.Spring.pdb
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/mubble/!svn/ver/672/trunk/Vendor/MVCContrib/Bin/MvcContrib.Spring.pdb
+END
+MVCContrib.UnitTests.pdb
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/mubble/!svn/ver/672/trunk/Vendor/MVCContrib/Bin/MVCContrib.UnitTests.pdb
+END
+MvcContrib.StructureMap.dll
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/mubble/!svn/ver/672/trunk/Vendor/MVCContrib/Bin/MvcContrib.StructureMap.dll
+END

@@ -1,0 +1,31 @@
+/* PDC Styles */
+#arspdc h4 { background: url(arspdc_hdr.gif) no-repeat; text-indent: -9999px;height:69px; margin-bottom:15px; width:580px; margin-left: auto; margin-right: auto; }
+#arspdc li { margin-bottom: 5px; height: 86px; background-repeat: no-repeat; }
+#arspdc li div { padding-top: 14px;  padding-left: 20px; padding-right: 20px; }
+#arspdc li strong.username { display: none; }
+#arspdc li span.hashtag { display: none; }
+
+/* Kurt bubbles */
+#arspdc li.mrkurt { padding-left: 62px; background-position: 0px 5px; color: white; }
+#arspdc li.mrkurt a:link { color: white;}
+#arspdc li.mrkurt a:visited { color: #aaa;}
+#arspdc li.mrkurt div { background: url(even-bg-top.gif) no-repeat 8px top;}
+#arspdc li.mrkurt h5 { display: block; height: 20px; background: url(even-bg-bottom.gif) no-repeat; margin:0; width: 100%; padding:0; margin-right: 8px;}
+#arspdc li.mrkurt { background-image: url(mrkurt-avatar.jpg); }
+
+
+/* Pizza bubbles */
+#arspdc li.DrPizza, #arspdc li.DrPizza { padding-right: 62px; background-position: top right; color:white; }
+#arspdc li.DrPizza a:link, #arspdc li.DrPizza a:link { color: white;}
+#arspdc li.DrPizza a:visited, #arspdc li.DrPizza a:visited { color: #aaa;}
+#arspdc li.DrPizza div, #arspdc li.DrPizza div { background: url(odd-bg-top.gif) no-repeat 14px top; padding-right: 30px;}
+#arspdc li.DrPizza h5, #arspdc li.DrPizza h5 { display: block; height: 20px; background: url(odd-bg-bottom.gif) no-repeat right top; margin:0; width: 100%; padding:0; margin-right: 8px;}
+#arspdc li.DrPizza, #arspdc li.DrPizza { background-image: url(drpizza-avatar.png); }
+
+/* Neither Bubbles */
+#arspdc li.null { padding-left: 72px;background-position: top left; color: white; }
+#arspdc li.null a:link { color: white;}
+#arspdc li.null a:visited { color: #aaa;}
+#arspdc li.null div { background: url(even-bg-top.gif) no-repeat 8px top;}
+#arspdc li.null h5 { display: block; height: 20px; background: url(even-bg-bottom.gif) no-repeat; margin:0; width: 100%; padding:0; margin-right: 8px;}
+#arspdc li.null { background-image: url(ars_pdc.png); }

@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/mubble/!svn/ver/661/trunk/Mubble.Data.Mapper
+END
+Association.cs
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/mubble/!svn/ver/660/trunk/Mubble.Data.Mapper/Association.cs
+END
+Mubble.Data.Mapper.csproj
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/mubble/!svn/ver/672/trunk/Mubble.Data.Mapper/Mubble.Data.Mapper.csproj
+END
+Column.cs
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/mubble/!svn/ver/672/trunk/Mubble.Data.Mapper/Column.cs
+END
+TypeCollection.cs
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/mubble/!svn/ver/672/trunk/Mubble.Data.Mapper/TypeCollection.cs
+END
+DbmlHelper.cs
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/mubble/!svn/ver/672/trunk/Mubble.Data.Mapper/DbmlHelper.cs
+END
+DataObjectHelper.cs
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/mubble/!svn/ver/672/trunk/Mubble.Data.Mapper/DataObjectHelper.cs
+END
+Database.cs
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/mubble/!svn/ver/660/trunk/Mubble.Data.Mapper/Database.cs
+END
+Program.cs
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/mubble/!svn/ver/672/trunk/Mubble.Data.Mapper/Program.cs
+END
+Table.cs
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/mubble/!svn/ver/672/trunk/Mubble.Data.Mapper/Table.cs
+END

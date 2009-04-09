@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<configuration xmlns="http://schemas.microsoft.com/.NetConfiguration/v2.0">
+  <connectionStrings>
+    <add name="mubbleTestDB" connectionString="server=.\sqlexpress;Integrated Security=SSPI;database=mubble_test"/>
+    <add name="mubbleDB" connectionString="server=.\sqlexpress;Integrated Security=SSPI;database=mubble"/>
+  </connectionStrings>
+</configuration>

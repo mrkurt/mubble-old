@@ -1,0 +1,24 @@
+INFO  2008-07-28 10:21:03,192 14354ms Lucene                 ResetSearcher      - Opened searcher
+INFO  2008-07-28 10:21:03,539 14701ms Global                 Application_Start  - Application startup too 00:00:14.1800000
+INFO  2008-07-28 10:21:04,997 16159ms BenchmarkModule        EndRequest         - Request for /mubble/index.admin.aspx took 1.149 seconds to load. 72 queries.
+INFO  2008-07-28 10:21:17,055 28217ms BenchmarkModule        EndRequest         - Request for /mubble/login.aspx?origin=%2fmubble%2findex.admin.aspx took 11.883 seconds to load. 12 queries.
+INFO  2008-07-28 10:21:24,105 35267ms AdminHandler           ocessMubbleRequest - Loading old style admin interface for /mubble/index.admin.aspx
+INFO  2008-07-28 10:21:28,396 39558ms BenchmarkModule        EndRequest         - Request for /mubble/index.admin.aspx took 4.301 seconds to load. 11 queries.
+INFO  2008-07-28 10:21:30,925 42087ms AdminHandler           ocessMubbleRequest - Loading old style admin interface for /mubble/index.admin.aspx/browse
+INFO  2008-07-28 10:21:32,382 43544ms BenchmarkModule        EndRequest         - Request for /mubble/index.admin.aspx/browse took 1.464 seconds to load. 41 queries.
+INFO  2008-07-28 10:21:36,933 48095ms AdminHandler           ocessMubbleRequest - Loading old style admin interface for /mubble/apple.admin.aspx/browse
+INFO  2008-07-28 10:21:38,432 49594ms AdminHandler           ocessMubbleRequest - Loading old style admin interface for /mubble/apple.admin.aspx/browse/add
+INFO  2008-07-28 10:21:48,767 59929ms AdminHandler           ocessMubbleRequest - Loading old style admin interface for /mubble/apple.admin.aspx/browse/add
+INFO  2008-07-28 10:21:49,114 60276ms AdminHandler           ocessMubbleRequest - Loading old style admin interface for /mubble/apple/iphone.admin.aspx
+INFO  2008-07-28 10:21:49,623 60785ms Lucene                 ResetSearcher      - Opened searcher
+INFO  2008-07-28 10:21:56,889 68051ms AdminHandler           ocessMubbleRequest - Loading old style admin interface for /mubble/apple/iphone.admin.aspx
+INFO  2008-07-28 10:21:57,214 68376ms Lucene                 ResetSearcher      - Opened searcher
+INFO  2008-07-28 10:21:58,452 69614ms AdminHandler           ocessMubbleRequest - Loading old style admin interface for /mubble/apple/iphone.admin.aspx/browse
+INFO  2008-07-28 10:22:00,667 71829ms AdminHandler           ocessMubbleRequest - Loading old style admin interface for /mubble/apple/iphone.admin.aspx/browse/add
+INFO  2008-07-28 10:22:09,637 80799ms AdminHandler           ocessMubbleRequest - Loading old style admin interface for /mubble/apple/iphone.admin.aspx/browse/add
+INFO  2008-07-28 10:22:09,717 80879ms AdminHandler           ocessMubbleRequest - Loading old style admin interface for /mubble/apple/iphone/apps.admin.aspx
+INFO  2008-07-28 10:22:09,955 81117ms Lucene                 ResetSearcher      - Opened searcher
+INFO  2008-07-28 10:22:15,423 86585ms AdminHandler           ocessMubbleRequest - Loading old style admin interface for /mubble/apple/iphone/apps.admin.aspx
+INFO  2008-07-28 10:22:15,691 86853ms Lucene                 ResetSearcher      - Opened searcher
+INFO  2008-07-28 10:28:46,752 477914ms BenchmarkModule        EndRequest         - Request for /mubble/apple/iphone/apps.aspx took 4.523 seconds to load. 0 queries.
+INFO  2008-07-28 10:34:37,630 828792ms BenchmarkModule        EndRequest         - Request for /mubble/apple/iphone/apps.aspx took 6.067 seconds to load. 1 queries.

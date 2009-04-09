@@ -1,0 +1,245 @@
+INFO  2008-05-29 09:49:59,514 11145ms Lucene                 ResetSearcher      - Opened searcher
+INFO  2008-05-29 09:49:59,826 11457ms Global                 Application_Start  - Application startup too 00:00:11.0310000
+INFO  2008-05-29 09:50:01,330 12961ms BenchmarkModule        EndRequest         - Request for /mubble/Default.aspx took 1.223 seconds to load. 69 queries.
+INFO  2008-05-29 09:50:11,068 22699ms BenchmarkModule        EndRequest         - Request for /mubble/index.aspx took 9.711 seconds to load. 18 queries.
+INFO  2008-05-29 09:50:39,511 51142ms BenchmarkModule        EndRequest         - Request for /mubble/business.aspx took 1.456 seconds to load. 3 queries.
+INFO  2008-05-29 09:51:53,176 124807ms BenchmarkModule        EndRequest         - Request for /mubble/news.aspx/post/20080110-intel-responds-to-new-antitrust-inquiry-by-new-york-ag.html took 1.877 seconds to load. 1 queries.
+INFO  2008-05-29 09:59:04,124 555755ms BenchmarkModule        EndRequest         - Request for /mubble/news.aspx/post/20080110-intel-responds-to-new-antitrust-inquiry-by-new-york-ag.html took 1.96 seconds to load. 1 queries.
+INFO  2008-05-29 10:04:16,746 868377ms BenchmarkModule        EndRequest         - Request for /mubble/news.aspx/post/20080110-intel-responds-to-new-antitrust-inquiry-by-new-york-ag.html took 2.09 seconds to load. 1 queries.
+INFO  2008-05-29 10:13:53,622 1445253ms BenchmarkModule        EndRequest         - Request for /mubble/news.aspx/post/20080110-intel-responds-to-new-antitrust-inquiry-by-new-york-ag.html took 2.168 seconds to load. 3 queries.
+INFO  2008-05-29 10:19:05,544 1757175ms BenchmarkModule        EndRequest         - Request for /mubble/news.aspx/post/20080110-intel-responds-to-new-antitrust-inquiry-by-new-york-ag.html took 1.867 seconds to load. 1 queries.
+INFO  2008-05-29 10:27:48,535 2280166ms BenchmarkModule        EndRequest         - Request for /mubble/news.aspx/post/20080110-intel-responds-to-new-antitrust-inquiry-by-new-york-ag.html took 2.136 seconds to load. 3 queries.
+INFO  2008-05-29 10:33:26,633 2618264ms BenchmarkModule        EndRequest         - Request for /mubble/news.aspx/post/20080110-intel-responds-to-new-antitrust-inquiry-by-new-york-ag.html took 2.131 seconds to load. 1 queries.
+INFO  2008-05-29 11:11:13,050  5381ms Lucene                 ResetSearcher      - Opened searcher
+INFO  2008-05-29 11:11:13,138  5469ms Global                 Application_Start  - Application startup too 00:00:05.3500000
+INFO  2008-05-29 11:11:13,280  5611ms BenchmarkModule        EndRequest         - Request for /mubble/Default.aspx took 0.082 seconds to load. 69 queries.
+INFO  2008-05-29 11:11:23,109 15440ms BenchmarkModule        EndRequest         - Request for /mubble/index.aspx took 9.825 seconds to load. 18 queries.
+INFO  2008-05-29 11:34:41,997  5202ms Lucene                 ResetSearcher      - Opened searcher
+INFO  2008-05-29 11:34:42,094  5299ms Global                 Application_Start  - Application startup too 00:00:05.1970000
+INFO  2008-05-29 11:34:52,201 15406ms BenchmarkModule        EndRequest         - Request for /mubble/business.aspx took 10.063 seconds to load. 89 queries.
+INFO  2008-05-29 11:35:00,389 23594ms BenchmarkModule        EndRequest         - Request for /mubble/index.aspx took 1.165 seconds to load. 1 queries.
+ERROR 2008-05-29 11:35:40,215 63420ms BenchmarkModule        RequestError       - An error occured while processing /mubble/news.aspx for ::1
+System.Web.HttpUnhandledException: Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> System.Data.SqlClient.SqlException: Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at ActiveObjects.SqlServer.SqlDataManager`1.List(String command, Dictionary`2 parameters, IActiveCollection list, Int32 startRow, Int32 endRow) in c:\CCnet\Activeobjects\WorkingSource\ActiveObjects\SqlServer\SqlDataManager.cs:line 141
+   at ActiveObjects.DataManager.List(Dictionary`2 parameters, IActiveCollection container, Int32 startRow, Int32 endRow) in c:\CCnet\Activeobjects\WorkingSource\ActiveObjects\DataManager.cs:line 455
+   at ActiveObjects.DataManager.List(Dictionary`2 parameters, IActiveCollection container) in c:\CCnet\Activeobjects\WorkingSource\ActiveObjects\DataManager.cs:line 450
+   at Mubble.Models.Post.Find(Dictionary`2 parameters) in C:\Users\Kurt\Documents\Projects\Mubble\Models\Post.activeobjects.cs:line 170
+   at Mubble.DataBroker.GetPosts(Dictionary`2 parameters) in C:\Users\Kurt\Documents\Projects\Mubble\MubbleCore\DataBroker.posts.cs:line 26
+   at Mubble.UI.Data.Posts.GetPosts() in C:\Users\Kurt\Documents\Projects\Mubble\MubbleCore\UI\Data\Posts.cs:line 94
+   at Mubble.UI.Data.Posts.EnsurePosts() in C:\Users\Kurt\Documents\Projects\Mubble\MubbleCore\UI\Data\Posts.cs:line 202
+   at Mubble.UI.Data.Posts.Posts_Load(Object sender, EventArgs e) in C:\Users\Kurt\Documents\Projects\Mubble\MubbleCore\UI\Data\Posts.cs:line 43
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   --- End of inner exception stack trace ---
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.templates_ars_pages_news_aspx.ProcessRequest(HttpContext context)
+   at Mubble.Handlers.HtmlHandler.ProcessMubbleRequest(HttpContext context) in C:\Users\Kurt\Documents\Projects\Mubble\MubbleCore\Handlers\HtmlHandler.cs:line 52
+   at Mubble.Handlers.HttpHandler.ProcessRequest(HttpContext context) in C:\Users\Kurt\Documents\Projects\Mubble\MubbleCore\Handlers\HttpHandler.cs:line 95
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+INFO  2008-05-29 11:35:40,766 63971ms BenchmarkModule        EndRequest         - Request for /mubble/news.aspx took 31.23 seconds to load. 0 queries.
+ERROR 2008-05-29 11:35:45,000 68205ms BenchmarkModule        RequestError       - An error occured while processing /mubble/news.aspx/post/20080110-video-sharing-site-use-surges-as-writers-strike-goes-on.html for ::1
+System.Web.HttpUnhandledException: Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> System.Data.SqlClient.SqlException: Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at ActiveObjects.SqlServer.SqlDataManager`1.List(String command, Dictionary`2 parameters, IActiveCollection list, Int32 startRow, Int32 endRow) in c:\CCnet\Activeobjects\WorkingSource\ActiveObjects\SqlServer\SqlDataManager.cs:line 141
+   at ActiveObjects.DataManager.List(Dictionary`2 parameters, IActiveCollection container, Int32 startRow, Int32 endRow) in c:\CCnet\Activeobjects\WorkingSource\ActiveObjects\DataManager.cs:line 455
+   at ActiveObjects.DataManager.List(Dictionary`2 parameters, IActiveCollection container) in c:\CCnet\Activeobjects\WorkingSource\ActiveObjects\DataManager.cs:line 450
+   at Mubble.Models.Post.Find(Dictionary`2 parameters) in C:\Users\Kurt\Documents\Projects\Mubble\Models\Post.activeobjects.cs:line 170
+   at Mubble.Models.Post.FindFirst(Guid controllerID, String slug) in C:\Users\Kurt\Documents\Projects\Mubble\Models\Post.activeobjects.cs:line 146
+   at Mubble.DataBroker.GetPost(Guid controllerID, String slug) in C:\Users\Kurt\Documents\Projects\Mubble\MubbleCore\DataBroker.posts.cs:line 97
+   at Mubble.UI.Data.Posts.GetPosts() in C:\Users\Kurt\Documents\Projects\Mubble\MubbleCore\UI\Data\Posts.cs:line 75
+   at Mubble.UI.Data.Posts.EnsurePosts() in C:\Users\Kurt\Documents\Projects\Mubble\MubbleCore\UI\Data\Posts.cs:line 202
+   at Mubble.UI.Data.Posts.Posts_Load(Object sender, EventArgs e) in C:\Users\Kurt\Documents\Projects\Mubble\MubbleCore\UI\Data\Posts.cs:line 43
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   --- End of inner exception stack trace ---
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.templates_ars_pages_news_aspx.ProcessRequest(HttpContext context)
+   at Mubble.Handlers.HtmlHandler.ProcessMubbleRequest(HttpContext context) in C:\Users\Kurt\Documents\Projects\Mubble\MubbleCore\Handlers\HtmlHandler.cs:line 52
+   at Mubble.Handlers.HttpHandler.ProcessRequest(HttpContext context) in C:\Users\Kurt\Documents\Projects\Mubble\MubbleCore\Handlers\HttpHandler.cs:line 95
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+INFO  2008-05-29 11:35:45,002 68207ms BenchmarkModule        EndRequest         - Request for /mubble/news.aspx/post/20080110-video-sharing-site-use-surges-as-writers-strike-goes-on.html took 30.016 seconds to load. 0 queries.
+INFO  2008-05-29 11:39:40,273 303478ms BenchmarkModule        EndRequest         - Request for /mubble/news.aspx/post/20080110-video-sharing-site-use-surges-as-writers-strike-goes-on.html took 15.91 seconds to load. 6 queries.
+INFO  2008-05-29 11:39:57,379 320584ms BenchmarkModule        EndRequest         - Request for /mubble/news.aspx/post/20080110-video-sharing-site-use-surges-as-writers-strike-goes-on.html took 1.891 seconds to load. 0 queries.
+INFO  2008-05-29 15:39:40,158  4837ms Lucene                 ResetSearcher      - Opened searcher
+INFO  2008-05-29 15:39:40,259  4938ms Global                 Application_Start  - Application startup too 00:00:04.8350000
+INFO  2008-05-29 15:39:40,467  5146ms BenchmarkModule        EndRequest         - Request for /mubble/Default.aspx took 0.164 seconds to load. 69 queries.
+ERROR 2008-05-29 15:39:41,131  5810ms BenchmarkModule        RequestError       - An error occured while processing /mubble/index.aspx for ::1
+System.Web.HttpParseException: c:\Users\Kurt\documents\projects\mubble\web\Templates\ars\Bubbles\Intel.ascx.cs(43): error CS1056: Unexpected character '\' ---> System.Web.HttpCompileException: c:\Users\Kurt\documents\projects\mubble\web\Templates\ars\Bubbles\Intel.ascx.cs(43): error CS1056: Unexpected character '\'
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.UI.BaseTemplateParser.GetReferencedType(VirtualPath virtualPath, Boolean allowNoCompile)
+   at System.Web.UI.BaseTemplateParser.GetUserControlType(VirtualPath virtualPath)
+   at System.Web.UI.MainTagNameToTypeMapper.ProcessUserControlRegistration(UserControlRegisterEntry ucRegisterEntry)
+   at System.Web.UI.BaseTemplateParser.ProcessDirective(String directiveName, IDictionary directive)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   --- End of inner exception stack trace ---
+   at System.Web.UI.TemplateParser.ProcessException(Exception ex)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseFile(String physicalPath, VirtualPath virtualPath)
+   at System.Web.UI.TemplateParser.ParseInternal()
+   at System.Web.UI.TemplateParser.Parse()
+   at System.Web.Compilation.BaseTemplateBuildProvider.get_CodeCompilerType()
+   at System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   at System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(String virtualPath, Type requiredBaseType)
+   at Mubble.Handlers.HtmlHandler.ProcessMubbleRequest(HttpContext context) in C:\Users\Kurt\Documents\Projects\Mubble\MubbleCore\Handlers\HtmlHandler.cs:line 47
+   at Mubble.Handlers.HttpHandler.ProcessRequest(HttpContext context) in C:\Users\Kurt\Documents\Projects\Mubble\MubbleCore\Handlers\HttpHandler.cs:line 95
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+INFO  2008-05-29 15:40:53,387 78066ms BenchmarkModule        EndRequest         - Request for /mubble/index.aspx took 8.084 seconds to load. 13 queries.
+INFO  2008-05-29 15:42:02,897 147576ms BenchmarkModule        EndRequest         - Request for /mubble/index.aspx took 2.464 seconds to load. 0 queries.
+INFO  2008-05-29 15:42:22,367 167046ms BenchmarkModule        EndRequest         - Request for /mubble/index.aspx took 2.08 seconds to load. 0 queries.
+INFO  2008-05-29 15:44:08,036  4494ms Lucene                 ResetSearcher      - Opened searcher
+INFO  2008-05-29 15:44:08,115  4573ms Global                 Application_Start  - Application startup too 00:00:04.4790000
+ERROR 2008-05-29 15:44:08,746  5204ms BenchmarkModule        RequestError       - An error occured while processing /mubble/index.aspx for ::1
+System.Web.HttpParseException: c:\Users\Kurt\documents\projects\mubble\web\Templates\ars\Bubbles\Intel.ascx.cs(26): error CS0246: The type or namespace name 'var' could not be found (are you missing a using directive or an assembly reference?) ---> System.Web.HttpCompileException: c:\Users\Kurt\documents\projects\mubble\web\Templates\ars\Bubbles\Intel.ascx.cs(26): error CS0246: The type or namespace name 'var' could not be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.UI.BaseTemplateParser.GetReferencedType(VirtualPath virtualPath, Boolean allowNoCompile)
+   at System.Web.UI.BaseTemplateParser.GetUserControlType(VirtualPath virtualPath)
+   at System.Web.UI.MainTagNameToTypeMapper.ProcessUserControlRegistration(UserControlRegisterEntry ucRegisterEntry)
+   at System.Web.UI.BaseTemplateParser.ProcessDirective(String directiveName, IDictionary directive)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   --- End of inner exception stack trace ---
+   at System.Web.UI.TemplateParser.ProcessException(Exception ex)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseFile(String physicalPath, VirtualPath virtualPath)
+   at System.Web.UI.TemplateParser.ParseInternal()
+   at System.Web.UI.TemplateParser.Parse()
+   at System.Web.Compilation.BaseTemplateBuildProvider.get_CodeCompilerType()
+   at System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   at System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(String virtualPath, Type requiredBaseType)
+   at Mubble.Handlers.HtmlHandler.ProcessMubbleRequest(HttpContext context) in C:\Users\Kurt\Documents\Projects\Mubble\MubbleCore\Handlers\HtmlHandler.cs:line 47
+   at Mubble.Handlers.HttpHandler.ProcessRequest(HttpContext context) in C:\Users\Kurt\Documents\Projects\Mubble\MubbleCore\Handlers\HttpHandler.cs:line 95
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+INFO  2008-05-29 15:44:08,756  5214ms BenchmarkModule        EndRequest         - Request for /mubble/index.aspx took 0.604 seconds to load. 74 queries.
+INFO  2008-05-29 15:44:24,779 21237ms BenchmarkModule        EndRequest         - Request for /mubble/index.aspx took 8.573 seconds to load. 13 queries.
+INFO  2008-05-29 15:44:50,989 47447ms BenchmarkModule        EndRequest         - Request for /mubble/index.aspx took 2.381 seconds to load. 0 queries.
+INFO  2008-05-29 15:45:42,587 99045ms BenchmarkModule        EndRequest         - Request for /mubble/index.aspx took 2.149 seconds to load. 0 queries.
+INFO  2008-05-29 15:49:58,207  4308ms Lucene                 ResetSearcher      - Opened searcher
+INFO  2008-05-29 15:49:58,284  4385ms Global                 Application_Start  - Application startup too 00:00:04.2890000
+INFO  2008-05-29 15:50:12,838 18939ms BenchmarkModule        EndRequest         - Request for /mubble/index.aspx/p2 took 14.519 seconds to load. 87 queries.
+INFO  2008-05-29 15:51:16,201 82302ms BenchmarkModule        EndRequest         - Request for /mubble/index.aspx/p2 took 2.172 seconds to load. 0 queries.
+INFO  2008-05-29 15:52:19,250 145351ms BenchmarkModule        EndRequest         - Request for /mubble/index.aspx/p2 took 2.167 seconds to load. 0 queries.
+INFO  2008-05-29 15:54:38,118  4448ms Lucene                 ResetSearcher      - Opened searcher
+INFO  2008-05-29 15:54:38,194  4524ms Global                 Application_Start  - Application startup too 00:00:04.4270000
+INFO  2008-05-29 15:54:46,771 13101ms BenchmarkModule        EndRequest         - Request for /mubble/index.aspx took 8.546 seconds to load. 87 queries.
+INFO  2008-05-29 15:55:42,306 68636ms BenchmarkModule        EndRequest         - Request for /mubble/index.aspx took 2.07 seconds to load. 0 queries.
+INFO  2008-05-29 15:56:14,613 100943ms BenchmarkModule        EndRequest         - Request for /mubble/index.aspx took 2.114 seconds to load. 0 queries.
+ERROR 2008-05-29 15:57:22,984 169314ms BenchmarkModule        RequestError       - An error occured while processing /mubble/news.aspx for ::1
+System.Web.HttpUnhandledException: Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> System.Data.SqlClient.SqlException: Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at ActiveObjects.SqlServer.SqlDataManager`1.List(String command, Dictionary`2 parameters, IActiveCollection list, Int32 startRow, Int32 endRow) in c:\CCnet\Activeobjects\WorkingSource\ActiveObjects\SqlServer\SqlDataManager.cs:line 141
+   at ActiveObjects.DataManager.List(Dictionary`2 parameters, IActiveCollection container, Int32 startRow, Int32 endRow) in c:\CCnet\Activeobjects\WorkingSource\ActiveObjects\DataManager.cs:line 455
+   at ActiveObjects.DataManager.List(Dictionary`2 parameters, IActiveCollection container) in c:\CCnet\Activeobjects\WorkingSource\ActiveObjects\DataManager.cs:line 450
+   at Mubble.Models.Post.Find(Dictionary`2 parameters) in C:\Users\Kurt\Documents\Projects\Mubble\Models\Post.activeobjects.cs:line 170
+   at Mubble.DataBroker.GetPosts(Dictionary`2 parameters) in C:\Users\Kurt\Documents\Projects\Mubble\MubbleCore\DataBroker.posts.cs:line 26
+   at Mubble.UI.Data.Posts.GetPosts() in C:\Users\Kurt\Documents\Projects\Mubble\MubbleCore\UI\Data\Posts.cs:line 94
+   at Mubble.UI.Data.Posts.EnsurePosts() in C:\Users\Kurt\Documents\Projects\Mubble\MubbleCore\UI\Data\Posts.cs:line 202
+   at Mubble.UI.Data.Posts.Posts_Load(Object sender, EventArgs e) in C:\Users\Kurt\Documents\Projects\Mubble\MubbleCore\UI\Data\Posts.cs:line 43
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   --- End of inner exception stack trace ---
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.templates_ars_pages_news_aspx.ProcessRequest(HttpContext context)
+   at Mubble.Handlers.HtmlHandler.ProcessMubbleRequest(HttpContext context) in C:\Users\Kurt\Documents\Projects\Mubble\MubbleCore\Handlers\HtmlHandler.cs:line 52
+   at Mubble.Handlers.HttpHandler.ProcessRequest(HttpContext context) in C:\Users\Kurt\Documents\Projects\Mubble\MubbleCore\Handlers\HttpHandler.cs:line 95
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+INFO  2008-05-29 15:57:23,123 169453ms BenchmarkModule        EndRequest         - Request for /mubble/news.aspx took 31.32 seconds to load. 6 queries.
+INFO  2008-05-29 15:58:16,287 222617ms BenchmarkModule        EndRequest         - Request for /mubble/index.aspx took 42.053 seconds to load. 0 queries.
+INFO  2008-05-29 15:58:41,921  4651ms Lucene                 ResetSearcher      - Opened searcher
+INFO  2008-05-29 15:58:42,007  4737ms Global                 Application_Start  - Application startup too 00:00:04.6390000
+INFO  2008-05-29 15:58:50,478 13208ms BenchmarkModule        EndRequest         - Request for /mubble/index.aspx took 8.436 seconds to load. 87 queries.
+INFO  2008-05-29 16:41:36,688  4943ms Lucene                 ResetSearcher      - Opened searcher
+INFO  2008-05-29 16:41:36,772  5027ms Global                 Application_Start  - Application startup too 00:00:04.9130000
+INFO  2008-05-29 16:41:36,919  5174ms BenchmarkModule        EndRequest         - Request for /mubble/Default.aspx took 0.083 seconds to load. 69 queries.
+INFO  2008-05-29 16:41:43,422 11677ms BenchmarkModule        EndRequest         - Request for /mubble/index.aspx took 6.499 seconds to load. 9 queries.
+INFO  2008-05-29 16:41:45,757 14012ms BenchmarkModule        EndRequest         - Request for /mubble/index.aspx took 6.445 seconds to load. 9 queries.
+INFO  2008-05-29 16:43:52,422 140677ms BenchmarkModule        EndRequest         - Request for /mubble/index.aspx took 2.29 seconds to load. 0 queries.
+INFO  2008-05-29 16:44:09,622 157877ms BenchmarkModule        EndRequest         - Request for /mubble/index.aspx took 2.317 seconds to load. 0 queries.

@@ -1,0 +1,31 @@
+INFO  2008-10-07 14:01:01,149 18386ms Lucene                 ResetSearcher      - Opened searcher
+INFO  2008-10-07 14:01:01,608 18845ms Global                 Application_Start  - Application startup too 00:00:18.2440000
+ERROR 2008-10-07 14:01:09,893 27130ms BenchmarkModule        RequestError       - An error occured while processing /mubble/journals.aspx for ::1
+System.Web.HttpCompileException: C:\Users\Kurt\Documents\Projects\Mubble\web\Templates\ars\Pages\Journals.aspx(10): error BC30560: 'templates_ars_journalheader_ascx' is ambiguous in the namespace 'ASP'.
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(String virtualPath, Type requiredBaseType)
+   at Mubble.Handlers.HtmlHandler.ProcessMubbleRequest(HttpContext context) in C:\Users\Kurt\Documents\Projects\Mubble\MubbleCore\Handlers\HtmlHandler.cs:line 47
+   at Mubble.Handlers.HttpHandler.ProcessRequest(HttpContext context) in C:\Users\Kurt\Documents\Projects\Mubble\MubbleCore\Handlers\HttpHandler.cs:line 95
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+INFO  2008-10-07 14:01:09,911 27148ms BenchmarkModule        EndRequest         - Request for /mubble/journals.aspx took 7.969 seconds to load. 75 queries.
+ERROR 2008-10-07 14:01:14,801 32038ms BenchmarkModule        RequestError       - An error occured while processing /mubble/journals.aspx for ::1
+System.Web.HttpCompileException: C:\Users\Kurt\Documents\Projects\Mubble\web\Templates\ars\Pages\Journals.aspx(10): error BC30560: 'templates_ars_journalheader_ascx' is ambiguous in the namespace 'ASP'.
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(String virtualPath, Type requiredBaseType)
+   at Mubble.Handlers.HtmlHandler.ProcessMubbleRequest(HttpContext context) in C:\Users\Kurt\Documents\Projects\Mubble\MubbleCore\Handlers\HtmlHandler.cs:line 47
+   at Mubble.Handlers.HttpHandler.ProcessRequest(HttpContext context) in C:\Users\Kurt\Documents\Projects\Mubble\MubbleCore\Handlers\HttpHandler.cs:line 95
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+INFO  2008-10-07 14:01:46,236  9408ms Lucene                 ResetSearcher      - Opened searcher
+INFO  2008-10-07 14:01:46,325  9497ms Global                 Application_Start  - Application startup too 00:00:09.3530000
+INFO  2008-10-07 14:02:00,097 23269ms BenchmarkModule        EndRequest         - Request for /mubble/journals.aspx took 13.732 seconds to load. 166 queries.

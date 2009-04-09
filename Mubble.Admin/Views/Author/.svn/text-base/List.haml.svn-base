@@ -1,0 +1,3 @@
+%h2 Authors
+- foreach(var a in ViewData.List)
+  %li= Html.ActionLink(a.UserName, new { controller = "Author", action = "Get", username = a.UserName})

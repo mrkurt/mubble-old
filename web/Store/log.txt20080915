@@ -1,0 +1,9 @@
+INFO  2008-09-15 10:14:35,135 21893ms Lucene                 ResetSearcher      - Opened searcher
+INFO  2008-09-15 10:14:35,654 22412ms Global                 Application_Start  - Application startup too 00:00:21.8440000
+INFO  2008-09-15 10:14:37,157 23915ms BenchmarkModule        EndRequest         - Request for /mubble/Default.aspx took 1.015 seconds to load. 69 queries.
+INFO  2008-09-15 10:14:59,387 46145ms BenchmarkModule        EndRequest         - Request for /mubble/index.aspx took 22.128 seconds to load. 112 queries.
+INFO  2008-09-15 10:15:01,273 48031ms BenchmarkModule        EndRequest         - Request for /mubble/reviews/hardware/2007-games-review.media.aspx/gaming_2007_spotlight.jpg took 1.073 seconds to load. 2 queries.
+INFO  2008-09-15 10:15:01,290 48048ms BenchmarkModule        EndRequest         - Request for /mubble/reviews/apps/mac-office-2008-review.media.aspx/mac_office_2008.jpg took 1.1 seconds to load. 4 queries.
+INFO  2008-09-15 10:16:16,036 122794ms BenchmarkModule        EndRequest         - Request for /mubble/reviews/games/unreal-tournament-3-review.aspx took 2.54 seconds to load. 8 queries.
+INFO  2008-09-15 10:20:02,555 349313ms BenchmarkModule        EndRequest         - Request for /mubble/news.aspx/post/20080110-intel-responds-to-new-antitrust-inquiry-by-new-york-ag.html took 5.099 seconds to load. 1 queries.
+INFO  2008-09-15 10:21:47,238 453996ms BenchmarkModule        EndRequest         - Request for /mubble/business.aspx took 2.958 seconds to load. 68 queries.

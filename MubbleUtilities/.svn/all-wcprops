@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/mubble/!svn/ver/293/trunk/MubbleUtilities
+END
+MubbleUtilities.csproj
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/mubble/!svn/ver/290/trunk/MubbleUtilities/MubbleUtilities.csproj
+END
+App.config
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/mubble/!svn/ver/36/trunk/MubbleUtilities/App.config
+END
+Database.cs
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/mubble/!svn/ver/2/trunk/MubbleUtilities/Database.cs
+END
+db_create_script.sql
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/mubble/!svn/ver/36/trunk/MubbleUtilities/db_create_script.sql
+END
+db_inserts.sql
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/mubble/!svn/ver/107/trunk/MubbleUtilities/db_inserts.sql
+END
+Program.cs
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/mubble/!svn/ver/65/trunk/MubbleUtilities/Program.cs
+END

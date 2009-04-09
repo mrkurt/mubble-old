@@ -1,0 +1,109 @@
+8
+
+dir
+661
+http://svn.mubble.net/mubble/trunk/web
+http://svn.mubble.net/mubble
+
+
+
+2008-02-04T16:46:40.196787Z
+659
+kurt
+has-props
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+e9299cb4-260d-0410-a363-f84a8d58d427
+
+jscripts
+dir
+
+Mubble.log4net
+file
+
+
+
+
+2007-11-27T14:48:26.561131Z
+1b8bc65aea739e2b9edd4a4e805cb86e
+2007-02-24T16:32:08.068754Z
+406
+kurt
+
+web.config
+file
+
+
+
+
+2008-02-04T17:10:04.964200Z
+cac9c0ac8cce3da051ae860d1da9be1b
+2008-02-04T16:46:40.196787Z
+659
+kurt
+
+Default.aspx.cs
+file
+
+
+
+
+2007-11-27T14:48:26.568131Z
+5dc7672247f508ba346f7c8e1420ba3d
+2007-02-02T01:24:17.925599Z
+333
+kurt
+
+Admin
+dir
+
+Bin
+dir
+
+Modules
+dir
+
+Global.asax
+file
+
+
+
+
+2007-11-27T14:48:26.597131Z
+bd6f3d30c2ce3129dccfb8243d9fedf8
+2006-02-19T14:53:02.728165Z
+2
+kurt
+
+Store
+dir
+
+UI
+dir
+
+Templates
+dir
+
+Default.aspx
+file
+
+
+
+
+2007-11-27T14:48:26.603131Z
+b8eb6c6953e97499b31fa73a510dceb8
+2007-02-02T01:24:17.925599Z
+333
+kurt
+

@@ -1,0 +1,12 @@
+INFO  2008-11-20 13:21:10,974 38152ms Lucene                 ResetSearcher      - Opened searcher
+INFO  2008-11-20 13:21:11,503 38681ms Global                 Application_Start  - Application startup too 00:00:38.1975000
+INFO  2008-11-20 13:21:12,577 39755ms BenchmarkModule        EndRequest         - Request for /mubble/Default.aspx took 0.6555 seconds to load. 69 queries.
+INFO  2008-11-20 13:21:34,083 61261ms BenchmarkModule        EndRequest         - Request for /mubble/index.aspx took 21.4885 seconds to load. 112 queries.
+INFO  2008-11-20 13:36:58,461 985639ms BenchmarkModule        EndRequest         - Request for /mubble/index.aspx took 6.5675 seconds to load. 107 queries.
+INFO  2008-11-20 13:41:21,407 1248585ms BenchmarkModule        EndRequest         - Request for /mubble/guides.aspx took 2.3775 seconds to load. 89 queries.
+INFO  2008-11-20 13:46:44,069 1571247ms BenchmarkModule        EndRequest         - Request for /mubble/guides/buyer/2007-last-minute-gift-guide.aspx took 7.3045 seconds to load. 5 queries.
+INFO  2008-11-20 15:16:44,607  7546ms Lucene                 ResetSearcher      - Opened searcher
+INFO  2008-11-20 15:16:44,860  7799ms Global                 Application_Start  - Application startup too 00:00:07.6410000
+INFO  2008-11-20 15:16:47,477 10416ms BenchmarkModule        EndRequest         - Request for /mubble/Templates/ars/ads/banner.aspx?zone=1919&url=http%3A//localhost/mubble/news.aspx/post/20080110-intel-responds-to-new-antitrust-inquiry-by-new-york-ag.html&tags=business,gadgets,intel,amd,antitrust,law&142 took 1.9115 seconds to load. 0 queries.
+INFO  2008-11-20 15:16:58,383 21322ms BenchmarkModule        EndRequest         - Request for /mubble/news.aspx/post/20080110-intel-responds-to-new-antitrust-inquiry-by-new-york-ag.html took 13.419 seconds to load. 148 queries.
+INFO  2008-11-20 15:29:35,982 778921ms BenchmarkModule        EndRequest         - Request for /mubble/news.aspx/post/20080110-intel-responds-to-new-antitrust-inquiry-by-new-york-ag.html took 5.206 seconds to load. 71 queries.

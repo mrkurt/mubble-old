@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+    <title>Mubble Admin</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script type="text/javascript" src="ui.js"></script>
+</head>
+<body>
+    <div id="CurrentPages">
+        <table class="AdminListing">
+            <col />
+            <col class="Title" />
+            <col />
+            <col />
+            <col />
+            <thead>
+                <tr>
+                    <th colspan="5">Invididual Blogs</th>
+                </tr>
+                <tr>
+                    <th>&nbsp;</th>
+                    <th class="Title"><input type="checkbox" onclick="checkAll(this, 'blog_page_check');" /> Title</th>
+                    <th>Editor</th>
+                    <th>Published</th>
+                    <th>Updated</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="IconList"><img src="Images/icon_view.jpg" alt="View Blog" />
+                    <a href="BlogEdit.htm"><img src="Images/icon_pencil.gif" alt="Change Settings" /></a>
+                    </td>
+                    <td><input type="checkbox" name="blog_page_check" /><a href="AdminBlog.htm">MrKurt</a></td>
+                    <td>Kurt Mackey</td>
+                    <td>Feb 28, 1980</td>
+                    <td>Jun 1, 2005</td>
+                </tr>
+                <tr class="Alternate">
+                    <td class="IconList"><img src="Images/icon_view.jpg" alt="View Blog" />
+                    <a href="BlogEdit.htm"><img src="Images/icon_pencil.gif" alt="Change Settings" /></a>
+                    </td>
+                    <td><input type="checkbox" name="blog_page_check" /><a href="AdminBlog.htm">GizTechnica</a></td>
+                    <td>Joel Johnson</td>
+                    <td>May 10, 2005</td>
+                    <td>Jun 1, 2005</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/mubble/!svn/ver/69/trunk/Vendor/json/Source/Newtonsoft.Json/Converters
+END
+HtmlColorConverter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/mubble/!svn/ver/68/trunk/Vendor/json/Source/Newtonsoft.Json/Converters/HtmlColorConverter.cs
+END
+vssver2.scc
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/mubble/!svn/ver/68/trunk/Vendor/json/Source/Newtonsoft.Json/Converters/vssver2.scc
+END
+XmlNodeConverter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/mubble/!svn/ver/68/trunk/Vendor/json/Source/Newtonsoft.Json/Converters/XmlNodeConverter.cs
+END

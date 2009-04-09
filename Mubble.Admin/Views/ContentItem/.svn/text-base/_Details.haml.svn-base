@@ -1,0 +1,33 @@
+%form#content { class = (ViewData.Item is Section) ? "Collapsed" : "", action = ViewData.Item.Path }
+  - if(ViewData.Item is Section)
+    %h4 Expand to edit section details
+  %p
+    %label Title
+    %input{ type = "text", name = "content[title]", value = ViewData.Item.Title }
+  %p
+    %label Parent
+    %a{ href = "#" }= ViewData.Item.ParentID
+  %p
+    %label Body
+    %textarea{ name = "content[body]", rows = 10, cols = 50 }
+      = ViewData.Item.Body
+  %p
+    %label File Name
+    %input { type = "text", name = "content[filename]", value = ViewData.Item.FileName }
+    
+  _ Metadata
+  _ SaveButtons
+
+
+- var article = ViewData.Item as Article
+- if(article != null)
+  %table
+    %thead
+      %tr
+        %th #
+        %th Title
+    %tbody
+      - foreach(var page in article.Pages)
+        %tr
+          %td= page.PageNumber
+          %td= page.Title

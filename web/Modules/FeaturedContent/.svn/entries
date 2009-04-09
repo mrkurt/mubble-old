@@ -1,0 +1,55 @@
+8
+
+dir
+661
+http://svn.mubble.net/mubble/trunk/web/Modules/FeaturedContent
+http://svn.mubble.net/mubble
+
+
+
+2008-01-07T22:18:46.161690Z
+643
+kurt
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+e9299cb4-260d-0410-a363-f84a8d58d427
+
+Admin
+dir
+
+module.config
+file
+
+
+
+
+2007-11-27T14:48:03.021131Z
+450c1dd20e514a009c8fdbc16d620b6b
+2006-11-29T19:47:35.022369Z
+222
+kurt
+
+Article.aspx
+file
+
+
+
+
+2007-11-27T14:48:03.024131Z
+34ee9c530198a11ead8e1f83b7d305af
+2007-01-19T15:21:19.711016Z
+290
+kurt
+

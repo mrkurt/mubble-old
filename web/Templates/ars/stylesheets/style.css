@@ -1,0 +1,2170 @@
+/* @override http://media.arstechnica.com/ars.static/stylesheets/style.v147900042.css */
+
+html {
+	background: #676760;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font: normal 12px/160% Verdana, sans-serif;
+	margin: 0;
+	padding: 0;
+	color: #000;
+}
+
+a {
+	color: #9D0404;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #85276e;
+}
+
+a img {
+	border: 0;
+}
+
+iframe {
+	border: 0;
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+}
+
+.media {
+	margin: 4px auto 14px;
+	padding: 0;
+}
+
+.media embed {
+	margin: 0 auto;
+	padding: 0;
+}
+
+#Page {
+	background-color: #9d9a95;
+	margin: 0 auto;
+	padding: 0 10px;
+	width: 970px;
+}
+
+	#Page #Masthead {
+		background: transparent url("../images/header.gif") no-repeat scroll top center;
+		height: 87px;
+		margin-bottom: 10px;
+	}
+
+		#Page #Masthead * {
+			display: block;
+		}
+
+		#Page #Masthead #Logo {
+			float: left;
+			width: 284px;
+		}
+
+		#Page #Masthead .Nav {
+			height: 87px;
+			float: right;
+			width: 686px;
+		}
+
+			#Page #Masthead .Nav .Subscribe {
+				float: right;
+				margin-right: 15px;
+				width: 201px;
+			}
+
+			#Page #Masthead .Nav .Tabs {
+				clear: right;
+				float: right;
+				margin: 33px 15px 0 0;
+				width: 638px;
+			}
+
+			
+			#Page #Masthead .Nav .Tabs li
+			{
+				position: relative;
+			}
+			#Page #Masthead .Nav .Tabs li img.New
+			{
+				position: absolute;
+				left: 50%;
+				top: -9px;
+				margin-left: -8px;
+			}
+			
+/* BEGIN NEW TABS */
+
+#HomeTab a {
+	background: url("../images/sprites-section-tabs.v3.gif") no-repeat scroll 0 0;
+	display: block;
+	height: 25px;
+	width: 52px;
+}
+
+body.index #HomeTab a {
+	background-position: 0 100%;
+}
+
+#BusinessTab a {
+	background: url("../images/sprites-section-tabs.v3.gif") no-repeat scroll -52px 0;
+	display: block;
+	height: 25px;
+	width: 86px;
+}
+
+body.business #BusinessTab a {
+	background-position: -52px 100%;
+}
+
+#AppleTab a {
+	background: url("../images/sprites-section-tabs.v3.gif") no-repeat scroll -138px 0;
+	display: block;
+	height: 25px;
+	width: 58px;
+}
+
+body.apple #AppleTab a {
+	background-position: -138px 100%;
+}
+
+#GamingTab a {
+	background: url("../images/sprites-section-tabs.v3.gif") no-repeat scroll -196px 0;
+	display: block;
+	height: 25px;
+	width: 67px;
+}
+
+body.gaming #GamingTab a {
+	background-position: -196px 100%;
+}
+
+#HardwareTab a {
+	background: url("../images/sprites-section-tabs.v3.gif") no-repeat scroll -263px 0;
+	display: block;
+	height: 25px;
+	width: 79px;
+}
+
+body.hardware #HardwareTab a {
+	background-position: -263px 100%;
+}
+
+#GadgetsTab a {
+	background: url("../images/sprites-section-tabs.v3.gif") no-repeat scroll -342px 0;
+	display: block;
+	height: 25px;
+	width: 112px;
+}
+
+body.gadgets #GadgetsTab a {
+	background-position: -342px 100%;
+}
+
+#LawTab a {
+	background: url("../images/sprites-section-tabs.v3.gif") no-repeat scroll -453px 0;
+	display: block;
+	height: 25px;
+	width: 111px;
+}
+
+body.law #LawTab a {
+	background-position: -453px 100%;
+}
+
+#SecurityTab a
+{
+	background: url("../images/sprites-section-tabs.v3.gif") no-repeat scroll -565px 0;
+	display: block;
+	height: 25px;
+	width: 73px;
+}
+
+body.security #SecurityTab a
+{
+	background-position: -565px 100%;
+}
+
+
+/* to override display: block settings */
+#Page #Masthead .Nav .Tabs .Replace {
+	display: none;
+}
+
+/* END NEW TABS */
+
+
+
+	#Page #Banner {
+		height: 90px;
+		margin-bottom: 10px;
+		position: relative;
+	}
+
+		#Page #Banner #Notice {
+			float: left;
+			width: 232px;
+		}
+
+		#Page #Banner .Ad {
+			float: right;
+			width: 728px;
+			height: 90px;
+		}
+		
+		#Page #Banner .Ad.Wide
+		{
+			position: absolute;
+			width: 970px;
+			float:none;
+			top: 0px;
+			left: 0px;
+		}
+
+	#Page #Nav {
+		height: 29px;
+		margin-bottom: 10px;
+	}
+
+		#Page #Nav .Menu {
+			margin: 0;
+			padding: 0;
+		}
+
+			#Page #Nav .Menu * {
+				display: block;
+				margin: 0;
+				padding: 0;
+			}
+
+		#Page #Nav .Site {
+			background: transparent url("../images/nav-back.gif") no-repeat scroll center center;
+			float: left;
+			padding: 0 20px;
+			width: 580px;
+		}
+
+			#Page #Nav .Site .Replace {
+				display: none;
+			}
+
+			#Page #Nav .Site li {
+				list-style-type: none;
+				float: left;
+			}
+
+			#Page #Nav .Site .Search {
+				float: right;
+				width: 206px;
+			}
+
+				#Page #Nav .Site .Search * {
+					float: left;
+				}
+
+				#Page #Nav .Site .Search .Text {
+					background: url("../images/search-back.gif") no-repeat left top;
+					color: #666666;
+					display: block; float: left; border: 0px;
+					font-size: 10px;
+					line-height: 100%;
+					margin: 7px 8px 0px 0px; padding: 1px 3px;
+					width: 117px; height: 13px;
+				}
+
+#HomeNav a {
+	background: transparent url("../images/sprites-nav-site.gif") no-repeat left top;
+	height: 29px;
+	width: 57px;
+}
+
+#NewsNav a {
+	background: transparent url("../images/sprites-nav-site.gif") no-repeat -57px top;
+	height: 29px;
+	width: 63px;
+}
+
+#ArticlesNav a {
+	background: transparent url("../images/sprites-nav-site.gif") no-repeat -120px top;
+	height: 29px;
+	width: 76px;
+}
+
+#GuidesNav a {
+	background: transparent url("../images/sprites-nav-site.gif") no-repeat -196px top;
+	height: 29px;
+	width: 70px;
+}
+
+#JournalsNav a {
+	background: transparent url("../images/sprites-nav-site.gif") no-repeat -266px top;
+	height: 29px;
+	width: 76px;
+}
+
+		#Page #Nav .Sub {
+			background: transparent url("../images/sub-nav-back.gif") no-repeat scroll center center;
+			float: right;
+			padding-left: 24px;
+			width: 312px;
+		}
+
+			#Page #Nav .Sub .Replace {
+				display: none;
+			}
+
+			#Page #Nav .Sub li {
+				list-style-type: none;
+				float: left;
+			}
+
+#ForumNav a {
+	background: transparent url("../images/sprites-nav-sub.gif") no-repeat 0 top;
+	height: 29px;
+	width: 65px;
+}
+
+#ShopNav a {
+	background: transparent url("../images/sprites-nav-sub.gif") no-repeat -65px top;
+	height: 29px;
+	width: 73px;
+}
+
+#EmporiumNav a {
+	background: transparent url("../images/sprites-nav-sub.gif") no-repeat -138px top;
+	height: 29px;
+	width: 100px;
+}
+
+#RssNav a {
+	background: transparent url("../images/sprites-nav-sub.gif") no-repeat -238px top;
+	height: 29px;
+	width: 59px;
+}
+
+	#Page #Main {
+		margin: 0;
+		padding: 0;
+	}
+
+		#Page #Main #Content {
+			float: left;
+			overflow: hidden;
+			width: 630px;
+		}
+
+			#Page #Main #Content .Featured {
+				height: 107px;
+				margin-bottom: 10px;
+			}
+
+				#Page #Main #Content .Featured a {
+					display: block;
+					float: left;
+					margin-right: 10px;
+				}
+
+					#Page #Main #Content .Featured a img {
+						display: block;
+						width: 200px;
+						height: 107px;
+					}
+
+					#Page #Main #Content .Featured a img.PublishStatus
+					{
+						position: absolute;
+						width: 16px;
+						height: 16px;
+						margin-top: 87px;
+						margin-left: 180px;
+					}
+
+					#Main #Content .Bubbles {
+						background: #9d9a95 url("../images/bubbles-bottom.gif") no-repeat left bottom;
+						float: right;
+						margin: 0 0 10px 10px;
+						padding: 0 10px 10px 10px;
+						width: 200px;
+					}
+
+						#Main #Content .Bubbles .Bubble {
+							background: #272727 url("../images/sprites-bubble-tops-and-bottoms.v9.gif") no-repeat -872px 100%;
+							width: 182px;
+						}
+
+							#Main #Content .Bubbles .Bubble h2 {
+								background: transparent url("../images/sprites-bubble-tops-and-bottoms.v9.gif") no-repeat -672px 100%;
+								height: 28px;
+							}
+							#Main #Content .Bubbles .Bubble.Jobs h2
+							{
+								background-position: -1405px;
+							}
+							#Main #Content .Bubbles .Bubble.Intel h2
+							{
+								background-position: -1770px;
+							}
+							#Main #Content .Bubbles .Bubble.Whitepapers h2
+							{
+								background-position: -1770px;
+							}
+
+		#Page #Main #Sidebar {
+			float: right;
+			margin-left: -10px; /* Fixes IE6 bug. */
+			/*overflow: hidden;*/
+			width: 336px;
+		}
+
+			#Page #Main #Sidebar .Ad.Panel {
+				height: 280px;
+				margin-bottom: 10px;
+				/*overflow: hidden;*/
+				text-align: center;
+				width: 336px;
+			}
+			
+			#Page #Main #Sidebar .Ad.Panel.Tall {
+				height: 630px;
+				margin-bottom: 10px;
+				/*overflow: hidden;*/
+				text-align: center;
+				width: 336px;
+			}
+
+			#Page #Main #Sidebar .Ad.Video, #Page #Main #Sidebar .Ad.Panel.iframe{
+				width: 300px;
+				height: 250px;
+				padding: 15px 18px;
+				background: transparent url('http://media.arstechnica.com/Templates/a/images/panel-ad-back.gif') no-repeat left top;
+				margin-bottom: 10px;
+			}
+
+
+			#Page #Main #Sidebar .Ad.Tower {
+				float: right;
+				height: 600px;
+				margin-bottom: 10px;
+				text-align: center;
+				width: 160px;
+			}
+
+			#Main #Sidebar .Bubbles {
+				float: left;
+				width: 166px;
+			}
+
+				#Main #Sidebar .Bubbles .Bubble {
+					background: #272727 url("../images/sprites-bubble-tops-and-bottoms.v9.gif") no-repeat -1238px 100%;
+					width: 148px;
+				}
+					#Main #Sidebar .Bubbles .Bubble h2 {
+						background: #272727 url("../images/sprites-bubble-tops-and-bottoms.v9.gif") no-repeat -1072px 100%;
+						height: 28px;
+					}
+					
+					#Main #Sidebar .Bubbles .Bubble.Jobs h2 {
+						background-position: -1604px;
+					}
+					
+					#Main #Sidebar .Bubbles .Bubble.Intel h2
+					{
+						background-position: -1970px;
+					}
+					
+					#Main #Sidebar .Bubbles .Bubble.Whitepapers h2
+					{
+						background-position: -1970px;
+					}
+					
+					#Main #Sidebar .Bubbles .Bubble.ForwardIT h2
+					{
+						background-position: -2136px;
+						height: 28px;
+					}
+					
+			#Main #Sidebar .Bubbles.Wide {
+				float: none;
+				width: 336px;
+			}
+
+				#Main #Sidebar .Bubbles.Wide .Bubble {
+					background-position: -336px 100%;
+					width: 318px;
+				}
+
+					#Main #Sidebar .Bubbles.Wide .Bubble h2 {
+						background: #272727 url("../images/sprites-bubble-tops-and-bottoms.v9.gif") no-repeat 0 100%;
+					}
+					
+					.Bubble.SmbResources
+					{
+						display: none;
+					}
+					
+					#Main #Sidebar .Bubbles.Wide .Bubble.SmbResources h2
+					{
+						background-image: url("../images/bubble-header-red-gradient.png");
+						background-position: top left;
+					}
+					#Main #Sidebar .Bubble.SmbResources p
+					{
+						font-weight: normal;
+						color: White;
+						font-style: italic;
+						font-size: 11px;
+						padding-left: 13px;
+						padding-right: 25px;
+					}
+					
+					#Main #Sidebar .Bubble.SmbResources ul li
+					{
+						background: transparent url("../images/red-bullet.gif") 0 3px no-repeat;
+					}
+					
+					#Main #Sidebar .Bubbles.Wide .Bubble.Whitepapers h2
+					{
+						background-position: -2302px;	
+						height: 28px;
+					}
+
+	#Page #Footer {
+		background: #676760 url("../images/main-bottom.gif") no-repeat scroll top center;
+		clear: both;
+		color: #ff9036;
+		font: bold 13px/100% Helvetica, Arial, sans-serif;
+		margin: 0 -10px;
+		padding: 35px 0 24px;
+		position: relative;
+		top: 0;
+		text-align: center;
+	}
+
+		#Page #Footer .Copyright {
+			color: #fff;
+			margin-bottom: 17px;
+		}
+
+		#Page #Footer a {
+			color: #000;
+			margin: 0 6px;
+		}
+
+
+.Menu {
+	margin: 0;
+	padding: 0;
+}
+
+	.Menu li {
+		display: block;
+		float: left;
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+	}
+
+
+/* CONTENT STYLES */
+
+.Replace {
+	display: none;
+}
+
+.Content {
+	background-color: #fff;
+	margin-right: 10px;
+	padding: 0 18px;
+}
+
+	.Content .ContentHeader {
+		margin: 0 -18px;
+		padding: 0 18px;
+	}
+		
+		.smb-resources .Content.Listing.SearchResults .ContentHeader
+		{
+			background-image: url("../images/smb-resource-header-comcast.png");
+		}
+		.smb-resources .ContentHeader p
+		{
+			display: none;
+		}
+		.Content .ContentHeader p {
+			color: #9d9a95;
+			font: bold 12px/100% Helvetica, Arial, sans-serif;
+			height: 20px;
+			margin: 0;
+			padding: 9px 0 0;
+		}
+
+			.Content .ContentHeader p strong, .Content .ContentHeader p a {
+				color: #fff;
+			}
+
+	.Content .ContentBody {
+		margin: 0 -18px;
+		padding: 10px 18px 0;
+	}
+
+			.Content .ContentBody a {
+				text-decoration: underline;
+			}
+
+			.Content .ContentBody h1 a,
+			.Content .ContentBody h2 a,
+			.Content .ContentBody h3 a,
+			.Content .ContentBody h4 a,
+			.Content .ContentBody h5 a,
+			.Content .ContentBody h6 a,
+			.Content .ContentBody .Inset a {
+				text-decoration: none;
+			}
+
+	.Content .ContentFooter {
+		margin: 0 -18px;
+		padding: 0 18px;
+	}
+
+		.Content .ContentFooter p.Paging {
+			color: #9d9a95;
+			float: right;
+			font: bold 13px/130% Helvetica, Arial, sans-serif;
+			padding-top: 14px;
+			text-align: right;
+		}
+
+			.Content .ContentFooter p.Paging a.Inactive {
+				color: #999;
+			}
+
+		.Content.News .ContentFooter p.Paging, .Content.NewsItem .ContentFooter p.Paging {
+			margin: 0;
+			padding: 1px 0 0;
+		}
+
+			.Content.News .ContentFooter p.Paging a, .Content.NewsItem .ContentFooter p.Paging a {
+				clear: right;
+				color: #fff;
+				display: block;
+				float: right;
+				padding-top: 4px;
+				width: 100%;
+			}
+
+			.Content.News .ContentFooter p.Paging span.Hint, .Content.NewsItem .ContentFooter p.Paging span.Hint {
+				color: #9d9a95;
+				display: inline;
+			}
+
+		.Content.Article .ContentFooter p.Paging {
+			padding: 10px 0 0;
+		}
+
+.Content h2 {
+	font: bold 19px/100% Helvetica, Arial, sans-serif;
+	margin: 24px 0 8px;
+	padding: 0;
+}
+
+.Content h3 {
+	font: bold 16px/130% Helvetica, Arial, sans-serif;
+	margin: 24px 0 0;
+	padding: 0;
+}
+
+	.Content h3 a {
+		color: #000;
+	}
+
+.Content h4 {
+	font: bold 13px/100% Helvetica, Arial, sans-serif;
+}
+
+.Content p {
+	margin: 4px 0 14px;
+}
+
+.Content img.Bordered {
+	background-color: #eee;
+	border: 1px solid #d4d0c9;
+	margin-top: 2px;
+	padding: 4px;
+}
+
+.Content .ImageLeft {
+	color: #690000;
+	float: left;
+	margin: 5px 10px 10px 0;
+	text-align: center;
+}
+
+.Content .ImageRight {
+	color: #690000;
+	float: right;
+	margin: 5px 0 10px 10px;
+	text-align: center;
+}
+
+.Content .CenteredImage {
+	color: #690000;
+	margin: 10px 0;
+	text-align: center;
+}
+
+.Content .flash,
+.Content .vimeo
+{
+	margin: 0px auto;
+}
+
+.Content .ImageCaption, .media {
+	font-size: 11px;
+	line-height: 140%;
+}
+
+.Content img {
+	max-width: 580px;
+}
+
+.Content pre {
+	font: 13px/140% 'Courier New', Courier, monospace;
+	margin: 4px 0 14px;
+	padding: 12px 18px;
+}
+
+.Content pre.Code {
+	background-color: #e7e7e7;
+	border: 1px solid #999;
+	max-height: 640px;
+	overflow: auto;
+}
+
+	.Content pre.Code .Comment {
+		color: #393;
+		font-style: italic;
+	}
+
+	.Content pre.Code .Constant {
+		color: #666;
+	}
+
+	.Content pre.Code .Identifier {
+		color: #933;
+	}
+
+	.Content pre.Code .PreProc {
+		color: #939;
+	}
+
+	.Content pre.Code .Special {
+		color: #993;
+	}
+
+	.Content pre.Code .Statement {
+		color: #339;
+	}
+
+.Content ul, .Content ol, .Content dl {
+}
+
+	.Content li, .Content dt, .Content dd {
+		margin-bottom: 3px;
+		margin-top: 3px;
+	}
+
+.Content .Tags {
+	background: transparent url("../images/../images/tags-new-top-bg.gif") no-repeat center top;
+	color: #62625d;
+	font: bold 14px/130% Helvetica, Arial, sans-serif;
+	margin: 10px auto 0;
+	width: 583px;
+}
+
+	.Content .Tags p {
+		background: transparent url("../images/../images/tags-new-bottom-bg.gif") no-repeat bottom;
+		margin: 0;
+		padding: 10px 10px 10px 16px;
+	}
+
+		.Content .Tags p a {
+			color: #660000;
+		}
+
+.Content table {
+	margin: 10px 0;
+}
+
+.Content .Interview {
+	color: #9d0404;
+	font-style: italic;
+}
+
+.Content .Interview strong {
+	font-style: normal;
+}
+
+h3.Headline {
+	background: transparent no-repeat top left;
+	line-height: 130%;
+	margin: 0;
+	padding: 0;
+}
+
+/* General styles for all page types */
+
+		.Content .Inset {
+			background: #dcd5ce url("../images/related_stories_bg.gif") no-repeat scroll left 20px;
+			float: right;
+			font-size: 11px;
+			margin: 0 -18px 10px 10px;
+			width: 210px;
+			clear: right;
+		}
+		
+		.Content .Inset.Security
+		{
+			padding: 0px 0px 15px 0px;
+			background: #272727 url("../images/security-center-bottom.gif") no-repeat bottom left;
+		}
+		
+			.Content .Inset.Security h1
+			{
+				margin: 0px; padding: 0px;
+				height: 60px;
+				background: #272727 url("../images/forward-thinking-business-it.gif");
+				/*background: #272727 url("../images/security-center-title.v2.gif");*/
+			}
+			
+			.Content .Inset.Security a
+			{
+				color: White;
+				text-decoration: none;
+			}
+			
+			.Content .Inset.Security ul
+			{
+				margin: 0;
+				padding: 0px 0px 0px 10px;
+			}
+			
+			.Content .Inset.Security ul li
+			{
+				list-style-type:none;
+				margin: 8px 0pt 0pt;
+				padding: 0pt 0pt 0pt 13px;
+				background: transparent url("../images/blue-bullet.gif") 0 3px no-repeat; list-style-type: none; margin: 8px 0 0; padding: 0 0 0 13px;
+			}
+			
+			.Content .Inset.Security ul li.Indent
+			{
+				margin-top: 4px;
+				padding: 0px 0px 0px 20px;
+				background-position: 7px 4px;
+				font-size: 80%;
+				font-weight: normal;
+			}
+
+		.Content .Inset.FeaturedList {
+			background: #cbc1b7 url("../images/featured-list-back.gif") no-repeat scroll top left;
+		}
+
+			.Content .Inset h3 {
+				height: 36px;
+				margin: 0;
+				padding: 0;
+			}
+
+				.Content .Inset.Sections h3 {
+					background: transparent url("../images/categories_header.gif") no-repeat scroll top left;
+				}
+
+				.Content .Inset.RelatedStories h3 {
+					background: transparent url("../images/related_stories_header.gif") no-repeat scroll top left;
+				}
+
+				.Content .Inset.FeaturedList h3 {
+					background: transparent url("../images/featured-articles.gif") no-repeat scroll top left;
+					height: 31px;
+				}
+
+			.Content .Inset h4.Footer {
+				background: transparent url("../images/related_stories_more.gif") no-repeat scroll bottom left;
+				height: 13px;
+				margin: 0;
+				padding: 0;
+			}
+
+			.Content .Inset.FeaturedList h4 {
+				background: transparent;
+				font: bold 12px/130% Helvetica, Arial, sans-serif;
+				margin: 0;
+				padding: 10px 13px 0 10px;
+			}
+
+				.Content .Inset.FeaturedList h4 a {
+					color: #000;
+				}
+
+			.Content .Inset.FeaturedList h4.Footer {
+				background: transparent url("../images/featured-list-bottom.gif") no-repeat scroll bottom left;
+				margin: 0;
+				padding: 0;
+			}
+
+			.Content .Inset h4 a img {
+				margin-top: 13px;
+			}
+
+			.Content .Inset.FeaturedList p {
+				margin: 0;
+				padding: 10px 13px 0 10px;
+			}
+
+			.Content .Inset.FeaturedList p.Options {
+				background: transparent url("../images/featured-list-rule.gif") no-repeat scroll bottom center;
+				font-size: 1px;
+				height: 8px;
+				margin: 0 0 12px;
+				padding: 13px 13px 12px 10px;
+			}
+
+			.Content .Inset ul {
+				font: bold 12px/130% Arial, sans-serif;
+				margin: 5px 0 0;
+				min-height: 75px;
+				padding: 0;
+			}
+
+				.Content .Inset ul li {
+					list-style-type: none;
+					margin: 0 0 12px;
+					padding: 0 10px;
+				}
+
+					.Content .Inset ul li a {
+						color: #690000;
+					}
+
+
+/* Styles for specific page types */
+
+.Content.Page {
+	background: #eee;
+}
+
+	.Content.Page .ContentHeader {
+		background: transparent url("../images/journal-menu-back.gif") no-repeat scroll top center;
+		height: 30px;
+	}
+
+	.Content.Page .ContentFooter {
+		background: transparent url("../images/article-bottom.gif") no-repeat scroll bottom center;
+		height: 30px;
+	}
+
+.Content.Page.Site {
+	background: #eee url("../images/journal-menu-back.gif") no-repeat scroll top center;
+	padding-top: 110px;
+}
+
+	.Content.Page.Site .ContentHeader {
+		height: 80px;
+		margin: -80px 0 0 -23px;
+		padding: 0px;
+		position: absolute;
+		width: 630px;
+	}
+
+	/* Safari Hack */
+	::root .Content.Page.Site .ContentHeader {
+		position: relative;
+	}
+
+	.Content.Page.subscribe .ContentHeader {
+		background: transparent url("../images/about-arstechnica-subscribe.gif") no-repeat scroll top center;
+	}
+
+	.Content.Page.contact .ContentHeader {
+		background: transparent url("../images/about-arstechnica-contact.gif") no-repeat scroll top center;
+	}
+	
+	.Content.Page.useragreement .ContentHeader
+	{
+		background: transparent url("../images/user_agreement_header.jpg") no-repeat scroll top center;
+	}
+	
+	.Content.Page.login .ContentHeader {
+		background: transparent url("../images/sub_login_header.gif") no-repeat scroll top center;
+	}
+
+	.Content.Page.about .ContentHeader {
+		background: transparent url("../images/about-arstechnica.gif") no-repeat scroll top center;
+	}
+
+	.Content.Page.advertise .ContentHeader {
+		background: transparent url("../images/about-arstechnica-advertise.gif") no-repeat scroll top center;
+	}
+
+	.Content.Page.faq .ContentHeader {
+		background: transparent url("../images/about-arstechnica-faq.gif") no-repeat scroll top center;
+	}
+
+	.Content.Page.reprints .ContentHeader {
+		background: transparent url("../images/about-arstechnica-reprints.gif") no-repeat scroll top center;
+	}
+
+	.Content.Page.rss .ContentHeader {
+		background: transparent url("../images/about-arstechnica-rss.gif") no-repeat scroll top center;
+	}
+
+	.Content.Page.privacy .ContentHeader {
+		background: transparent url("../images/about-arstechnica-privacy.gif") no-repeat scroll top center;
+	}
+
+
+.Content.Listing {
+}
+
+	.Content.Listing .Headline {
+		text-indent: 17px;
+	}
+
+		.Content.Listing .Headline.News {
+			background: transparent url("../images/news_bullet.gif") no-repeat scroll left 4px;
+		}
+
+		.Content.Listing .Headline.Article {
+			background: transparent url("../images/articles_bullet.gif") no-repeat scroll left 4px;
+		}
+
+		.Content.Listing .Headline.Journal {
+			background: transparent url("../images/journals_bullet.gif") no-repeat scroll left 4px;
+		}
+
+		.Content.Listing .Headline.Guide {
+			background: transparent url("../images/guides_bullet.gif") no-repeat scroll left 4px;
+		}
+
+	.Content.Listing .Excerpt {
+		line-height: 150%;
+		margin: 2px 0 6px;
+	}
+
+	.Content.Listing .Tag {
+		color: #666;
+		font: normal 12px/150% Helvetica, Arial, sans-serif;
+		margin: 0 0 8px;
+	}
+
+		.Content.Listing .Tag a {
+			text-decoration: none;
+		}
+
+	.Content.Listing .Options {
+		font-size: 1px;
+		height: 8px;
+		margin: 0 0 25px;
+	}
+
+.Content.Listing.News {
+	background: #eee;
+}
+
+	.Content.Listing.News .ContentHeader {
+		background: #eee url("../images/from-the-news-desk-wide.gif") no-repeat scroll top center;
+		height: 38px;
+	}
+
+	.Content.Listing.News .ContentFooter {
+		background: #eee url("../images/news-bottom-back.gif") no-repeat scroll bottom center;
+		height: 48px;
+	}
+
+.Content.Listing.Articles {
+	background: #eee;
+}
+
+	.Content.Listing.Articles .ContentHeader {
+		background: #eee url("../images/article-head-back.gif") no-repeat scroll top center;
+		height: 38px;
+	}
+
+	.Content.Listing.Articles .ContentFooter {
+		background: #eee url("../images/news-bottom.gif") no-repeat scroll bottom center;
+		height: 48px;
+	}
+
+.Content.Listing.Section .ContentHeader {
+	height: 38px;
+}
+
+.Content.Section {
+	background: #eee;
+}
+
+	.Content.Section .ContentHeader {
+		background: #eee url("../images/article-head-back.gif") no-repeat scroll top center;
+		height: 38px;
+	}
+
+	.Content.Section .ContentFooter {
+		background: #eee url("../images/section-bottom.gif") no-repeat scroll bottom center;
+		height: 48px;
+	}
+
+.Content.Section.business, .Content.Section.apple, .Content.Section.gaming, .Content.Section.hardware, .Content.Section.gadgets, 
+.Content.Section.law, .Content.Section.security {
+	background-color: #fff;
+}
+
+.Content.Section.business .ContentHeader {
+	/*background: #fff url("../images/business-news.gif") no-repeat scroll top center;*/
+	background: #fff url("../images/business-it-news.gif") no-repeat scroll top center;
+}
+
+.Content.Section.apple .ContentHeader {
+	background: #fff url("../images/apple-news.gif") no-repeat scroll top center;
+}
+
+.Content.Section.gaming .ContentHeader {
+	background: #fff url("../images/gaming-news.gif") no-repeat scroll top center;
+}
+
+.Content.Section.hardware .ContentHeader {
+	background: #fff url("../images/hardware-news.gif") no-repeat scroll top center;
+}
+
+.Content.Section.gadgets .ContentHeader {
+	background: #fff url("../images/gear-and-gadgets-news.gif") no-repeat scroll top center;
+}
+
+.Content.Section.law .ContentHeader {
+	background: #fff url("../images/law-and-disorder-news.gif") no-repeat scroll top center;
+}
+
+.Content.Section.security .ContentHeader {
+	background: #fff url("../images/security-news.gif") no-repeat scroll top center;
+}
+
+
+.Content.Section.business .ContentFooter, .Content.Section.apple .ContentFooter, .Content.Section.gaming .ContentFooter, 
+.Content.Section.hardware .ContentFooter, .Content.Section.gadgets .ContentFooter, .Content.Section.law .ContentFooter,
+.Content.Section.security .ContentFooter
+ {
+	background: #fff url("../images/main-bottom-basic.gif") no-repeat scroll bottom center;
+	height: 10px;
+}
+
+
+.Content.Journal {
+	background: #eee url("../images/journal-menu-back.gif") no-repeat scroll left top;
+	overflow: hidden;
+	width: 584px;
+}
+
+	.Content.Journal .ContentHeader {
+		background: transparent url("../images/journal-head-default.jpg") no-repeat scroll center 30px;
+		height: 110px;
+		margin: 0 -18px;
+		padding: 0px;
+		width: 620px;
+	}
+
+		.Content.Journal .ContentHeader .JournalHeaderLink {
+			 display: block;
+			 height: 80px;
+			 padding: 30px;
+			 width: 630px;
+		}
+
+		.Content.Journal .ContentHeader ul {
+			margin: 0;
+			padding: 0;
+		}
+
+			.Content.Journal .ContentHeader ul li {
+				list-style-type: none;
+				margin: 0;
+				padding: 0;
+			}
+
+				.Content.Journal .ContentHeader ul li a {
+					margin: 0;
+					padding: 0;
+				}
+
+					.Content.Journal .ContentHeader ul li a img {
+						display: block;
+						float: left;
+						margin: 0;
+						padding: 0;
+					}
+
+	.Content.Journal.apple .ContentHeader {
+		background-image: url("../images/journal-head-apple.jpg");
+	}
+
+	.Content.Journal.thumbs .ContentHeader {
+		background-image: url("../images/journal-head-thumbs.jpg");
+	}
+
+	.Content.Journal.microsoft .ContentHeader {
+		background-image: url("../images/journal-head-ms.jpg");
+	}
+
+	.Content.Journal.science .ContentHeader {
+		background-image: url("../images/journal-head-science.jpg");
+	}
+
+	.Content.Journal.linux .ContentHeader
+	{
+		background-image: url("../images/oe.jpg");
+	}
+	
+	.Content.Journal.hardware .ContentHeader
+	{
+		background-image: url("../images/kit_header.jpg");
+	}
+
+	.Content.Journal.law .ContentHeader
+	{
+		background-image: url("../images/law_and_disorder.jpg");
+	}
+
+	.Content.Journal.staff .ContentHeader {
+		background-image: url("../images/journal-head-staff.jpg");
+	}
+
+	.Content.Journal.fatbits .ContentHeader {
+		background-image: url("../images/journal-head-fatbits.jpg");
+	}
+
+	.Content.Journal.palatine .ContentHeader {
+		background-image: url("../images/journal-head-palatine.jpg");
+	}
+
+	.Content.Journal.carthage .ContentHeader {
+		background-image: url("../images/journal-head-carthage.jpg");
+	}
+
+	.Content.Journal.aurich .ContentHeader
+	{
+		background-image: url("../images/monkey_paintbrush.jpg");
+	}
+
+	.Content.Journal.kurt .ContentHeader
+	{
+		background-image: url("../images/joost_c.jpg");
+	}
+	
+	.Content.Journal.nate .ContentHeader
+	{
+		background-image: url("../images/dc_header.jpg");
+	}
+
+	.Content.Journal.forcequit .ContentHeader
+	{
+		background-image: url("../images/force_quit.jpg");
+	}
+
+	.Content.Journal.upstairs .ContentHeader
+	{
+		background-image: url("../images/upstairs.jpg");
+	}
+
+	.Content.Journal .JournalSelector
+	{
+		margin: 0px;
+		height: 38px;
+		background-color: White;
+		margin: 0 -18px;
+		padding: 0px;
+		width: 620px;
+		text-align: right;
+	}
+		.Content.Journal .JournalSelector p
+		{
+			margin: 0px;
+			padding: 0px;
+			padding: 10px;
+			font-size: 11px;
+		}
+		.Content.Journal .JournalSelector p select
+		{
+			font-size: 11px;
+		}
+	.Content.Journal .ContentFooter {
+		background: transparent url("../images/article-bottom.gif") no-repeat scroll bottom center;
+		height: 67px;
+	}
+
+		.Content.Journal p.Paging {
+			padding: 6px 0 0;
+		}
+
+	.Content.Journal.Entry .ContentFooter, .Content.Journal.journals .ContentFooter, .Content.Journal.staff .ContentFooter {
+		height: 30px;
+	}
+
+	.Content.Journal h3 {
+		font: bold 16px/100% Helvetica, Arial, sans-serif;
+		margin: 15px 0 5px;
+	}
+
+		.Content.Journal h3.Date {
+			background: transparent url("../images/journal-date-back.gif") no-repeat scroll center center;
+			color: #fff;
+			font: bold 12px/100% Helvetica, Arial, sans-serif;
+			height: 13px;
+			margin: 9px 0 0;
+			padding: 7px 12px 7px;
+			text-align: right;
+		}
+
+		.Content.Journal .Tag {
+			color: #666;
+			font: normal 12px/130% Helvetica, Arial, sans-serif;
+			margin: 0 0 8px;
+		}
+
+.Content.Article {
+	background-color: #eee;
+}
+
+	.Content.Article .ContentHeader {
+		background: transparent url("../images/article-head-back.gif") no-repeat scroll top center;
+		height: 38px;
+	}
+
+		.Content.Article .ContentBody .Options {
+			margin: -6px 0 0;
+			height: 28px;
+			overflow: auto;
+		}
+
+			.Content.Article .ContentBody .Options select {
+				float: right;
+				margin: 0;
+				padding: 0;
+				width: 300px;
+			}
+
+		.Content.Article .ContentBody h1 {
+			background-color: #fff;
+			font: bold 16px/140% Helvetica, Arial, sans-serif;
+			margin: 0 -18px;
+			padding: 12px 18px 0px;
+		}
+
+		.Content.Article .ContentBody p.Tag.Full {
+			background-color: #fff;
+			color: #666;
+			font: bold 12px/120% Helvetica, Arial, sans-serif;
+			margin: 0 -18px 18px;
+			padding: 2px 18px 8px;
+		}
+
+	.Content .ContentFooter .Tags, body.news .Content .Tags {
+		background: #eee url("../images/tags-new-top-bg.gif") no-repeat center top;
+		color: #62625d;
+		font: bold 14px/130% Helvetica, Arial, sans-serif;
+		margin: 10px -18px 0px -18px;
+		width: 620px;
+	}
+
+		.Content .ContentFooter .Tags p,  body.news .Content .Tags p{
+			background: transparent url("../images/tags-new-article-bottom-bg.gif") no-repeat bottom;
+			padding: 10px 29px 20px 34px;
+			width: 557px;
+		}
+
+			.Content .ContentFooter .Tags p a,  body.news .Content .Tags p a {
+				color: #660000;
+			}
+
+	.Content.Article .ContentFooter {
+		background: transparent url("../images/article-bottom.gif") no-repeat scroll bottom center;
+		padding-bottom: 30px;
+	}
+
+		.Content.Article .ContentFooter p.Paging {
+			float: right;
+		}
+
+		.Content.Article .PostOptions, .Content .PostOptions.flat {
+			clear: none;
+			background: #fff;
+			padding: 0px 18px 8px 18px;
+		}
+		.Content .PostOptions
+		{
+			position: relative;
+		}
+		.Content .PostOptions .YBuzz
+		{
+			width: 74px; 
+			height: 22px; 
+			padding-top: 7px; 
+			float: right;
+			margin-right: 76px;
+		}
+		.Content .PostOptions img.Print
+		{
+			position: absolute;
+			right: 10px;
+		}
+
+.Content.Home {
+	background: #fff url("../images/from-the-news-desk-narrow.gif") no-repeat scroll top left;
+}
+
+	.Content.Home .ContentHeader {
+		height: 38px;
+	}
+
+	.Content.Home .ContentFooter {
+		background: #fff url("../images/main-bottom-basic.gif") no-repeat scroll bottom center;
+		height: 10px;
+	}
+
+.Content.NewsItem {
+	background: #eee;
+}
+
+	.Content.NewsItem .ContentHeader {
+		background: #eee url("../images/from-the-news-desk-wide-w.gif") no-repeat scroll top center;
+		height: 38px;
+	}
+
+	.Content.NewsItem .ContentBody {
+		background: #eee;
+	}
+
+	.Content.NewsItem .ContentFooter {
+		background: #fff url("../images/news-bottom-back.gif") no-repeat scroll bottom center;
+		height: 48px;
+	}
+
+	.Content.NewsItem h1 {
+		background: #fff;
+		font: bold 16px/100% Helvetica, Arial, sans-serif;
+		margin: -10px -18px 0;
+		padding: 10px 18px 0;
+	}
+
+		.Content.NewsItem h1 a {
+			color: #000;
+		}
+
+	.Content.NewsItem .Tag.Full {
+		background: #fff;
+		color: #666;
+		font: bold 12px/130% Helvetica, Arial, sans-serif;
+		margin: 0 -18px 18px;
+		padding: 4px 18px 8px;
+	}
+
+.Content.News {
+}
+
+	.Content.News .ContentHeader {
+		background: #fff url("../images/from-the-news-desk-wide.gif") no-repeat scroll top center;
+	}
+
+	.Content.News .ContentFooter {
+		background: #fff url("../images/news-bottom-back.gif") no-repeat scroll bottom center;
+	}
+
+.Content.Listing.SearchResults {
+	background: #eee;
+}
+
+	.Content.Listing.SearchResults .ContentHeader {
+		background: #fff url("../images/article-head-back.gif") no-repeat scroll top center;
+		height: 38px;
+	}
+	
+	.Content.Listing.SearchResults .ContentHeader.iphone-apps
+	{
+		height: 176px;
+		background-image: url("../images/iphone-app-reviews.jpg");
+	}
+		.Content.Listing.SearchResults .ContentHeader.iphone-apps p
+		{
+			display: none;
+		}
+	
+	body.macworld2009 .Content.Listing.SearchResults .ContentHeader
+	{
+		height: 176px;
+		background-image: url("../images/mwsf_page_header.png");
+	}
+	
+	body.macworld2009 .Content.Listing.SearchResults .ContentHeader p
+	{
+		display: none;
+	}
+
+body.CES2009 .Content.Listing.SearchResults .ContentHeader
+	{
+		height: 176px;
+		background-image: url("../images/ces_page_header.jpg");
+	}
+	
+	body.CES2009 .Content.Listing.SearchResults .ContentHeader p
+	{
+		display: none;
+	}
+
+	.Content.Listing.SearchResults .ContentBody {
+	}
+
+	.Content.Listing.SearchResults .ContentFooter {
+		background: #fff url("../images/article-bottom.gif") no-repeat scroll bottom center;
+		height: 75px;
+	}
+
+#Page #Main #Content .Featured.Full {
+	height: auto;
+}
+
+#Page #Main #Content .Featured.Full a {
+	margin-bottom: 10px;
+}
+
+
+#LatestPosts {
+	background: transparent;
+	border-collapse: collapse;
+	border-spacing: 0;
+	margin: 10px 0 2px;
+	padding: 0;
+	width: 620px;
+}
+
+#LatestPosts th, #LatestPosts td {
+	vertical-align: top;
+}
+
+.LatestNewsPosts {
+	border-right: 2px solid #9d9a95;
+	width: 307px;
+}
+
+.LatestJournalPosts {
+	width: 307px;
+}
+
+	thead .LatestNewsPosts {
+		background: #d4d3d0 url("../images/latestposts-news-header.gif") no-repeat left top;
+		height: 27px;
+	}
+
+	thead .LatestJournalPosts {
+		background: #d4d3d0 url("../images/latestposts-journal-header.gif") no-repeat right top;
+		height: 27px;
+	}
+
+	tbody .LatestNewsPosts, tbody .LatestJournalPosts {
+		background: #d4d3d0;
+	}
+
+	tfoot .LatestNewsPosts {
+		background: #d4d3d0 url("../images/latestposts-bottom-left.gif") no-repeat left bottom;
+		height: 37px;
+		text-align: center;
+	}
+
+	tfoot .LatestJournalPosts {
+		background: #d4d3d0 url("../images/latestposts-bottom-right.gif") no-repeat right bottom;
+		height: 37px;
+		text-align: center;
+	}
+
+	tfoot img {
+		margin: 15px 0 5px;
+	}
+
+
+#LatestPosts .Headlines {
+	font: bold 12px/130% Helvetica, Arial, sans-serif;
+	height: auto;
+	margin: 0px;
+	padding: 10px 0 0;
+}
+
+	#LatestPosts .Headlines li {
+		background: transparent url("../images/news-icon-small.gif") no-repeat scroll 12px 4px;
+		font-weight: bold;
+		list-style-type: none;
+		padding: 0px 15px 6px 33px;
+	}
+
+		#LatestPosts .Headlines li a {
+			color: #000;
+		}
+
+	#LatestPosts .LatestJournalPosts .Headlines li {
+		background: transparent url("../images/sprites-journal-icons.v13.gif") no-repeat scroll 12px -297px;
+	}
+
+	#LatestPosts .LatestJournalPosts .Headlines .apple { background-position: 12px 3px; }
+	#LatestPosts .LatestJournalPosts .Headlines .thumbs { background-position: 12px -397px; }
+	#LatestPosts .LatestJournalPosts .Headlines .microsoft { background-position: 12px -97px; }
+	#LatestPosts .LatestJournalPosts .Headlines .science { background-position: 12px -197px; }
+	#LatestPosts .LatestJournalPosts .Headlines .linux { background-position: 12px -497px; }
+	#LatestPosts .LatestJournalPosts .Headlines .hardware { background-position: 12px -597px; }
+	#LatestPosts .LatestJournalPosts .Headlines .law { background-position: 12px -686px; }
+
+
+
+
+/* Post Options */
+
+.Content .PostOptions { background: #fff url("../images/journal-post-bottom.gif") no-repeat scroll top center; clear: both; height: 27px; margin: 10px -18px 0; padding: 8px 18px; width: 584px; }
+.Content .PostOptions img { display: block; float: left; }
+.Content .PostOptions p { padding: 14px 0 0 0; margin: 0; font-size: 11px; vertical-align: bottom; }
+.Content .PostOptions p.Paging { float: right; padding-right: 20px; font-weight: bold; color: #9d9a95; font-size: 13px; }
+.Content .PostOptions p.Paging a.Inactive { color: #999999;}
+
+
+.Content .Comments { background-color:#eeeeee; display: none; margin: 0 -18px; }
+.Content .Comments h3{ margin: 0px; padding: 16px 0px 10px 20px; float: left; font-size: 12px; color: Black; position: absolute; z-index:10;}
+.Content .Comments .Pages { display: none; text-align: right; padding: 16px 35px 10px 20px; font: bold 12px/100% Helvetica, Arial, sans-serif; color: Black; position: relative; margin: 0px; z-index:0;}
+.Content .Comments .Pages a.Inactive{ color: #999999; }
+.Content .Comments .Comment { margin: 5px 20px 5px 20px; clear: left;  }
+.Content .Comments .Comment.Light{ background: #fff url("../images/comment-light-top.gif") no-repeat center top; width: 583px; }
+.Content .Comments .Comment h4{ background: transparent; margin: 0px; padding: 10px 20px 0px 20px; }
+.Content .Comments .Comment h4 a{ color: #690000;}
+.Content .Comments .Comment p{ padding: 5px 0px 5px 0px; margin: 0px;  }
+.Content .Comments .Comment .Body{ background-color: Transparent; margin: 0px; padding: 5px 20px 10px 20px; }
+.Content .Comments .Comment p.Tag{ padding: 0px 20px 10px 20px; text-align: right; color: #666666; }
+.Content .Comments .Comment.Light p.Tag{ background: #ffffff url("../images/comment-light-bottom.gif") no-repeat bottom;}
+.Content .Comments .Comment.Light.Error h4{ color: #CC0000; }
+.Content .Comments .Comment.Light p.Message{ padding: 10px 20px 10px 20px; }
+.Content .Comments .Comment.Light.Loading h4{ color: #00CC00; }
+.Content .Comments .Comment.Light.Loading p.Message { padding-bottom: 25px; background: transparent url("../images/comments-loading.gif") no-repeat bottom center; }
+.Content .Comments p.ReplyOptions{ padding: 10px 0px 10px 0px; }
+
+
+/* BUBBLES */
+
+.Bubble {
+	background-color: #9d9a95;
+	color: #f2f2ee;
+	font: bold 11px/14px Helvetica, Arial, sans-serif;
+	padding: 0 9px 14px;
+	margin-bottom: 9px;
+}
+
+	.Bubble h2 {
+		margin: 0 -9px 8px;
+	}
+
+.Bubble h2 img {display: block; margin: 0 auto; }
+.Bubble p { color: #bab7af; margin: 0; padding: 0; }
+.Bubble ul { margin: 0; padding: 0; }
+.Bubble li { margin: 0; padding: 0; }
+.Bubble li a { color: #e1ddd6; text-decoration: none; }
+.Bubble img { display: block; margin-top: 15px; }
+
+.Bubble .Headlines { margin: 0; padding: 0; }
+.Bubble .Headlines li { background: transparent url("../images/news-icon-small.gif") 0 3px no-repeat; list-style-type: none; margin: 8px 0 0; padding: 0 0 0 13px; }
+
+.Bubble.DontMiss ul li { background-image: url("../images/news-icon-small.gif"); }
+.Bubble.FromTheJournals h3 { border-bottom: 1px solid #4a4a45; font: bold 11px/14px Helvetica, Arial, sans-serif; margin: 0 0 9px; padding: 0 0 7px; }
+.Bubble.FromTheJournals h3 a { color: #e1ddd6; text-decoration: none; }
+.Bubble.OpenForum ul li { background-image: url("../images/talk-icon.gif"); }
+.Bubble.Jobs ul li { background-image: url("../images/jobs-arrow.gif"); }
+.Bubble.Jobs ul.Headlines li a{ color: #bab7af; font-size: 10px;}
+.Bubble.Jobs ul.Headlines li a strong{ color: #fff; display: block; font-size: 12px; }
+
+.Bubble.Intel ul li { background-image: url("../images/blue-bullet.gif"); }
+.Bubble.Intel img{ text-align: right; }
+
+.Bubble.TopStories ul li { background-image: url("../images/news-icon-small.gif"); }
+
+.Bubble.ForwardIT ul li { background-image: url("../images/blue-bullet.gif"); }
+.Bubble.ForwardIT ul li.Indent
+{
+	margin-top: 4px;
+	padding: 0px 0px 0px 20px;
+	background-position: 7px 4px;
+	font-weight: normal;
+}
+.Bubble.ForwardIT p{ color: #70afb8; padding-left: 0px; }
+
+
+
+
+
+
+
+
+
+
+#Page #Main #Sidebar .JournalsBox {
+	background-color: #d4d3d0;
+	margin-bottom: 10px;
+	width: 336px;
+}
+
+	#Page #Main #Sidebar .JournalsBox h2 {
+		background: url("../images/ars-journals.gif") no-repeat top;
+		height: 39px;
+		margin: 0px;
+		padding: 0px;
+	}
+
+		#Page #Main #Sidebar .JournalsBox h2 span {
+			display: none;
+		}
+
+	#Page #Main #Sidebar .JournalsBox .Tabs {
+		cursor: pointer;
+		height: 38px;
+		width: 336px;
+	}
+
+
+
+/* BEGIN NEW TABS */
+
+.JournalsBox .Tabs a:focus{
+	outline: none;
+  	-moz-outline-style: none;
+}
+
+
+#AllJournalTab a {
+	background: url("../images/sprites-journal-tabs.v2.gif") no-repeat 0 0;
+	display: block;
+	height: 38px;
+	width: 48px;
+}
+
+#AllJournalTab.on a {
+	background-position: 0 100%;
+}
+
+#ThumbsJournalTab a {
+	background: url("../images/sprites-journal-tabs.v2.gif") no-repeat -48px 0;
+	display: block;
+	height: 38px;
+	width: 41px;
+}
+
+#ThumbsJournalTab.on a {
+	background-position: -48px 100%;
+}
+
+#AppleJournalTab a {
+	background: url("../images/sprites-journal-tabs.v2.gif") no-repeat -89px 0;
+	display: block;
+	height: 38px;
+	width: 38px;
+}
+
+#AppleJournalTab.on a {
+	background-position: -89px 100%;
+}
+
+#MicrosoftJournalTab a {
+	background: url("../images/sprites-journal-tabs.v2.gif") no-repeat -127px 0;
+	display: block;
+	height: 38px;
+	width: 42px;
+}
+
+#MicrosoftJournalTab.on a {
+	background-position: -127px 100%;
+}
+
+#LinuxJournalTab a {
+	background: url("../images/sprites-journal-tabs.v2.gif") no-repeat -169px 0;
+	display: block;
+	height: 38px;
+	width: 38px;
+}
+
+#LinuxJournalTab.on a {
+	background-position: -169px 100%;
+}
+
+#HardwareJournalTab a {
+	background: url("../images/sprites-journal-tabs.v2.gif") no-repeat -207px 0;
+	display: block;
+	height: 38px;
+	width: 41px;
+}
+
+#HardwareJournalTab.on a {
+	background-position: -207px 100%;
+}
+
+#ScienceJournalTab a {
+	background: url("../images/sprites-journal-tabs.v2.gif") no-repeat -248px 0;
+	display: block;
+	height: 38px;
+	width: 39px;
+}
+
+#ScienceJournalTab.on a {
+	background-position: -248px 100%;
+}
+
+#StaffJournalTab a {
+	background: url("../images/sprites-journal-tabs.v2.gif") no-repeat 100% 0;
+	display: block;
+	height: 38px;
+	width: 49px;
+}
+
+#StaffJournalTab.on a {
+	background-position: 100% 100%;
+}
+
+/* END NEW TABS */
+
+
+
+	#Page #Main #Sidebar .JournalsBox .Headlines {
+		font: bold 12px/130% Helvetica, Arial, sans-serif;
+		height: auto;
+		margin: 0px;
+		padding: 10px 0 0;
+		width: 336px;
+	}
+
+		#Page #Main #Sidebar .JournalsBox .Headlines li {
+			background: transparent url("../images/sprites-journal-icons.v13.gif") no-repeat 14px -297px;
+			font-weight: bold;
+			list-style-type: none;
+			padding: 0px 15px 6px 38px;
+		}
+
+			#Page #Main #Sidebar .JournalsBox .Headlines li a {
+				color: #000;
+			}
+
+		#Page #Main #Sidebar .JournalsBox .Headlines .apple { background-position: 14px 3px; }
+		#Page #Main #Sidebar .JournalsBox .Headlines .thumbs { background-position: 14px -397px; }
+		#Page #Main #Sidebar .JournalsBox .Headlines .microsoft { background-position: 14px -97px; }
+		#Page #Main #Sidebar .JournalsBox .Headlines .science { background-position: 14px -197px; }
+		#Page #Main #Sidebar .JournalsBox .Headlines .linux { background-position: 14px -497px; }
+		#Page #Main #Sidebar .JournalsBox .Headlines .hardware { background-position: 14px -597px; }
+		#Page #Main #Sidebar .JournalsBox .Headlines .law { background-position: 14px -686px; }
+
+
+
+	#Page #Main #Sidebar .JournalsBox .Loading {
+		background: transparent url("../images/bouncing-ball.gif") no-repeat scroll center center;
+		height: 30px;
+	}
+
+	#Page #Main #Sidebar .JournalsBox h3
+	{
+		background-image: url("../images/journals-bottom-back.gif");
+		height: 37px;
+		margin: 0px 0px -1px 0px; padding: 0px;
+		text-align: center;
+	}
+
+		#Page #Main #Sidebar .JournalsBox h3 img{ margin-top: 14px;}
+
+
+
+
+#Page #Main #Sidebar .FromTheJournalsBox {
+    width: 336px; background-color: #bab7af; margin-bottom: 10px;
+    background-image: url("../images/jbox-staff-bkg.gif");
+    background-position: right 29px;
+    background-repeat: no-repeat;
+}
+#Page #Main #Sidebar .FromTheJournalsBox.apple{ background-image: url("../images/jbox-apple-bkg.gif"); }
+#Page #Main #Sidebar .FromTheJournalsBox.microsoft{ background-image: url("../images/jbox-ms-bkg.gif"); }
+#Page #Main #Sidebar .FromTheJournalsBox.thumbs{ background-image: url("../images/jbox-thumbs-bkg.gif"); }
+#Page #Main #Sidebar .FromTheJournalsBox.science{ background-image: url("../images/jbox-science-bkg.gif"); }
+#Page #Main #Sidebar .FromTheJournalsBox h2 {
+    margin: 0px; padding: 0px; height: 39px; padding-bottom: 6px;
+    background: url("../images/from-the-journals.gif") no-repeat top;
+}
+#Page #Main #Sidebar .FromTheJournalsBox h2 span{ display: none; }
+
+#Page #Main #Sidebar .FromTheJournalsBox h3 {
+	background: transparent url("../images/story-age-3.gif") no-repeat scroll left 3px;
+	font: bold 15px/120% Helvetica, Arial, sans-serif;
+	margin: 0px 10px 0px 20px;
+	text-indent: 15px;
+}
+
+#Page #Main #Sidebar .FromTheJournalsBox h3 a { color: #000; }
+
+#Page #Main #Sidebar .FromTheJournalsBox p { margin: 0px 10px 8px 20px; font-size: 13px; line-height: 140%; }
+#Page #Main #Sidebar .FromTheJournalsBox p.Tag { font: normal 11px/100% Helvetica, Arial, sans-serif; color: #666; }
+#Page #Main #Sidebar .FromTheJournalsBox p.Options {
+    font-size: 1px; margin: 0px;
+    padding: 0px 0px 15px 23px;
+    background: url("../images/from-the-journals-bottom.gif") no-repeat bottom;
+}
+
+
+#Page #Main #Sidebar .NewsArchiveBox .Headlines {
+	font: bold 12px/130% Helvetica, Arial, sans-serif;
+	margin: 0px;
+	padding: 10px 0 0;
+	width: 336px;
+}
+
+#Page #Main #Sidebar .NewsArchiveBox .Headlines li {
+    background-image: url("../images/news-icon-small.gif");
+    background-position: 16px 4px;
+    background-repeat: no-repeat;
+    font-weight: bold;
+	list-style-type: none;
+    padding: 0px 16px 6px 32px;
+}
+
+#Page #Main #Sidebar .NewsArchiveBox .Headlines li a {
+	color: #000;
+}
+
+#Page #Main #Sidebar .NewsArchiveBox { width: 336px; margin-bottom: 10px; background-color: #bab7af; font-size: 12px; line-height: 14px; }
+#Page #Main #Sidebar .NewsArchiveBox h2 { margin: 0px; padding: 0px; height: 30px; background: url("../images/recent-news-archive.gif") no-repeat top;}
+#Page #Main #Sidebar .NewsArchiveBox h2 span { display: none; }
+#Page #Main #Sidebar .NewsArchiveBox h3 {
+    background-image: url("../images/news-archive-bottom.gif");
+    height: 37px;
+    margin: 0px 0px -1px 0px; padding: 0px;
+    text-align: center;
+}
+#Page #Main #Sidebar .NewsArchiveBox h3 img { margin-top: 14px;}
+
+
+.Content.Page .Contact { width: 486px; margin: 10px auto 10px auto; background: #f7f7f7 url("../images/white-box-top.gif") no-repeat top; padding-top: 19px; }
+.Content.Page .Contact form, #Main div.Content.Page div.Contact h4 { padding-bottom: 11px; margin: 0px; padding-left: 20px; background: #f7f7f7 url("../images/white-box-bottom.gif") no-repeat bottom; font-size: 11px; }
+.Content.Page .Contact form.Login div.Login { width: 250px; margin: 0px auto; }
+.Content.Page .Contact form p{ font-size: 11px; margin: 0px; padding-bottom: 8px; }
+.Content.Page .Contact form p.ErrorMessage{ color: red; font-weight: bold; }
+.Content.Page .Contact form textarea { width: 444px; height: 200px; }
+.Content.Page .Contact form input.Text { width: 300px; }
+.Content.Page .Contact h4{ color: Green; padding-bottom: 19px; text-align: center; font-size: 11pt; }
+
+.Content .LinksWithImages { list-style-type: none; margin-left: 0px; padding-left: 0px; }
+.Content .LinksWithImages li img{ vertical-align: middle; margin-left: 0px; padding-left: 0px; }
+
+
+.Content.SearchResults h3.SearchHeader{ text-indent: 0px; background-image: none; margin-bottom: 24px;  }
+.Content.SearchResults h2 a { color: white; }
+
+.SearchResults #AdvancedSearch, #Main div.Content div.AuthorDetails { margin: 3px; margin-left: 0px; background: transparent url("../images/search-back-top.jpg") no-repeat top; width: 567px; margin-left: auto; margin-right: auto; margin-bottom: 15px;}
+.SearchResults #AdvancedSearch form, #Main div.Content div.AuthorDetails dl { min-height: 100px; padding: 10px 0px 10px 0px; margin: 0px; background: transparent url("../images/search-back-bottom.jpg") no-repeat bottom; width: 567px; }
+.Content .AuthorDetails dl dt { font-weight: bold; width: 48%; text-align: right; clear: left; float: left; padding-right: 2%; }
+.Content .AuthorDetails dl dd { width: 48%; padding-left: 2%; }
+.SearchResults #AdvancedSearch #searchmain table { width: 360px; margin-left: auto; margin-right: auto; margin-top: 10px; }
+
+.SearchResults table tr { font-weight: bold; text-align: right; }
+.SearchResults table td { text-align: left; padding-left: 10px;}
+.SearchResults #AdvancedSearch input#search { width: 250px;}
+.SearchResults #AdvancedSearch #searchmain td { padding-bottom: 5px; }
+
+
+.AuthorInformation {
+	background: #dcd5cf url("../images/search-back-top.jpg") no-repeat center top;
+	margin: 3px auto 15px;
+	padding: 0;
+	width: 567px;
+}
+
+.AuthorInformation h2 {
+	font: bold 16px/130% Helvetica, Arial, sans-serif;
+	margin: 0;
+	padding: 12px 18px 0;
+}
+
+.AuthorInformation .AuthorBio {
+	background: transparent url("../images/search-back-bottom.jpg") no-repeat center bottom;
+	min-height: 76px;
+	margin: 0;
+	padding: 13px 12px;
+}
+
+	.AuthorInformation .AuthorBio .Picture
+	{
+		width: 169px;
+		float: left;
+	}
+	
+	.AuthorInformation .AuthorBio .Picture em
+	{
+		display: block;
+		font-size: 80%;
+		line-height: 120%;
+		color: #5f2804;
+		padding: 6px 11px;	
+		
+	}
+	
+	.AuthorInformation .AuthorBio .Text
+	{
+		margin-left: 180px;
+		
+	}
+	
+	.AuthorInformation .AuthorBio .Text h2, .AuthorInformation .AuthorBio .Text h3, .AuthorInformation .AuthorBio .Text p
+	{
+		margin: 0px;
+		padding: 0px;
+		font-size: 13px;
+	}
+	
+		.AuthorInformation .AuthorBio .Text h2
+		{
+			font-size: 16px;	
+		}
+		
+		.AuthorInformation .AuthorBio .Text h3
+		{
+			font-size: 14px;
+		}
+		
+		.AuthorInformation .AuthorBio .Text p
+		{
+			padding-top: 18px;
+		}
+		
+		.AuthorInformation .AuthorBio .Text p.Email
+		{
+			padding: 0px;
+		}
+	
+
+/* Webb Alert Schtuff */
+
+.Webb embed
+{
+	display: block;
+	margin: 10px auto 20px auto;
+}
+
+/* Eve Advanced Instant Topic Stuff */
+
+.comments-block
+{
+	margin: 0 -18px;
+}
+
+.comments-block .comment-pagination
+{
+	float: right;
+	font-weight: bold;
+	padding-right: 15px;
+}
+
+.comments-block .comments-title{ margin: 0px 18px 0px 18px; }
+.comments-block .comments-title a
+{
+	color: Black;
+	text-decoration: none;
+	font-weight: bold;
+}
+.comments-block .comment, .comments-block .comment-alt
+{
+	margin: 5px 20px 5px 20px; clear: left;
+	position: relative;
+	padding-bottom: 15px;
+}
+
+.comments-block .comment-body{ padding: 5px 0px 5px 10px; margin: 0px; margin-bottom: 15px; padding: 5px 20px 10px 20px;  }
+
+.comment-author { background: transparent; margin: 0px; padding: 10px 20px 0px 20px; }
+.comment-author a
+{
+	color: #690000;
+	font-weight: bold;
+	text-decoration: none !important;
+}
+
+.comments-block .comment
+{
+	background: #fff url("../images/comment-light-top.gif") no-repeat center top; width: 583px; 
+}
+
+.comments-block .comment-datetime
+{
+	position: absolute;
+	width: 543px;
+	bottom: 0px;
+	text-align: right;
+	padding: 0px 20px 10px 20px; text-align: right; color: #666666; 
+}
+
+.comments-block .comment .comment-datetime
+{
+	background: #ffffff url("../images/comment-light-bottom.gif") no-repeat bottom;	
+}
+
+.comments-block .comment-tools 
+{
+	position: absolute;
+	top: 5px;
+	right: 5px;
+}
+
+.comments-block .comment-tools .comment-delete-link, .comments-block .comment-tools .comment-edit-link
+{
+	display: none;
+}
+
+.comment-posting-form
+{
+	width: 583px;
+	margin: 10px auto;
+	padding-top: 15px;
+	padding-bottom: 50px;
+	text-align: right;
+}
+
+.comment-posting-form textarea
+{
+	width: 580px;
+	height: 150px;
+}
+
+/*
+
+.Content .Comments { background-color:#eeeeee; display: none; margin: 0 -18px; }
+.Content .Comments h3{ margin: 0px; padding: 16px 0px 10px 20px; float: left; font-size: 12px; color: Black; }
+.Content .Comments .Pages { display: none; text-align: right; padding: 16px 35px 10px 20px; font: bold 12px/100% Helvetica, Arial, sans-serif; color: Black; position: relative; margin: 0px; }
+.Content .Comments .Pages a.Inactive{ color: #999999; }
+.Content .Comments .Comment { margin: 5px 20px 5px 20px; clear: left;  }
+.Content .Comments .Comment.Light{ background: #fff url("../images/comment-light-top.gif") no-repeat center top; width: 583px; }
+.Content .Comments .Comment h4{ background: transparent; margin: 0px; padding: 10px 20px 0px 20px; }
+.Content .Comments .Comment h4 a{ color: #690000;}
+.Content .Comments .Comment p{ padding: 5px 0px 5px 0px; margin: 0px;  }
+.Content .Comments .Comment .Body{ background-color: Transparent; margin: 0px; padding: 5px 20px 10px 20px; }
+.Content .Comments .Comment p.Tag{ padding: 0px 20px 10px 20px; text-align: right; color: #666666; }
+.Content .Comments .Comment.Light p.Tag{ background: #ffffff url("../images/comment-light-bottom.gif") no-repeat bottom;}
+.Content .Comments .Comment.Light.Error h4{ color: #CC0000; }
+.Content .Comments .Comment.Light p.Message{ padding: 10px 20px 10px 20px; }
+.Content .Comments .Comment.Light.Loading h4{ color: #00CC00; }
+.Content .Comments .Comment.Light.Loading p.Message { padding-bottom: 25px; background: transparent url("../images/comments-loading.gif") no-repeat bottom center; }
+.Content .Comments p.ReplyOptions{ padding: 10px 0px 10px 0px; }
+
+*/
+
+.Body p.Survey, .ContentBody p.Survey
+{
+	position: relative;
+}
+.Body .Survey .Close, .ContentBody .Survey .Close
+{
+	position: absolute;
+	top: 0px;
+	right: 4px;
+}

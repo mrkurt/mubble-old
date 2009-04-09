@@ -1,0 +1,31 @@
+<%@	Master Language="vb" Inherits="Mubble.UI.AdminMasterPage"%>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" >
+<head runat="server">
+	<title></title>
+	<link rel="Stylesheet" href='<%#ResolveUrl("style.css")%>' runat="server" />
+	<link rel="Stylesheet" href='<%#ResolveUrl("styles/popup.css")%>' runat="server" />
+	<script type="text/javascript" src="<%# ResolveUrl("ui.js")%>"></script>
+	<script language="javascript" type="text/javascript" src="<%# ResolveUrl("~/jscripts/tiny_mce/tiny_mce_popup.js")%>"></script>
+	<asp:contentplaceholder id="PageHead" runat="server"></asp:contentplaceholder>
+	<script type="text/javascript">
+    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+    var pageTracker = _gat._getTracker("UA-1816525-1");
+    pageTracker._setDomainName("mubble.net");
+    pageTracker._initData();
+    pageTracker._trackPageview();
+    </script>
+</head>
+<body onload="tinyMCEPopup.executeOnLoad('init();');">
+        <asp:ContentPlaceHolder ID="SubMenuLinks" Visible="false" runat="server">
+        </asp:ContentPlaceHolder>
+    <div id="ContentArea">
+        <asp:contentplaceholder id="Content" runat="server" />
+    </div>      
+</body>
+</html>

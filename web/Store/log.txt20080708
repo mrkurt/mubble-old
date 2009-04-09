@@ -1,0 +1,8 @@
+INFO  2008-07-08 15:50:44,364 20637ms Lucene                 ResetSearcher      - Opened searcher
+INFO  2008-07-08 15:50:45,103 21376ms Global                 Application_Start  - Application startup too 00:00:20.4250000
+INFO  2008-07-08 15:51:03,775 40048ms BenchmarkModule        EndRequest         - Request for /mubble/business.aspx took 17.593 seconds to load. 89 queries.
+INFO  2008-07-08 15:51:49,893 86166ms BenchmarkModule        EndRequest         - Request for /mubble/security.aspx took 5.053 seconds to load. 0 queries.
+INFO  2008-07-08 15:52:08,170 104443ms BenchmarkModule        EndRequest         - Request for /mubble/news.aspx/post/20080110-intel-responds-to-new-antitrust-inquiry-by-new-york-ag.html took 3.687 seconds to load. 11 queries.
+INFO  2008-07-08 15:53:29,979 186252ms BenchmarkModule        EndRequest         - Request for /mubble/business.aspx took 1.022 seconds to load. 0 queries.
+INFO  2008-07-08 15:56:55,915 392188ms BenchmarkModule        EndRequest         - Request for /mubble/business.aspx took 4.368 seconds to load. 0 queries.
+INFO  2008-07-08 16:02:19,914 716187ms BenchmarkModule        EndRequest         - Request for /mubble/news.aspx/post/20080110-intel-responds-to-new-antitrust-inquiry-by-new-york-ag.html took 4.141 seconds to load. 2 queries.

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<schema name="mubble" version="1.0" defaultSearchField="Text" uniqueKey="ID">
+	<fields>
+		<field name="ID" indexed="true" stored="true" required="true" />
+		<field name="Title" indexed="true" stored="false" required="true" />
+		<field name="Author" indexed="true" stored="false" multiValued="true" />
+		<field name="ContentItemID" indexed="true" stored="true" />
+		<field name="Tag" store="no" index="untokenized" />
+		<field name="Text" store="no" index="tokenized" termVector="yes" />
+		<field name="PublishDate" type="DateTime" resolution="minute" />
+	</fields>
+</schema>

@@ -1,0 +1,90 @@
+INFO  2008-03-28 11:44:04,493 21757ms Lucene                 ResetSearcher      - Opened searcher
+INFO  2008-03-28 11:44:04,825 22089ms Global                 Application_Start  - Application startup too 00:00:21.5540000
+INFO  2008-03-28 11:44:05,571 22835ms AdminHandler           ocessMubbleRequest - Loading old style admin interface for /mubble/index.admin.aspx/browse
+INFO  2008-03-28 11:44:09,685 26949ms BenchmarkModule        EndRequest         - Request for /mubble/index.admin.aspx/browse took 4.593 seconds to load. 109 queries.
+INFO  2008-03-28 11:46:53,815 191079ms AdminHandler           ocessMubbleRequest - Loading old style admin interface for /mubble/index.admin.aspx/browse/add
+INFO  2008-03-28 11:47:02,053 199317ms AdminHandler           ocessMubbleRequest - Loading old style admin interface for /mubble/index.admin.aspx/browse/add
+INFO  2008-03-28 11:47:05,155 202419ms BenchmarkModule        EndRequest         - Request for /mubble/index.admin.aspx/browse/add took 3.116 seconds to load. 17 queries.
+INFO  2008-03-28 11:47:05,167 202431ms AdminHandler           ocessMubbleRequest - Loading old style admin interface for /mubble/security.admin.aspx
+INFO  2008-03-28 11:47:05,753 203017ms Lucene                 ResetSearcher      - Opened searcher
+INFO  2008-03-28 11:47:15,423 212687ms AdminHandler           ocessMubbleRequest - Loading old style admin interface for /mubble/security.admin.aspx
+INFO  2008-03-28 11:47:15,991 213255ms Lucene                 ResetSearcher      - Opened searcher
+INFO  2008-03-28 11:47:23,419 220683ms BenchmarkModule        EndRequest         - Request for /mubble/security.aspx took 5.021 seconds to load. 7 queries.
+INFO  2008-03-28 12:18:40,181  5328ms Lucene                 ResetSearcher      - Opened searcher
+INFO  2008-03-28 12:18:40,270  5417ms Global                 Application_Start  - Application startup too 00:00:05.3050000
+INFO  2008-03-28 12:18:41,538  6685ms BenchmarkModule        EndRequest         - Request for /mubble/security.aspx took 1.227 seconds to load. 79 queries.
+INFO  2008-03-28 12:20:10,219 95366ms AdminHandler           ocessMubbleRequest - Loading old style admin interface for /mubble/security.admin.aspx
+INFO  2008-03-28 12:20:12,978 98125ms BenchmarkModule        EndRequest         - Request for /mubble/security.admin.aspx took 2.781 seconds to load. 12 queries.
+INFO  2008-03-28 12:20:30,133 115280ms AdminHandler           ocessMubbleRequest - Loading old style admin interface for /mubble/security.admin.aspx
+INFO  2008-03-28 12:20:31,194 116341ms Lucene                 ResetSearcher      - Opened searcher
+INFO  2008-03-28 12:20:32,469 117616ms AdminHandler           ocessMubbleRequest - Loading old style admin interface for /mubble/security.admin.aspx/browse
+INFO  2008-03-28 12:20:40,895 126042ms BenchmarkModule        EndRequest         - Request for /mubble/security.aspx took 4.743 seconds to load. 4 queries.
+INFO  2008-03-28 12:27:48,956 554103ms BenchmarkModule        EndRequest         - Request for /mubble/security.aspx took 1.68 seconds to load. 0 queries.
+INFO  2008-03-28 12:36:51,591 1096738ms BenchmarkModule        EndRequest         - Request for /mubble/security.aspx took 1.609 seconds to load. 0 queries.
+INFO  2008-03-28 12:46:14,682 1659829ms AdminHandler           ocessMubbleRequest - Loading old style admin interface for /mubble/security.admin.aspx
+INFO  2008-03-28 12:46:19,942 1665089ms BenchmarkModule        EndRequest         - Request for /mubble/security.aspx took 1.996 seconds to load. 1 queries.
+INFO  2008-03-28 12:49:02,094 1827241ms BenchmarkModule        EndRequest         - Request for /mubble/security.aspx took 1.735 seconds to load. 0 queries.
+INFO  2008-03-28 12:49:08,028 1833175ms BenchmarkModule        EndRequest         - Request for /mubble/index.aspx took 1.373 seconds to load. 1 queries.
+INFO  2008-03-28 12:51:37,701 1982848ms BenchmarkModule        EndRequest         - Request for /mubble/gadgets.aspx took 1.925 seconds to load. 3 queries.
+INFO  2008-03-28 13:01:23,297 2568444ms BenchmarkModule        EndRequest         - Request for /mubble/security.aspx took 2.37 seconds to load. 1 queries.
+INFO  2008-03-28 13:06:26,077 2871224ms BenchmarkModule        EndRequest         - Request for /mubble/security.aspx took 1.742 seconds to load. 0 queries.
+INFO  2008-03-28 13:11:37,277 3182424ms BenchmarkModule        EndRequest         - Request for /mubble/index.aspx took 1.702 seconds to load. 1 queries.
+INFO  2008-03-28 13:19:11,498 3636645ms BenchmarkModule        EndRequest         - Request for /mubble/index.aspx took 2.427 seconds to load. 0 queries.
+INFO  2008-03-28 13:24:55,166 3980313ms BenchmarkModule        EndRequest         - Request for /mubble/security.aspx took 1.765 seconds to load. 0 queries.
+INFO  2008-03-28 13:33:39,856 4505003ms BenchmarkModule        EndRequest         - Request for /mubble/security.aspx took 7.94 seconds to load. 1 queries.
+INFO  2008-03-28 13:39:25,222 4850369ms BenchmarkModule        EndRequest         - Request for /mubble/security.aspx took 1.653 seconds to load. 0 queries.
+ERROR 2008-03-28 13:41:16,590 4961737ms BenchmarkModule        RequestError       - An error occured while processing /mubble/security.aspx for ::1
+System.Web.HttpParseException: C:\Users\Kurt\Documents\Projects\Mubble\web\Templates\ars\Bubbles.ascx(16): error BC30560: 'templates_ars_bubbles_jobs_ascx' is ambiguous in the namespace 'ASP'. ---> System.Web.HttpCompileException: C:\Users\Kurt\Documents\Projects\Mubble\web\Templates\ars\Bubbles.ascx(16): error BC30560: 'templates_ars_bubbles_jobs_ascx' is ambiguous in the namespace 'ASP'.
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.UI.BaseTemplateParser.GetReferencedType(VirtualPath virtualPath, Boolean allowNoCompile)
+   at System.Web.UI.BaseTemplateParser.GetUserControlType(VirtualPath virtualPath)
+   at System.Web.UI.MainTagNameToTypeMapper.ProcessUserControlRegistration(UserControlRegisterEntry ucRegisterEntry)
+   at System.Web.UI.BaseTemplateParser.ProcessDirective(String directiveName, IDictionary directive)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   --- End of inner exception stack trace ---
+   at System.Web.UI.TemplateParser.ProcessException(Exception ex)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseFile(String physicalPath, VirtualPath virtualPath)
+   at System.Web.UI.TemplateParser.ParseInternal()
+   at System.Web.UI.TemplateParser.Parse()
+   at System.Web.Compilation.BaseTemplateBuildProvider.get_CodeCompilerType()
+   at System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   at System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.UI.MasterPage.CreateMaster(TemplateControl owner, HttpContext context, VirtualPath masterPageFile, IDictionary contentTemplateCollection)
+   at System.Web.UI.Page.get_Master()
+   at System.Web.UI.Page.ApplyMasterPage()
+   at System.Web.UI.Page.PerformPreInit()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.templates_ars_modules_sections_query_aspx_views_section_aspx.ProcessRequest(HttpContext context)
+   at Mubble.Handlers.HtmlHandler.ProcessMubbleRequest(HttpContext context) in C:\Users\Kurt\Documents\Projects\Mubble\MubbleCore\Handlers\HtmlHandler.cs:line 52
+   at Mubble.Handlers.HttpHandler.ProcessRequest(HttpContext context) in C:\Users\Kurt\Documents\Projects\Mubble\MubbleCore\Handlers\HttpHandler.cs:line 95
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+INFO  2008-03-28 13:41:16,629 4961776ms BenchmarkModule        EndRequest         - Request for /mubble/security.aspx took 2.696 seconds to load. 0 queries.
+INFO  2008-03-28 13:41:22,850  4114ms Lucene                 ResetSearcher      - Opened searcher
+INFO  2008-03-28 13:41:22,941  4205ms Global                 Application_Start  - Application startup too 00:00:03.6930000
+INFO  2008-03-28 13:41:29,261 10525ms BenchmarkModule        EndRequest         - Request for /mubble/security.aspx took 6.275 seconds to load. 81 queries.
+INFO  2008-03-28 13:46:47,667 328931ms BenchmarkModule        EndRequest         - Request for /mubble/security.aspx took 1.675 seconds to load. 0 queries.
+INFO  2008-03-28 13:52:14,344 655608ms BenchmarkModule        EndRequest         - Request for /mubble/security.aspx took 1.723 seconds to load. 1 queries.
+INFO  2008-03-28 14:05:40,211 1461475ms BenchmarkModule        EndRequest         - Request for /mubble/security.aspx took 4.037 seconds to load. 10 queries.
+INFO  2008-03-28 14:17:42,549  3329ms Lucene                 ResetSearcher      - Opened searcher
+INFO  2008-03-28 14:17:42,699  3479ms Global                 Application_Start  - Application startup too 00:00:03.3860000
+INFO  2008-03-28 14:17:51,059 11839ms BenchmarkModule        EndRequest         - Request for /mubble/security.aspx took 8.319 seconds to load. 81 queries.
+INFO  2008-03-28 14:18:11,843 32623ms BenchmarkModule        EndRequest         - Request for /mubble/login.aspx took 1.059 seconds to load. 5 queries.
+INFO  2008-03-28 14:19:05,732 86512ms BenchmarkModule        EndRequest         - Request for /mubble/security.aspx took 1.281 seconds to load. 0 queries.
+INFO  2008-03-28 14:20:05,684 146464ms BenchmarkModule        EndRequest         - Request for /mubble/login.aspx took 1.476 seconds to load. 0 queries.
+INFO  2008-03-28 14:20:46,745 187525ms BenchmarkModule        EndRequest         - Request for /mubble/security.aspx took 1.869 seconds to load. 0 queries.
+INFO  2008-03-28 14:21:09,396 210176ms BenchmarkModule        EndRequest         - Request for /mubble/security.aspx took 1.81 seconds to load. 0 queries.
+INFO  2008-03-28 14:39:18,190 1298970ms BenchmarkModule        EndRequest         - Request for /mubble/security.aspx took 1.748 seconds to load. 10 queries.

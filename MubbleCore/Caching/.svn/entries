@@ -1,0 +1,40 @@
+8
+
+dir
+661
+http://svn.mubble.net/mubble/trunk/MubbleCore/Caching
+http://svn.mubble.net/mubble
+
+
+
+2007-02-05T23:42:05.396044Z
+346
+kurt
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+e9299cb4-260d-0410-a363-f84a8d58d427
+
+CacheBroker.cs
+file
+
+
+
+
+2007-11-27T14:46:52.812131Z
+33f34807d63fb830399cf9674318d960
+2007-02-05T23:42:05.396044Z
+346
+kurt
+

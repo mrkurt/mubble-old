@@ -1,0 +1,24 @@
+INFO  2008-08-29 08:56:43,709 17569ms Lucene                 ResetSearcher      - Opened searcher
+INFO  2008-08-29 08:56:44,124 17984ms Global                 Application_Start  - Application startup too 00:00:17.7690000
+INFO  2008-08-29 08:56:55,676 29536ms BenchmarkModule        EndRequest         - Request for /mubble/news.aspx/post/20080110-intel-responds-to-new-antitrust-inquiry-by-new-york-ag.html?comments=1 took 11.089 seconds to load. 148 queries.
+INFO  2008-08-29 12:48:51,984  6813ms Lucene                 ResetSearcher      - Opened searcher
+INFO  2008-08-29 12:48:52,082  6911ms Global                 Application_Start  - Application startup too 00:00:06.7390000
+INFO  2008-08-29 12:49:04,573 19402ms BenchmarkModule        EndRequest         - Request for /mubble/news.aspx/post/20080110-intel-responds-to-new-antitrust-inquiry-by-new-york-ag.html?comments=1 took 12.388 seconds to load. 58 queries.
+INFO  2008-08-29 12:49:05,775 20604ms BenchmarkModule        EndRequest         - Request for /mubble/news.aspx/post/20080110-intel-responds-to-new-antitrust-inquiry-by-new-york-ag.html?comments=1 took 13.591 seconds to load. 91 queries.
+INFO  2008-08-29 12:54:10,692 325521ms BenchmarkModule        EndRequest         - Request for /mubble/news.aspx/post/20080110-intel-responds-to-new-antitrust-inquiry-by-new-york-ag.html?comments=1 took 3.397 seconds to load. 1 queries.
+INFO  2008-08-29 13:06:11,668 1046497ms BenchmarkModule        EndRequest         - Request for /mubble/news.aspx/post/20080110-intel-responds-to-new-antitrust-inquiry-by-new-york-ag.html?comments=1 took 3.216 seconds to load. 71 queries.
+INFO  2008-08-29 14:06:29,045  5116ms Lucene                 ResetSearcher      - Opened searcher
+INFO  2008-08-29 14:06:29,140  5211ms Global                 Application_Start  - Application startup too 00:00:05.0890000
+INFO  2008-08-29 14:06:38,865 14936ms BenchmarkModule        EndRequest         - Request for /mubble/news.aspx/post/20080110-intel-responds-to-new-antitrust-inquiry-by-new-york-ag.html?comments=1 took 9.648 seconds to load. 148 queries.
+INFO  2008-08-29 14:12:22,039 358110ms BenchmarkModule        EndRequest         - Request for /mubble/news.aspx/post/20080110-intel-responds-to-new-antitrust-inquiry-by-new-york-ag.html?comments=1 took 3.225 seconds to load. 1 queries.
+INFO  2008-08-29 14:31:24,195 1500266ms BenchmarkModule        EndRequest         - Request for /mubble/news.aspx/post/20080110-intel-responds-to-new-antitrust-inquiry-by-new-york-ag.html?comments=1 took 3.934 seconds to load. 71 queries.
+INFO  2008-08-29 14:40:02,182 2018253ms BenchmarkModule        EndRequest         - Request for /mubble/news.aspx/post/20080110-intel-responds-to-new-antitrust-inquiry-by-new-york-ag.html?comments=1 took 3.92 seconds to load. 1 queries.
+INFO  2008-08-29 14:45:34,238 2350309ms BenchmarkModule        EndRequest         - Request for /mubble/news.aspx/post/20080110-intel-responds-to-new-antitrust-inquiry-by-new-york-ag.html?comments=1 took 3.173 seconds to load. 1 queries.
+INFO  2008-08-29 14:52:03,213 2739284ms BenchmarkModule        EndRequest         - Request for /mubble/news.aspx/post/20080110-intel-responds-to-new-antitrust-inquiry-by-new-york-ag.html?comments=1 took 2.986 seconds to load. 1 queries.
+INFO  2008-08-29 14:57:18,360 3054431ms BenchmarkModule        EndRequest         - Request for /mubble/news.aspx/post/20080110-intel-responds-to-new-antitrust-inquiry-by-new-york-ag.html?comments=1 took 3.383 seconds to load. 1 queries.
+INFO  2008-08-29 15:13:26,290 4022361ms BenchmarkModule        EndRequest         - Request for /mubble/news.aspx/post/20080110-intel-responds-to-new-antitrust-inquiry-by-new-york-ag.html?comments=1 took 3.532 seconds to load. 71 queries.
+INFO  2008-08-29 15:31:59,786 5135857ms BenchmarkModule        EndRequest         - Request for /mubble/news.aspx/post/20080110-intel-responds-to-new-antitrust-inquiry-by-new-york-ag.html?comments=1 took 4.269 seconds to load. 71 queries.
+INFO  2008-08-29 15:37:51,327 5487398ms BenchmarkModule        EndRequest         - Request for /mubble/news.aspx/post/20080110-intel-responds-to-new-antitrust-inquiry-by-new-york-ag.html?comments=1 took 3.345 seconds to load. 1 queries.
+INFO  2008-08-29 15:43:50,117 5846188ms BenchmarkModule        EndRequest         - Request for /mubble/news.aspx/post/20080110-intel-responds-to-new-antitrust-inquiry-by-new-york-ag.html?comments=1 took 3.337 seconds to load. 3 queries.
+INFO  2008-08-29 15:50:28,738 6244809ms BenchmarkModule        EndRequest         - Request for /mubble/news.aspx/post/20080110-intel-responds-to-new-antitrust-inquiry-by-new-york-ag.html?comments=1 took 3.283 seconds to load. 1 queries.
+INFO  2008-08-29 15:55:57,136 6573207ms BenchmarkModule        EndRequest         - Request for /mubble/news.aspx/post/20080110-intel-responds-to-new-antitrust-inquiry-by-new-york-ag.html?comments=1 took 3.096 seconds to load. 1 queries.

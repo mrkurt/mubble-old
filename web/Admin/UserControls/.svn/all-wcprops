@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/mubble/!svn/ver/644/trunk/web/Admin/UserControls
+END
+SectionPicker.ascx
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/mubble/!svn/ver/104/trunk/web/Admin/UserControls/SectionPicker.ascx
+END
+DiscussionOptions.ascx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/mubble/!svn/ver/544/trunk/web/Admin/UserControls/DiscussionOptions.ascx.cs
+END
+ModulePicker.ascx
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/mubble/!svn/ver/2/trunk/web/Admin/UserControls/ModulePicker.ascx
+END
+ModuleControlView.ascx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/mubble/!svn/ver/119/trunk/web/Admin/UserControls/ModuleControlView.ascx.cs
+END
+SectionPicker.ascx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/mubble/!svn/ver/25/trunk/web/Admin/UserControls/SectionPicker.ascx.cs
+END
+ModulePicker.ascx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/mubble/!svn/ver/104/trunk/web/Admin/UserControls/ModulePicker.ascx.cs
+END
+DiscussionOptions.ascx
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/mubble/!svn/ver/544/trunk/web/Admin/UserControls/DiscussionOptions.ascx
+END
+ModuleControlView.ascx
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/mubble/!svn/ver/119/trunk/web/Admin/UserControls/ModuleControlView.ascx
+END

@@ -1,0 +1,55 @@
+8
+
+dir
+672
+http://svn.mubble.net/mubble/trunk/Vendor/ASP.NET%20MVC/Assemblies
+http://svn.mubble.net/mubble
+
+
+
+2008-03-15T23:04:41.329605Z
+672
+kurt
+
+
+svn:special svn:externals svn:needs-lock
+
+System.Web.Routing.dll
+file
+
+
+
+
+2008-02-27T22:18:00.000000Z
+c10b5a3820f2f00e31e37a7b797cea01
+2008-03-15T23:04:41.329605Z
+672
+kurt
+has-props
+
+System.Web.Abstractions.dll
+file
+
+
+
+
+2008-02-27T22:17:58.000000Z
+e2fdf053c56789d3e94e5a706484a921
+2008-03-15T23:04:41.329605Z
+672
+kurt
+has-props
+
+System.Web.Mvc.dll
+file
+
+
+
+
+2008-02-27T22:18:06.000000Z
+30e5b01529f197e8cbdcc1ab882d195c
+2008-03-15T23:04:41.329605Z
+672
+kurt
+has-props
+

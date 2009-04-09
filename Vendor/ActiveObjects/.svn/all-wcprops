@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/mubble/!svn/ver/599/trunk/Vendor/ActiveObjects
+END
+ActiveObjects.dll
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/mubble/!svn/ver/599/trunk/Vendor/ActiveObjects/ActiveObjects.dll
+END
+Creator.exe
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/mubble/!svn/ver/599/trunk/Vendor/ActiveObjects/Creator.exe
+END
+Microsoft.SqlServer.BatchParser.dll
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/mubble/!svn/ver/599/trunk/Vendor/ActiveObjects/Microsoft.SqlServer.BatchParser.dll
+END
+Creator.exe.config
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/mubble/!svn/ver/599/trunk/Vendor/ActiveObjects/Creator.exe.config
+END
+Creator.pdb
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/mubble/!svn/ver/599/trunk/Vendor/ActiveObjects/Creator.pdb
+END
+Sample.config.xml
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/mubble/!svn/ver/599/trunk/Vendor/ActiveObjects/Sample.config.xml
+END
+ActiveObjects.pdb
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/mubble/!svn/ver/599/trunk/Vendor/ActiveObjects/ActiveObjects.pdb
+END
+MigrationTemplate.cs
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/mubble/!svn/ver/599/trunk/Vendor/ActiveObjects/MigrationTemplate.cs
+END
+Microsoft.SqlServer.Replication.dll
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/mubble/!svn/ver/599/trunk/Vendor/ActiveObjects/Microsoft.SqlServer.Replication.dll
+END

@@ -1,0 +1,215 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B262DF37-2B80-4093-917A-A5BDBE187F28}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Mubble.Models</RootNamespace>
+    <AssemblyName>Mubble.Models</AssemblyName>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Test|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Test\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ActiveObjects, Version=0.1.2500.26684, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Vendor\ActiveObjects\ActiveObjects.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Vendor\log4net\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Lucene.Net, Version=1.9.1.3, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Vendor\Lucene.Net-1.9.1-003\Lucene.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="MiscUtil, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Vendor\MiscUtil\MiscUtil.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Config\TemplateDefinition.cs" />
+    <Compile Include="ContentSettings.cs" />
+    <Compile Include="ControllerIndexingOptions.cs" />
+    <Compile Include="Controllers\Article.cs" />
+    <Compile Include="Controllers\Section.cs" />
+    <Compile Include="Filters\NormalizeStringFilterAttribute.cs" />
+    <Compile Include="Filters\String.cs" />
+    <Compile Include="Filters\UrlFriendlyFilterAttribute.cs" />
+    <Compile Include="HasMetadata.cs" />
+    <Compile Include="ICustomIndexing.cs" />
+    <Compile Include="IsIndexable.cs" />
+    <Compile Include="LockedDown.cs" />
+    <Compile Include="MetaDataCollection.cs" />
+    <Compile Include="PermissionsCollection.cs" />
+    <Compile Include="PostIndexingOptions.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Controller.cs" />
+    <Compile Include="Controller.activeobjects.cs">
+      <DependentUpon>Controller.cs</DependentUpon>
+    </Compile>
+    <Compile Include="File.cs" />
+    <Compile Include="File.activeobjects.cs">
+      <DependentUpon>File.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Module.cs" />
+    <Compile Include="Module.activeobjects.cs">
+      <DependentUpon>Module.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Page.cs" />
+    <Compile Include="Page.activeobjects.cs">
+      <DependentUpon>Page.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Post.cs" />
+    <Compile Include="Post.activeobjects.cs">
+      <DependentUpon>Post.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PublishStatus.cs" />
+    <Compile Include="QueryEngine\Content.cs" />
+    <Compile Include="RequirePermissionsAttribute.cs" />
+    <Compile Include="Settings\Application.cs" />
+    <Compile Include="Settings\Lucene.cs" />
+    <Compile Include="Settings\Web.cs" />
+    <Compile Include="Template.cs" />
+    <Compile Include="Template.activeobjects.cs">
+      <DependentUpon>Template.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Link.cs" />
+    <Compile Include="UrlRedirect.cs" />
+    <Compile Include="UrlRedirect.activeobjects.cs">
+      <DependentUpon>UrlRedirect.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tag.cs" />
+    <Compile Include="Tag.activeobjects.cs">
+      <DependentUpon>Tag.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Permission.cs" />
+    <Compile Include="Permission.activeobjects.cs">
+      <DependentUpon>Permission.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Route.cs" />
+    <Compile Include="Route.activeobjects.cs">
+      <DependentUpon>Route.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminControl.cs" />
+    <Compile Include="AdminControl.activeobjects.cs">
+      <DependentUpon>AdminControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PermissionFlag.cs" />
+    <Compile Include="PermissionFlag.activeobjects.cs">
+      <DependentUpon>PermissionFlag.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModuleControl.cs" />
+    <Compile Include="ModuleControl.activeobjects.cs">
+      <DependentUpon>ModuleControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Author.cs" />
+    <Compile Include="Author.activeobjects.cs">
+      <DependentUpon>Author.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DiscussionProvider.cs" />
+    <Compile Include="DiscussionProvider.activeobjects.cs">
+      <DependentUpon>DiscussionProvider.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Discussion.cs" />
+    <Compile Include="Discussion.activeobjects.cs">
+      <DependentUpon>Discussion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ScheduledCommand.cs" />
+    <Compile Include="ScheduledCommand.activeobjects.cs">
+      <DependentUpon>ScheduledCommand.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RssFeed.cs" />
+    <Compile Include="RssFeed.activeobjects.cs">
+      <DependentUpon>RssFeed.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SentEmail.cs" />
+    <Compile Include="SentEmail.activeobjects.cs">
+      <DependentUpon>SentEmail.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Benchmark.cs" />
+    <Compile Include="Comment.cs" />
+    <Compile Include="CommentCollection.cs" />
+    <Compile Include="ContentType.cs" />
+    <Compile Include="Controllers\Authors.cs" />
+    <Compile Include="Controllers\Blog.cs" />
+    <Compile Include="Controllers\Email.cs" />
+    <Compile Include="Controllers\ControllerWithDiscussion.cs" />
+    <Compile Include="Controllers\IMailable.cs" />
+    <Compile Include="Controllers\Query.cs" />
+    <Compile Include="DiscussionStatus.cs" />
+    <Compile Include="DiscussionUnavailableException.cs" />
+    <Compile Include="HasDiscussion.cs" />
+    <Compile Include="IAuthors.cs" />
+    <Compile Include="IContent.cs" />
+    <Compile Include="IDiscussable.cs" />
+    <Compile Include="ILinkable.cs" />
+    <Compile Include="IMetaData.cs" />
+    <Compile Include="IRssItem.cs" />
+    <Compile Include="IStringFields.cs" />
+    <Compile Include="ITitleImage.cs" />
+    <Compile Include="LinkParameters.cs" />
+    <Compile Include="QueryEngine\BooleanClause.cs" />
+    <Compile Include="QueryEngine\ContentList.cs" />
+    <Compile Include="QueryEngine\Engine.cs" />
+    <Compile Include="QueryEngine\Document.cs" />
+    <Compile Include="QueryEngine\Engines\Indexer.cs" />
+    <Compile Include="QueryEngine\Engines\LuceneMetrics.cs" />
+    <Compile Include="QueryEngine\Engines\LuceneQueryTranslator.cs" />
+    <Compile Include="QueryEngine\Field.cs" />
+    <Compile Include="QueryEngine\FieldType.cs" />
+    <Compile Include="QueryEngine\Engines\Lucene.cs" />
+    <Compile Include="QueryEngine\Query.cs" />
+    <Compile Include="QueryEngine\QueryClause.cs" />
+    <Compile Include="QueryEngine\QueryResults.cs" />
+    <Compile Include="QueryEngine\TermClause.cs" />
+    <Compile Include="RouteParameters.cs" />
+    <Compile Include="Tools.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

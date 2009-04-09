@@ -1,0 +1,461 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/mubble/!svn/ver/656/trunk/DatabaseRefactoring/NewStructure
+END
+033_PostCrudProcedures (Legacy)_down.sql
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/mubble/!svn/ver/650/trunk/DatabaseRefactoring/NewStructure/033_PostCrudProcedures%20(Legacy)_down.sql
+END
+003_CreateAuthors_down.sql
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/mubble/!svn/ver/639/trunk/DatabaseRefactoring/NewStructure/003_CreateAuthors_down.sql
+END
+015_CreatePermissions.sql
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/mubble/!svn/ver/639/trunk/DatabaseRefactoring/NewStructure/015_CreatePermissions.sql
+END
+034_OtherCrudProcedures (Legacy).sql
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/mubble/!svn/ver/650/trunk/DatabaseRefactoring/NewStructure/034_OtherCrudProcedures%20(Legacy).sql
+END
+027_CreateAdminControls.sql
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/mubble/!svn/ver/650/trunk/DatabaseRefactoring/NewStructure/027_CreateAdminControls.sql
+END
+025_CreateTextBlocks.sql
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/mubble/!svn/ver/649/trunk/DatabaseRefactoring/NewStructure/025_CreateTextBlocks.sql
+END
+018_CreateScheduledCommands.sql
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/mubble/!svn/ver/639/trunk/DatabaseRefactoring/NewStructure/018_CreateScheduledCommands.sql
+END
+026_AttachTextBlocksToContentAndPages.sql
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/mubble/!svn/ver/650/trunk/DatabaseRefactoring/NewStructure/026_AttachTextBlocksToContentAndPages.sql
+END
+migrate.bat
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/mubble/!svn/ver/639/trunk/DatabaseRefactoring/NewStructure/migrate.bat
+END
+002_CreateControllers_down.sql
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/mubble/!svn/ver/639/trunk/DatabaseRefactoring/NewStructure/002_CreateControllers_down.sql
+END
+028_SprocsForAdminControls (Legacy)_down.sql
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/mubble/!svn/ver/650/trunk/DatabaseRefactoring/NewStructure/028_SprocsForAdminControls%20(Legacy)_down.sql
+END
+020_CreateContentTypes.sql
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/mubble/!svn/ver/639/trunk/DatabaseRefactoring/NewStructure/020_CreateContentTypes.sql
+END
+011_CreateModuleControls_down.sql
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/mubble/!svn/ver/639/trunk/DatabaseRefactoring/NewStructure/011_CreateModuleControls_down.sql
+END
+009_CreateFiles_down.sql
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/mubble/!svn/ver/639/trunk/DatabaseRefactoring/NewStructure/009_CreateFiles_down.sql
+END
+005_CreateUrlRedirects_down.sql
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/mubble/!svn/ver/639/trunk/DatabaseRefactoring/NewStructure/005_CreateUrlRedirects_down.sql
+END
+001_CreateContentItems_down.sql
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/mubble/!svn/ver/639/trunk/DatabaseRefactoring/NewStructure/001_CreateContentItems_down.sql
+END
+006_CreateTags.sql
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/mubble/!svn/ver/639/trunk/DatabaseRefactoring/NewStructure/006_CreateTags.sql
+END
+008_CreateDiscussions_down.sql
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/mubble/!svn/ver/639/trunk/DatabaseRefactoring/NewStructure/008_CreateDiscussions_down.sql
+END
+010_CreateModules.sql
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/mubble/!svn/ver/639/trunk/DatabaseRefactoring/NewStructure/010_CreateModules.sql
+END
+008_CreateDiscussions.sql
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/mubble/!svn/ver/639/trunk/DatabaseRefactoring/NewStructure/008_CreateDiscussions.sql
+END
+007_CreateDiscussionProviders_down.sql
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/mubble/!svn/ver/639/trunk/DatabaseRefactoring/NewStructure/007_CreateDiscussionProviders_down.sql
+END
+024_AddContentTypes_down.sql
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/mubble/!svn/ver/639/trunk/DatabaseRefactoring/NewStructure/024_AddContentTypes_down.sql
+END
+004_AttachAuthorsToContentItems_down.sql
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/mubble/!svn/ver/639/trunk/DatabaseRefactoring/NewStructure/004_AttachAuthorsToContentItems_down.sql
+END
+018_CreateScheduledCommands_down.sql
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/mubble/!svn/ver/639/trunk/DatabaseRefactoring/NewStructure/018_CreateScheduledCommands_down.sql
+END
+022_AttachTemplatesToControllers_down.sql
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/mubble/!svn/ver/639/trunk/DatabaseRefactoring/NewStructure/022_AttachTemplatesToControllers_down.sql
+END
+023_TriggerToSetContentPaths_down.sql
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/mubble/!svn/ver/639/trunk/DatabaseRefactoring/NewStructure/023_TriggerToSetContentPaths_down.sql
+END
+016_CreateRoutes.sql
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/mubble/!svn/ver/639/trunk/DatabaseRefactoring/NewStructure/016_CreateRoutes.sql
+END
+024_AddContentTypes.sql
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/mubble/!svn/ver/639/trunk/DatabaseRefactoring/NewStructure/024_AddContentTypes.sql
+END
+004_AttachAuthorsToContentItems.sql
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/mubble/!svn/ver/639/trunk/DatabaseRefactoring/NewStructure/004_AttachAuthorsToContentItems.sql
+END
+023_TriggerToSetContentPaths.sql
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/mubble/!svn/ver/639/trunk/DatabaseRefactoring/NewStructure/023_TriggerToSetContentPaths.sql
+END
+019_CreateTemplates_down.sql
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/mubble/!svn/ver/639/trunk/DatabaseRefactoring/NewStructure/019_CreateTemplates_down.sql
+END
+021_AttachContentTypes.sql
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/mubble/!svn/ver/639/trunk/DatabaseRefactoring/NewStructure/021_AttachContentTypes.sql
+END
+032_CreatePostsView (Legacy)_down.sql
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/mubble/!svn/ver/650/trunk/DatabaseRefactoring/NewStructure/032_CreatePostsView%20(Legacy)_down.sql
+END
+028_SprocsForAdminControls (Legacy).sql
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/mubble/!svn/ver/650/trunk/DatabaseRefactoring/NewStructure/028_SprocsForAdminControls%20(Legacy).sql
+END
+034_OtherCrudProcedures (Legacy)_down.sql
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/mubble/!svn/ver/650/trunk/DatabaseRefactoring/NewStructure/034_OtherCrudProcedures%20(Legacy)_down.sql
+END
+029_CrudProcedures (Legacy)_down.sql
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/mubble/!svn/ver/650/trunk/DatabaseRefactoring/NewStructure/029_CrudProcedures%20(Legacy)_down.sql
+END
+001_CreateContentItems.sql
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/mubble/!svn/ver/649/trunk/DatabaseRefactoring/NewStructure/001_CreateContentItems.sql
+END
+032_CreatePostsView (Legacy).sql
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/mubble/!svn/ver/650/trunk/DatabaseRefactoring/NewStructure/032_CreatePostsView%20(Legacy).sql
+END
+037_CreateIndexItems.sql
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/mubble/!svn/ver/655/trunk/DatabaseRefactoring/NewStructure/037_CreateIndexItems.sql
+END
+031_ControllerCrudProcedures (Legacy).sql
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/mubble/!svn/ver/650/trunk/DatabaseRefactoring/NewStructure/031_ControllerCrudProcedures%20(Legacy).sql
+END
+026_AttachTextBlocksToContentAndPages_down.sql
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/mubble/!svn/ver/649/trunk/DatabaseRefactoring/NewStructure/026_AttachTextBlocksToContentAndPages_down.sql
+END
+029_CrudProcedures (Legacy).sql
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/mubble/!svn/ver/650/trunk/DatabaseRefactoring/NewStructure/029_CrudProcedures%20(Legacy).sql
+END
+003_CreateAuthors.sql
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/mubble/!svn/ver/639/trunk/DatabaseRefactoring/NewStructure/003_CreateAuthors.sql
+END
+021_AttachContentTypes_down.sql
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/mubble/!svn/ver/639/trunk/DatabaseRefactoring/NewStructure/021_AttachContentTypes_down.sql
+END
+006_CreateTags_down.sql
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/mubble/!svn/ver/639/trunk/DatabaseRefactoring/NewStructure/006_CreateTags_down.sql
+END
+022_AttachTemplatesToControllers.sql
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/mubble/!svn/ver/639/trunk/DatabaseRefactoring/NewStructure/022_AttachTemplatesToControllers.sql
+END
+012_ControllersBelongToModuleControls_down.sql
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/mubble/!svn/ver/639/trunk/DatabaseRefactoring/NewStructure/012_ControllersBelongToModuleControls_down.sql
+END
+030_CreateControllersView (Legacy)_down.sql
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/mubble/!svn/ver/650/trunk/DatabaseRefactoring/NewStructure/030_CreateControllersView%20(Legacy)_down.sql
+END
+014_CreatePermissionFlags_down.sql
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/mubble/!svn/ver/639/trunk/DatabaseRefactoring/NewStructure/014_CreatePermissionFlags_down.sql
+END
+013_CreatePages.sql
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/mubble/!svn/ver/649/trunk/DatabaseRefactoring/NewStructure/013_CreatePages.sql
+END
+036_CreateGuidMapping_down.sql
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/mubble/!svn/ver/650/trunk/DatabaseRefactoring/NewStructure/036_CreateGuidMapping_down.sql
+END
+015_CreatePermissions_down.sql
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/mubble/!svn/ver/639/trunk/DatabaseRefactoring/NewStructure/015_CreatePermissions_down.sql
+END
+002_CreateControllers.sql
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/mubble/!svn/ver/639/trunk/DatabaseRefactoring/NewStructure/002_CreateControllers.sql
+END
+037_CreateIndexItems_down.sql
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/mubble/!svn/ver/655/trunk/DatabaseRefactoring/NewStructure/037_CreateIndexItems_down.sql
+END
+030_CreateControllersView (Legacy).sql
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/mubble/!svn/ver/650/trunk/DatabaseRefactoring/NewStructure/030_CreateControllersView%20(Legacy).sql
+END
+014_CreatePermissionFlags.sql
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/mubble/!svn/ver/639/trunk/DatabaseRefactoring/NewStructure/014_CreatePermissionFlags.sql
+END
+031_ControllerCrudProcedures (Legacy)_down.sql
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/mubble/!svn/ver/650/trunk/DatabaseRefactoring/NewStructure/031_ControllerCrudProcedures%20(Legacy)_down.sql
+END
+035_CreateIndexesForContentItems.sql
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/mubble/!svn/ver/650/trunk/DatabaseRefactoring/NewStructure/035_CreateIndexesForContentItems.sql
+END
+027_CreateAdminControls_down.sql
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/mubble/!svn/ver/650/trunk/DatabaseRefactoring/NewStructure/027_CreateAdminControls_down.sql
+END
+005_CreateUrlRedirects.sql
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/mubble/!svn/ver/639/trunk/DatabaseRefactoring/NewStructure/005_CreateUrlRedirects.sql
+END
+017_CreateRssFeeds_down.sql
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/mubble/!svn/ver/639/trunk/DatabaseRefactoring/NewStructure/017_CreateRssFeeds_down.sql
+END
+016_CreateRoutes_down.sql
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/mubble/!svn/ver/639/trunk/DatabaseRefactoring/NewStructure/016_CreateRoutes_down.sql
+END
+025_CreateTextBlocks_down.sql
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/mubble/!svn/ver/649/trunk/DatabaseRefactoring/NewStructure/025_CreateTextBlocks_down.sql
+END
+017_CreateRssFeeds.sql
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/mubble/!svn/ver/639/trunk/DatabaseRefactoring/NewStructure/017_CreateRssFeeds.sql
+END
+033_PostCrudProcedures (Legacy).sql
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/mubble/!svn/ver/656/trunk/DatabaseRefactoring/NewStructure/033_PostCrudProcedures%20(Legacy).sql
+END
+020_CreateContentTypes_down.sql
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/mubble/!svn/ver/639/trunk/DatabaseRefactoring/NewStructure/020_CreateContentTypes_down.sql
+END
+007_CreateDiscussionProviders.sql
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/mubble/!svn/ver/639/trunk/DatabaseRefactoring/NewStructure/007_CreateDiscussionProviders.sql
+END
+013_CreatePages_down.sql
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/mubble/!svn/ver/639/trunk/DatabaseRefactoring/NewStructure/013_CreatePages_down.sql
+END
+MigrateTo.bat
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/mubble/!svn/ver/639/trunk/DatabaseRefactoring/NewStructure/MigrateTo.bat
+END
+010_CreateModules_down.sql
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/mubble/!svn/ver/639/trunk/DatabaseRefactoring/NewStructure/010_CreateModules_down.sql
+END
+035_CreateIndexesForContentItems_down.sql
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/mubble/!svn/ver/650/trunk/DatabaseRefactoring/NewStructure/035_CreateIndexesForContentItems_down.sql
+END
+019_CreateTemplates.sql
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/mubble/!svn/ver/639/trunk/DatabaseRefactoring/NewStructure/019_CreateTemplates.sql
+END
+012_ControllersBelongToModuleControls.sql
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/mubble/!svn/ver/639/trunk/DatabaseRefactoring/NewStructure/012_ControllersBelongToModuleControls.sql
+END
+009_CreateFiles.sql
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/mubble/!svn/ver/639/trunk/DatabaseRefactoring/NewStructure/009_CreateFiles.sql
+END
+011_CreateModuleControls.sql
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/mubble/!svn/ver/639/trunk/DatabaseRefactoring/NewStructure/011_CreateModuleControls.sql
+END
+036_CreateGuidMapping.sql
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/mubble/!svn/ver/650/trunk/DatabaseRefactoring/NewStructure/036_CreateGuidMapping.sql
+END

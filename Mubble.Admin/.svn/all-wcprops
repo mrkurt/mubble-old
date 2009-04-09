@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/mubble/!svn/ver/661/trunk/Mubble.Admin
+END
+Global.asax.cs
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/mubble/!svn/ver/672/trunk/Mubble.Admin/Global.asax.cs
+END
+Web.config
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/mubble/!svn/ver/672/trunk/Mubble.Admin/Web.config
+END
+RoutingModule.cs
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/mubble/!svn/ver/672/trunk/Mubble.Admin/RoutingModule.cs
+END
+Extensions.cs
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/mubble/!svn/ver/672/trunk/Mubble.Admin/Extensions.cs
+END
+Controller.cs
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/mubble/!svn/ver/660/trunk/Mubble.Admin/Controller.cs
+END
+Global.asax
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/mubble/!svn/ver/659/trunk/Mubble.Admin/Global.asax
+END
+Mubble.Admin.csproj
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/mubble/!svn/ver/672/trunk/Mubble.Admin/Mubble.Admin.csproj
+END
+ContentRoute.cs
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/mubble/!svn/ver/672/trunk/Mubble.Admin/ContentRoute.cs
+END
+Default.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/mubble/!svn/ver/659/trunk/Mubble.Admin/Default.aspx
+END

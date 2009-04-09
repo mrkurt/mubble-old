@@ -1,0 +1,125 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+    <title>Server Form</title>
+    <style type="text/css">
+        table{
+            border: 1px solid #cccccc;
+            border-collapse: collapse;
+            width: 720px;
+        }
+        table td{
+            border: 1px solid #cccccc;
+            padding: 2px;
+        }
+        table tr.Alt{
+            background-color: #efefef;
+        }
+    </style>
+</head>
+<body>
+    <table style="width: 720px">
+        <tr>
+            <td >
+                Customer:</td>
+            <td >
+                <input id="customer" name="ips" style="width: 99%" type="text" /></td>
+        </tr>
+        <tr class="Alt">
+            <td >
+                Customer Email:</td>
+            <td >
+                <input name="email" style="width: 99%" type="text" /></td>
+        </tr>
+        <tr>
+            <td >
+                IP Block:</td>
+            <td >
+                <input id="ips" style="width: 99%" type="text" /></td>
+        </tr>
+        <tr class="Alt">
+            <td >
+                Server Model:</td>
+            <td >
+                <select id="model" name="model">
+                    <option selected="selected" value="PowerEdge 750">Dell Poweredge 750</option>
+                    <option value="Poweredge 1425">Dell Poweredge 1425</option>
+                    <option value="Tyan Dual Xeon">Tyan Dual Xeon</option>
+                    <option value="Celeron">Celeron</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td >
+                RAM:</td>
+            <td >
+                <select id="ram" name="ram">
+                    <option selected="selected" value="Standard Configuration">Standard Config</option>
+                    <option value="512MB">512MB</option>
+                    <option value="2GB">2GB</option>
+                </select>
+            </td>
+        </tr>
+        <tr class="Alt">
+            <td style="width: 240px; height: 24px;">
+                Hard Drive 1:</td>
+            <td>
+                <select id="Select1" name="hd1">
+                    <option value="40GB">40GB</option>
+                    <option value="80GB" selected="selected">80GB</option>
+                    <option value="160GB">160GB</option>
+                    <option value="250GB">250GB</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Hard Drive 2:</td>
+            <td>
+                <select id="Select2" name="hd2">
+                    <option value="None" selected="selected">None</option>
+                    <option value="40GB">40GB</option>
+                    <option value="80GB">80GB</option>
+                    <option value="160GB">160GB</option>
+                    <option value="250GB">250GB</option>
+                </select>
+            </td>
+        </tr>
+        <tr class="Alt">
+            <td>
+                Hard Drive 3:</td>
+            <td>
+                <select id="Select3" name="hd3">
+                    <option value="None" selected="selected">None</option>
+                    <option value="40GB">40GB</option>
+                    <option value="80GB">80GB</option>
+                    <option value="160GB">160GB</option>
+                    <option value="250GB">250GB</option>
+                </select></td>
+        </tr>
+        <tr>
+            <td>
+                RAID:</td>
+            <td style="width: 479px; height: 24px">
+                <select id="Select4" name="raid">
+                    <option selected="selected" value="No RAID">No RAID</option>
+                    <option value="RAID-1">RAID-1</option>
+                    <option value="RAID-5">RAID-5</option>
+                    <option value="RAID-0">RAID Crazy</option>
+                </select>
+            </td>
+        </tr>
+        <tr class="Alt">
+            <td valign="top">
+                Notes:</td>
+            <td style="width: 479px; height: 24px">
+                <textarea id="TextArea1" cols="20" rows="2" style="width: 99%"></textarea></td>
+        </tr>
+        <tr>
+            <td align="right" colspan="2" style="height: 24px">
+                <input id="Submit1" type="submit" value="Send" /></td>
+        </tr>
+    </table>
+
+</body>
+</html>

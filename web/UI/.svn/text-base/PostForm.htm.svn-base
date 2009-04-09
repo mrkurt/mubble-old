@@ -1,0 +1,121 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+    <title>Edit Post</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="styles/postform.css" />
+    <script type="text/javascript" src="ui.js"></script>
+    <script language="javascript" type="text/javascript" src="../jscripts/tiny_mce/tiny_mce.js"></script>
+    <script language="javascript" type="text/javascript">
+    tinyMCE.init({
+	    mode : "exact",
+	    elements : "body",
+	    plugins : "iespell",
+	    auto_cleanup_word : true,
+	    theme : "mubble",
+	    theme_advanced_buttons1 : "bold,italic,underline,separator,strikethrough,justifyleft,justifycenter,justifyright,separator,bullist,numlist,outdent,indent,separator,link,unlink,image,separator,undo,redo,iespell,code",
+	    theme_advanced_buttons2 : "",
+	    theme_advanced_buttons3 : "",
+	    theme_advanced_toolbar_location : "top",
+	    theme_advanced_toolbar_align : "left",
+	    theme_advanced_path_location : "none",
+	    extended_valid_elements : "a[name|href|title],img[class|src|alt|title|align],hr[class],span[class|style]"
+    });
+    </script>
+</head>
+<body>
+<div id="PostForm">
+    <form>
+        <label for="title" class="Title">Title:</label>
+        <input type="text" name="title" class="Title" value="This is where I drool on a phone and make fun of people" />
+        <div id="TagSelector">
+        <h2 onclick="toggleParent(this, '', 'Expanded');return false;">Tags</h2>
+            <ul>
+                <li class="Weight0 h"><input type="checkbox" name="tag" /> Chicago</li>
+                <li class="Weight9 h"><input type="checkbox" name="tag" /> Wrigley Field</li>
+                <li class="Weight6 h"><input type="checkbox" name="tag" /> Rebecca</li>
+                <li class="Weight5 h"><input type="checkbox" name="tag" /> Summer</li>
+                <li class="Weight10 h"><input type="checkbox" name="tag" /> Buildings</li>
+                <li class="Weight2 h"><input type="checkbox" name="tag" /> Buildings</li>
+                <li class="Weight12 h"><input type="checkbox" name="tag" /> Rebecca</li>
+                <li class="Weight4 h"><input type="checkbox" name="tag" /> Summer</li>
+                <li class="Weight5 h"><input type="checkbox" name="tag" /> Summer</li>
+                <li class="Weight10 h"><input type="checkbox" name="tag" /> Buildings</li>
+                <li class="Weight0"><input type="checkbox" name="tag" /> Chicago</li>
+                <li class="Weight9"><input type="checkbox" name="tag" /> Wrigley Field</li>
+                <li class="Weight6"><input type="checkbox" name="tag" /> Rebecca</li>
+                <li class="Weight5"><input type="checkbox" name="tag" /> Summer</li>
+                <li class="Weight10"><input type="checkbox" name="tag" /> Buildings</li>
+                <li class="Weight2"><input type="checkbox" name="tag" /> Buildings</li>
+                <li class="Weight12"><input type="checkbox" name="tag" /> Rebecca</li>
+                <li class="Weight4"><input type="checkbox" name="tag" /> Summer</li>
+                <li class="Weight1"><input type="checkbox" name="tag" /> Chicago</li>
+                <li class="Weight10"><input type="checkbox" name="tag" /> Wrigley Field</li>
+                <li class="Weight6"><input type="checkbox" name="tag" /> Chicago</li>
+                <li class="Weight11"><input type="checkbox" name="tag" /> Wrigley Field</li>
+                <li class="Weight8"><input type="checkbox" name="tag" /> Rebecca</li>
+                <li class="Weight2"><input type="checkbox" name="tag" /> Summer</li>
+                <li class="Weight4"><input type="checkbox" name="tag" /> Buildings</li>
+                <li class="Weight12"><input type="checkbox" name="tag" /> Buildings</li>
+                <li class="Weight3"><input type="checkbox" name="tag" /> Rebecca</li>
+                <li class="Weight0"><input type="checkbox" name="tag" /> Summer</li>
+                <li class="Weight6"><input type="checkbox" name="tag" /> Chicago</li>
+                <li class="Weight7"><input type="checkbox" name="tag" /> Wrigley Field</li>
+            </ul>
+        </div>
+        <textarea name="body" id="body">
+&lt;p&gt;&lt;img align="right" src="http://www.gizmodo.com/gadgets/images/cell-phone-5.jpg" /&gt;Check out this hawt new phone next to the red lipstick.&nbsp; &lt;/p&gt;
+&lt;p&gt;The Technical Research Centre in Finland has developed a technology to assist all of the health nuts in the world. It is a camera phone that scans barcodes at grocery stores and gives all of the nutritional information. This device also gives a purchase history and estimates how much exercise it will take to burn off calories contained. In this day and age, turning the package over and looking at the printed nutritional content is way too hard.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Bullets&lt;/li&gt;
+&lt;li&gt;Guns&lt;/li&gt;
+&lt;li&gt;&lt;strike&gt;Knives&lt;/strike&gt;&lt;/li&gt;
+&lt;li&gt;Mortar Shells&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;Beer&lt;/li&gt;
+&lt;li&gt;Coke&lt;/li&gt;
+&lt;li&gt;Tea&lt;/li&gt;
+&lt;/ol&gt;
+
+        </textarea></form>
+        <div class="ButtonBarRight">
+            <a class="SaveButton" href="#" onclick="return savePost();">Save</a> 
+            <a class="PublishButton" href="#">Revert to Draft</a>
+        </div>
+        <div id="AdvancedOptions">
+            <h2 onclick="toggleParent(this, '', 'Expanded');return false;">Advanced Options</h2>
+            <div class="OptionsContainer">
+            <p>Post Time:<br />
+            <select name="Month"><option value="June">June</option></select>
+            <select name="Day"><option value="28">28</option></select>
+            <select name="Year"><option value="2005">2005</option></select>
+            &nbsp;
+            <select name="Hour"><option>10</option></select>
+            <select name="Minue"><option>37</option></select>
+            <select name="AmPm"><option>AM</option></select>
+            </p>
+            <hr />
+            <p>Excerpt:
+            <textarea name="excerpt"></textarea>
+            </p>
+            <p>Comments:<br />
+                <input type="radio" checked="checked" name="comments" value="full" id="comments_full" /> <label for="comments_full">Allowed</label>
+                <input type="radio" name="comments" value="readonly" id="comments_read" /> <label for="comments_read">Read only</label>
+                <input type="radio" name="comments" value="disabled" id="comments_off" /> <label for="comments_off">Disabled</label>
+            </p>
+            <hr />
+            <p>Trackbacks:<br />
+                <input type="radio" checked="checked" name="trackbacks" value="full" id="trackbacks_full" /> <label for="trackbacks_full">Allowed</label>
+                <input type="radio" name="trackbacks" value="readonly" id="trackbacks_read" /> <label for="trackbacks_read">Read only</label>
+                <input type="radio" name="trackbacks" value="disabled" id="trackbacks_off" /> <label for="trackbacks_off">Disabled</label>
+            </p>
+            <hr />
+            <p>Trackback To: <span class="Hint">(One URL per line)</span>
+            <textarea name="trackbacks"></textarea>
+            </p>
+            </div>
+        </div>
+        </div>
+</body>
+</html>

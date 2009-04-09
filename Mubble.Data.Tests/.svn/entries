@@ -1,0 +1,67 @@
+8
+
+dir
+661
+http://svn.mubble.net/mubble/trunk/Mubble.Data.Tests
+http://svn.mubble.net/mubble
+
+
+
+2008-02-08T22:58:11.196407Z
+660
+kurt
+has-props
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+e9299cb4-260d-0410-a363-f84a8d58d427
+
+Program.cs
+file
+672
+
+
+
+2008-02-22T15:43:48.278000Z
+255e038b899d572a926bfc92c68f4ae8
+2008-03-15T23:04:41.329605Z
+672
+kurt
+
+Properties
+dir
+
+Serializer.cs
+file
+
+
+
+
+2008-02-07T22:03:25.935200Z
+8d18b33906bee143c8059c9319c0ad2f
+2008-02-08T22:58:11.196407Z
+660
+kurt
+
+Mubble.Data.Tests.csproj
+file
+
+
+
+
+2008-02-07T19:55:41.121200Z
+708eb9b87d64fc29eccfbca455ebb11e
+2008-02-08T22:58:11.196407Z
+660
+kurt
+

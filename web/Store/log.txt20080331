@@ -1,0 +1,3 @@
+INFO  2008-03-31 14:00:04,820 10383ms Lucene                 ResetSearcher      - Opened searcher
+INFO  2008-03-31 14:00:05,166 10729ms Global                 Application_Start  - Application startup too 00:00:10.0320000
+INFO  2008-03-31 14:00:13,583 19146ms BenchmarkModule        EndRequest         - Request for /mubble/security.aspx took 8.112 seconds to load. 81 queries.

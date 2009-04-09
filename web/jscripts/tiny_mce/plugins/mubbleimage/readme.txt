@@ -1,0 +1,1 @@
+This is a plugin to allow media selections from a Mubble backend.

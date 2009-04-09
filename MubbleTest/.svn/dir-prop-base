@@ -1,0 +1,12 @@
+K 10
+svn:ignore
+V 41
+bin
+obj
+Debug
+Release
+*.user
+*.aps
+*.eto
+
+END

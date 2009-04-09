@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/mubble/!svn/ver/69/trunk/Vendor/Lucene.Net-1.4.3.final-004.bin/Demo
+END
+DeleteFiles.exe
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/mubble/!svn/ver/68/trunk/Vendor/Lucene.Net-1.4.3.final-004.bin/Demo/DeleteFiles.exe
+END
+DemoLib.dll
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/mubble/!svn/ver/68/trunk/Vendor/Lucene.Net-1.4.3.final-004.bin/Demo/DemoLib.dll
+END
+SearchFiles.exe
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/mubble/!svn/ver/68/trunk/Vendor/Lucene.Net-1.4.3.final-004.bin/Demo/SearchFiles.exe
+END
+IndexFiles.exe
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/mubble/!svn/ver/68/trunk/Vendor/Lucene.Net-1.4.3.final-004.bin/Demo/IndexFiles.exe
+END
+IndexHtml.exe
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/mubble/!svn/ver/68/trunk/Vendor/Lucene.Net-1.4.3.final-004.bin/Demo/IndexHtml.exe
+END

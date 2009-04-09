@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/mubble/!svn/ver/658/trunk/MessageQueue
+END
+QueueException.cs
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/mubble/!svn/ver/641/trunk/MessageQueue/QueueException.cs
+END
+MessageQueue.csproj
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/mubble/!svn/ver/641/trunk/MessageQueue/MessageQueue.csproj
+END
+Manager.cs
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/mubble/!svn/ver/641/trunk/MessageQueue/Manager.cs
+END

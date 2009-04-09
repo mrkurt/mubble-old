@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<types>
+  <type name="ContentItemBase`1" namespace="Mubble.Data">
+    <property name="ID" type="System.Guid" through="" target="ID" inherited="false" />
+    <property name="ParentID" type="System.Nullable`1[[System.Guid, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]" through="" target="ContentItemID" inherited="false" />
+    <property name="FileName" type="System.String" through="" target="FileName" inherited="false" />
+    <property name="Path" type="System.String" through="" target="Path" inherited="false" />
+    <property name="PublishDate" type="System.DateTime" through="" target="PublishDate" inherited="false" />
+    <property name="Status" type="System.Int32" through="" target="Status" inherited="false" />
+    <property name="ContentTypeID" type="System.Guid" through="" target="ContentTypeID" inherited="false" />
+    <property name="Title" type="System.String" through="TextBlock" target="Title" inherited="false" />
+    <property name="Excerpt" type="System.String" through="TextBlock" target="Excerpt" inherited="false" />
+    <property name="Body" type="System.String" through="TextBlock" target="Body" inherited="false" />
+  </type>
+  <type name="ContentItem" namespace="Mubble.Data">
+    <property name="ID" type="System.Guid" through="" target="ID" inherited="true" />
+    <property name="ParentID" type="System.Nullable`1[[System.Guid, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]" through="" target="ContentItemID" inherited="true" />
+    <property name="FileName" type="System.String" through="" target="FileName" inherited="true" />
+    <property name="Path" type="System.String" through="" target="Path" inherited="true" />
+    <property name="PublishDate" type="System.DateTime" through="" target="PublishDate" inherited="true" />
+    <property name="Status" type="System.Int32" through="" target="Status" inherited="true" />
+    <property name="ContentTypeID" type="System.Guid" through="" target="ContentTypeID" inherited="true" />
+    <property name="Title" type="System.String" through="TextBlock" target="Title" inherited="true" />
+    <property name="Excerpt" type="System.String" through="TextBlock" target="Excerpt" inherited="true" />
+    <property name="Body" type="System.String" through="TextBlock" target="Body" inherited="true" />
+  </type>
+  <type name="Post" namespace="Mubble.Data">
+    <property name="ID" type="System.Guid" through="" target="ID" inherited="true" />
+    <property name="ParentID" type="System.Nullable`1[[System.Guid, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]" through="" target="ContentItemID" inherited="true" />
+    <property name="FileName" type="System.String" through="" target="FileName" inherited="true" />
+    <property name="Path" type="System.String" through="" target="Path" inherited="true" />
+    <property name="PublishDate" type="System.DateTime" through="" target="PublishDate" inherited="true" />
+    <property name="Status" type="System.Int32" through="" target="Status" inherited="true" />
+    <property name="ContentTypeID" type="System.Guid" through="" target="ContentTypeID" inherited="true" />
+    <property name="Title" type="System.String" through="TextBlock" target="Title" inherited="true" />
+    <property name="Excerpt" type="System.String" through="TextBlock" target="Excerpt" inherited="true" />
+    <property name="Body" type="System.String" through="TextBlock" target="Body" inherited="true" />
+  </type>
+  <type name="Page" namespace="Mubble.Data">
+    <property name="ID" type="System.Guid" through="" target="ID" inherited="false" />
+    <property name="PageNumber" type="System.Int32" through="" target="PageNumber" inherited="false" />
+    <property name="ContentItemID" type="System.Guid" through="" target="ContentItemID" inherited="false" />
+    <property name="Title" type="System.String" through="TextBlock" target="Title" inherited="false" />
+    <property name="Excerpt" type="System.String" through="TextBlock" target="Excerpt" inherited="false" />
+    <property name="Body" type="System.String" through="TextBlock" target="Body" inherited="false" />
+  </type>
+  <type name="Article" namespace="Mubble.Data">
+    <property name="ID" type="System.Guid" through="" target="ID" inherited="true" />
+    <property name="ParentID" type="System.Nullable`1[[System.Guid, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]" through="" target="ContentItemID" inherited="true" />
+    <property name="FileName" type="System.String" through="" target="FileName" inherited="true" />
+    <property name="Path" type="System.String" through="" target="Path" inherited="true" />
+    <property name="PublishDate" type="System.DateTime" through="" target="PublishDate" inherited="true" />
+    <property name="Status" type="System.Int32" through="" target="Status" inherited="true" />
+    <property name="ContentTypeID" type="System.Guid" through="" target="ContentTypeID" inherited="true" />
+    <property name="Title" type="System.String" through="TextBlock" target="Title" inherited="true" />
+    <property name="Excerpt" type="System.String" through="TextBlock" target="Excerpt" inherited="true" />
+    <property name="Body" type="System.String" through="TextBlock" target="Body" inherited="true" />
+  </type>
+  <type name="ContentType" namespace="Mubble.Data">
+    <property name="ID" type="System.Guid" through="" target="ID" inherited="false" />
+    <property name="SystemType" type="System.String" through="" target="SystemType" inherited="false" />
+    <property name="ActiveObjectType" type="System.String" through="" target="ActiveObjectType" inherited="false" />
+  </type>
+  <type name="Controller" namespace="Mubble.Data">
+    <property name="ID" type="System.Guid" through="" target="ID" inherited="true" />
+    <property name="ParentID" type="System.Nullable`1[[System.Guid, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]" through="" target="ContentItemID" inherited="true" />
+    <property name="FileName" type="System.String" through="" target="FileName" inherited="true" />
+    <property name="Path" type="System.String" through="" target="Path" inherited="true" />
+    <property name="PublishDate" type="System.DateTime" through="" target="PublishDate" inherited="true" />
+    <property name="Status" type="System.Int32" through="" target="Status" inherited="true" />
+    <property name="ContentTypeID" type="System.Guid" through="" target="ContentTypeID" inherited="true" />
+    <property name="Title" type="System.String" through="TextBlock" target="Title" inherited="true" />
+    <property name="Excerpt" type="System.String" through="TextBlock" target="Excerpt" inherited="true" />
+    <property name="Body" type="System.String" through="TextBlock" target="Body" inherited="true" />
+    <property name="TemplateID" type="System.Guid" through="Controller" target="TemplateID" inherited="true" />
+    <property name="TemplateControl" type="System.String" through="Controller" target="TemplateControl" inherited="true" />
+    <property name="ModuleControlID" type="System.Guid" through="Controller" target="ModuleControlID" inherited="true" />
+    <property name="ModuleControlView" type="System.String" through="Controller" target="ModuleControlView" inherited="true" />
+    <property name="RouteID" type="System.Nullable`1[[System.Guid, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]" through="Controller" target="RouteID" inherited="true" />
+    <property name="IsContent" type="System.Boolean" through="Controller" target="IsContent" inherited="true" />
+    <property name="IsContentContainer" type="System.Boolean" through="Controller" target="IsContentContainer" inherited="true" />
+    <property name="Settings" type="System.String" through="Controller" target="Settings" inherited="true" />
+  </type>
+  <type name="File" namespace="Mubble.Data">
+    <property name="ID" type="System.Guid" through="" target="ID" inherited="false" />
+    <property name="ContentItemID" type="System.Guid" through="" target="ContentItemID" inherited="false" />
+    <property name="Name" type="System.String" through="" target="Name" inherited="false" />
+    <property name="FileName" type="System.String" through="" target="FileName" inherited="false" />
+    <property name="PhysicalPath" type="System.String" through="" target="PhysicalPath" inherited="false" />
+    <property name="MediaType" type="System.String" through="" target="MediaType" inherited="false" />
+    <property name="MediaSubType" type="System.String" through="" target="MediaSubType" inherited="false" />
+  </type>
+  <type name="Section" namespace="Mubble.Data">
+    <property name="ID" type="System.Guid" through="" target="ID" inherited="true" />
+    <property name="ParentID" type="System.Nullable`1[[System.Guid, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]" through="" target="ContentItemID" inherited="true" />
+    <property name="FileName" type="System.String" through="" target="FileName" inherited="true" />
+    <property name="Path" type="System.String" through="" target="Path" inherited="true" />
+    <property name="PublishDate" type="System.DateTime" through="" target="PublishDate" inherited="true" />
+    <property name="Status" type="System.Int32" through="" target="Status" inherited="true" />
+    <property name="ContentTypeID" type="System.Guid" through="" target="ContentTypeID" inherited="true" />
+    <property name="Title" type="System.String" through="TextBlock" target="Title" inherited="true" />
+    <property name="Excerpt" type="System.String" through="TextBlock" target="Excerpt" inherited="true" />
+    <property name="Body" type="System.String" through="TextBlock" target="Body" inherited="true" />
+  </type>
+  <type name="Author" namespace="Mubble.Data">
+    <property name="ID" type="System.Guid" through="" target="ID" inherited="false" />
+    <property name="UserName" type="System.String" through="" target="UserName" inherited="false" />
+    <property name="Email" type="System.String" through="" target="Email" inherited="false" />
+    <property name="Displayname" type="System.String" through="" target="Displayname" inherited="false" />
+    <property name="Bio" type="System.String" through="" target="Bio" inherited="false" />
+  </type>
+</types>

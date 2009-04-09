@@ -1,0 +1,82 @@
+<%@	Master Language="vb" Inherits="Mubble.UI.AdminMasterPage"%>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" >
+<head runat="server">
+	<title></title>
+	<link rel="Stylesheet" href='<%#ResolveUrl("style.css")%>' runat="server" />
+	<link rel="Stylesheet" href='<%#ResolveUrl("styles/postform.css")%>' runat="server" />
+    <html:Javascript runat="server" FileType="Application" />
+	<script type="text/javascript" src="<%# ResolveUrl("ui.js")%>"></script>
+	<script type="text/javascript" src="<%# ResolveUrl("jscripts/prototype.js")%>"></script>
+	<script type="text/javascript" src="<%# ResolveUrl("jscripts/behavior.js")%>"></script>
+	<script type="text/javascript" src="<%# ResolveUrl("jscripts/iesux.js")%>"></script>
+	<script type="text/javascript" src="<%# ResolveUrl("application.js")%>"></script>
+	<script language="javascript" type="text/javascript" src="<%# ResolveUrl("~/jscripts/tiny_mce/tiny_mce_dev.js")%>"></script>
+	<script type="text/javascript">
+    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+    var pageTracker = _gat._getTracker("UA-1816525-1");
+    pageTracker._setDomainName("mubble.net");
+    pageTracker._initData();
+    pageTracker._trackPageview();
+    </script>
+</head>
+<body>
+    <div id="BreadCrumbs">
+        <strong style="display: block; color: Red; float: right;">Attencione!  This is a temporary admin setup, lots of it doesn't work (<asp:Hyperlink runat="server" NavigateUrl='<%# Page.ResolveUrl("~/Templates/Admin/dust.html")%>'>click here</asp:Hyperlink>)</strong>
+        <mbl:BreadCrumbTrail ID="BreadCrumbTrail1" runat="server" Content="<%# Page.Controller %>">
+            <HeaderTemplate> &raquo; </HeaderTemplate>
+            <ItemTemplate>
+                <mbl:HyperLink runat="server" ContentPathExtra="/browse" Handler="AdminHandler" Visible='<%# (Page.Controller.Path <> Container.DataItem.Path) %>'>
+                    <%#Container.DataItem.Title%>
+                </mbl:HyperLink>
+                <asp:Label Visible='<%# (Page.Controller.Path = Container.DataItem.Path) %>' runat="server">
+                    <%#Container.DataItem.Title%>
+                </asp:Label>
+            </ItemTemplate>
+            <SeparatorTemplate> &raquo; </SeparatorTemplate>
+        </mbl:BreadCrumbTrail>
+    </div>
+    <div id="MastHead">
+        <h1>Mubble Admin</h1>
+        <div id="GlobalLinks">
+            <mbl:HyperLink runat="Server" ContentPathExtra="/browse" Handler="AdminHandler">Browse Content</mbl:HyperLink> | 
+            Logout
+        </div>
+    </div>
+    <ul id="Tabs">
+        <li class="<%# Page.ConditionalWrite("browse", Page.Tab, "Active") %>"><mbl:HyperLink 
+                runat="Server" ContentPathExtra="/browse" Handler="AdminHandler">Browse</mbl:HyperLink></li>
+        <asp:Repeater runat="server" DataSource='<%# Page.ControlConfig.AdminControls.Sort("Order") %>'>
+            <ItemTemplate>
+            <li class="<%# Page.ConditionalWrite(Page.Tab, "m-" + Container.DataItem.Key, "Active") %>">
+            <mbl:HyperLink runat="Server" ContentPathExtra='<%# "/m-" + Container.DataItem.Key %>' Handler="AdminHandler">
+            <%#Page.Controller.ToString(Container.DataItem.Name)%>
+            </mbl:HyperLink>
+            </li>
+            </ItemTemplate>
+        </asp:Repeater>
+        <li class="<%# Page.ConditionalWrite("media", Page.Tab, "Active") %>">
+            <mbl:HyperLink runat="Server" ContentPathExtra='/media' Handler="AdminHandler">Media</mbl:HyperLink>
+        </li>
+        <li class="<%# Page.ConditionalWrite("settings", Page.Url.GetPathItem(0), "Active") %>">
+        <mbl:HyperLink runat="Server" ContentPathExtra='/settings' Handler="AdminHandler">Settings</mbl:HyperLink>
+        </li>
+        <li class="Clean <%# Page.ConditionalWrite("advanced", Page.Url.GetPathItem(0), "Active") %>"><a href="#">Advanced</a></li>
+    </ul>
+    <div id="SubMenu">
+        <asp:ContentPlaceHolder ID="SubMenuLinks" runat="server">
+            <mbl:HyperLink runat="Server" CssClass="Clean">View "<%#Page.Controller.FileName%>"</mbl:HyperLink>
+        </asp:ContentPlaceHolder>
+    </div>
+    <div id="ContentArea">
+        <div id="AdminArea">
+            <asp:contentplaceholder id="Content" runat="server" />
+        </div>
+    </div> 
+</body>
+</html>

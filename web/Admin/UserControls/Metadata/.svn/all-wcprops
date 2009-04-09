@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/mubble/!svn/ver/644/trunk/web/Admin/UserControls/Metadata
+END
+MultiValueRankedString.ascx
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/mubble/!svn/ver/98/trunk/web/Admin/UserControls/Metadata/MultiValueRankedString.ascx
+END
+StringValue.ascx
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/mubble/!svn/ver/255/trunk/web/Admin/UserControls/Metadata/StringValue.ascx
+END
+MultiValueRankedString.ascx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/mubble/!svn/ver/126/trunk/web/Admin/UserControls/Metadata/MultiValueRankedString.ascx.cs
+END
+StringValue.ascx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/mubble/!svn/ver/255/trunk/web/Admin/UserControls/Metadata/StringValue.ascx.cs
+END
+FeaturedContent.ascx
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/mubble/!svn/ver/196/trunk/web/Admin/UserControls/Metadata/FeaturedContent.ascx
+END
+BooleanValue.ascx
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/mubble/!svn/ver/644/trunk/web/Admin/UserControls/Metadata/BooleanValue.ascx
+END
+FeaturedContent.ascx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/mubble/!svn/ver/103/trunk/web/Admin/UserControls/Metadata/FeaturedContent.ascx.cs
+END
+BooleanValue.ascx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/mubble/!svn/ver/644/trunk/web/Admin/UserControls/Metadata/BooleanValue.ascx.cs
+END

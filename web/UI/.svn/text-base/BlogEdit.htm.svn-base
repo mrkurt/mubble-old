@@ -1,0 +1,53 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+    <title>MrKurt Blog Settings</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="styles/pagesettings.css" />
+    <script type="text/javascript" src="ui.js"></script>
+</head>
+<body>
+<div id="SettingsForm">
+    <div class="Collapsible">
+        <h2 onclick="toggleParent(this, 'Collapsed', 'Collapsible');">Title and Menus</h2>
+        <div class="OptionsContainer">
+        <p class="TextField">
+            <label>Blog Name:</label><input type="text" value="MrKurt" />
+        </p>
+        <p class="TextField BottomField">
+            <label>Filename:</label><input type="text"  value="mrkurt" />
+        </p>
+        </div>
+    </div>
+    <div class="Collapsible">
+        <h2 onclick="toggleParent(this, 'Collapsed', 'Collapsible');">Global Tags</h2>
+        <div class="OptionsContainer">
+            
+        </div>
+    </div>
+    <div class="Collapsible">
+        <h2 onclick="toggleParent(this, 'Collapsed', 'Collapsible');">Local Tags</h2>
+        <div class="OptionsContainer">
+            
+        </div>
+    </div>
+    <div class="Collapsible">
+        <h2 onclick="toggleParent(this, 'Collapsed', 'Collapsible');">RSS Settings</h2>
+        <div class="OptionsContainer">
+        <p class="CheckField">
+            <label>Feed Type:</label><input type="radio" /> Full Text &nbsp;<input type="Radio" /> Excerpts &nbsp;<input type="radio" /> Titles Only
+        </p>
+        <p class="TextField">
+            <label>Copyright:</label><input type="text" value="&copy; 2005 Kurt Mackey" />
+        </p>
+        <p class="TextField">
+            <label>Description:</label><input type="text" value="A whole lot of hubris.  Hubris and idiocy.  Hubris, idiocy and some pictures." />
+        </p>
+        <p class="TextField">
+            <label>Webmaster:</label><input type="text" value="kurt@mrkurt.com" />
+        </p>
+        </div>
+    </div>
+</div>
+</body>
+</html>

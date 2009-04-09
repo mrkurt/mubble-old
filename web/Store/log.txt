@@ -1,0 +1,71 @@
+INFO  2009-01-11 10:37:31,556 17974ms Lucene                 ResetSearcher      - Opened searcher
+INFO  2009-01-11 10:37:32,023 18441ms Global                 Application_Start  - Application startup too 00:00:17.7870000
+INFO  2009-01-11 10:37:33,412 19830ms BenchmarkModule        EndRequest         - Request for /mubble/business.admin.aspx took 0.98 seconds to load. 72 queries.
+INFO  2009-01-11 10:37:43,085 29503ms BenchmarkModule        EndRequest         - Request for /mubble/login.aspx?origin=%2fmubble%2fbusiness.admin.aspx took 9.655 seconds to load. 62 queries.
+INFO  2009-01-11 10:37:49,741 36159ms AdminHandler           ocessMubbleRequest - Loading old style admin interface for /mubble/business.admin.aspx
+INFO  2009-01-11 10:37:55,176 41594ms BenchmarkModule        EndRequest         - Request for /mubble/business.admin.aspx took 5.447 seconds to load. 12 queries.
+INFO  2009-01-11 10:38:09,111 55529ms AdminHandler           ocessMubbleRequest - Loading old style admin interface for /mubble/business.admin.aspx/browse
+INFO  2009-01-11 10:38:14,200 60618ms AdminHandler           ocessMubbleRequest - Loading old style admin interface for /mubble/business.admin.aspx/browse/add
+INFO  2009-01-11 10:38:42,000 88418ms AdminHandler           ocessMubbleRequest - Loading old style admin interface for /mubble/business.admin.aspx/browse/add
+INFO  2009-01-11 10:38:42,325 88743ms AdminHandler           ocessMubbleRequest - Loading old style admin interface for /mubble/business/smb-resources.admin.aspx
+INFO  2009-01-11 10:38:43,079 89497ms Lucene                 ResetSearcher      - Opened searcher
+INFO  2009-01-11 10:38:44,592 91010ms AdminHandler           ocessMubbleRequest - Loading old style admin interface for /mubble/business/smb-resources.admin.aspx
+INFO  2009-01-11 10:38:45,006 91424ms Lucene                 ResetSearcher      - Opened searcher
+INFO  2009-01-11 10:38:52,043 98461ms BenchmarkModule        EndRequest         - Request for /mubble/business/smb-resources.aspx took 5.94 seconds to load. 60 queries.
+INFO  2009-01-11 11:27:56,244  5687ms Lucene                 ResetSearcher      - Opened searcher
+INFO  2009-01-11 11:27:56,350  5793ms Global                 Application_Start  - Application startup too 00:00:05.6460000
+INFO  2009-01-11 11:27:56,526  5969ms BenchmarkModule        EndRequest         - Request for /mubble/Default.aspx took 0.128 seconds to load. 69 queries.
+ERROR 2009-01-11 11:27:58,581  8024ms BenchmarkModule        RequestError       - An error occured while processing /mubble/index.aspx for ::1
+System.Web.HttpParseException: C:\Users\Kurt\Documents\Projects\Mubble\web\Templates\ars\Bubbles.ascx(14): error BC30560: 'TopStories' is ambiguous in the namespace 'ASP'. ---> System.Web.HttpCompileException: C:\Users\Kurt\Documents\Projects\Mubble\web\Templates\ars\Bubbles.ascx(14): error BC30560: 'TopStories' is ambiguous in the namespace 'ASP'.
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.UI.BaseTemplateParser.GetReferencedType(VirtualPath virtualPath, Boolean allowNoCompile)
+   at System.Web.UI.BaseTemplateParser.GetUserControlType(VirtualPath virtualPath)
+   at System.Web.UI.MainTagNameToTypeMapper.ProcessUserControlRegistration(UserControlRegisterEntry ucRegisterEntry)
+   at System.Web.UI.BaseTemplateParser.ProcessDirective(String directiveName, IDictionary directive)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   --- End of inner exception stack trace ---
+   at System.Web.UI.TemplateParser.ProcessException(Exception ex)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseFile(String physicalPath, VirtualPath virtualPath)
+   at System.Web.UI.TemplateParser.ParseInternal()
+   at System.Web.UI.TemplateParser.Parse()
+   at System.Web.Compilation.BaseTemplateBuildProvider.get_CodeCompilerType()
+   at System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   at System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(String virtualPath, Type requiredBaseType)
+   at Mubble.Handlers.HtmlHandler.ProcessMubbleRequest(HttpContext context) in C:\Users\Kurt\Documents\Projects\Mubble\MubbleCore\Handlers\HtmlHandler.cs:line 47
+   at Mubble.Handlers.HttpHandler.ProcessRequest(HttpContext context) in C:\Users\Kurt\Documents\Projects\Mubble\MubbleCore\Handlers\HttpHandler.cs:line 95
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+INFO  2009-01-11 11:27:58,660  8103ms BenchmarkModule        EndRequest         - Request for /mubble/index.aspx took 2.124 seconds to load. 5 queries.
+INFO  2009-01-11 11:28:32,340 41783ms BenchmarkModule        EndRequest         - Request for /mubble/index.aspx took 17.238 seconds to load. 107 queries.
+INFO  2009-01-11 11:36:34,612 524055ms BenchmarkModule        EndRequest         - Request for /mubble/news.aspx/post/20080110-intel-responds-to-new-antitrust-inquiry-by-new-york-ag.html took 8.042 seconds to load. 15 queries.
+INFO  2009-01-11 11:38:54,791 664234ms BenchmarkModule        EndRequest         - Request for /mubble/news.aspx/post/20080110-intel-responds-to-new-antitrust-inquiry-by-new-york-ag.html took 2.131 seconds to load. 3 queries.
+INFO  2009-01-11 11:42:22,841 872284ms BenchmarkModule        EndRequest         - Request for /mubble/news.aspx/post/20080110-intel-responds-to-new-antitrust-inquiry-by-new-york-ag.html took 5.176 seconds to load. 1 queries.
+INFO  2009-01-11 11:44:01,002 970445ms BenchmarkModule        EndRequest         - Request for /mubble/news.aspx/post/20080110-intel-responds-to-new-antitrust-inquiry-by-new-york-ag.html took 2.441 seconds to load. 1 queries.
+INFO  2009-01-11 11:46:35,476  5396ms Lucene                 ResetSearcher      - Opened searcher
+INFO  2009-01-11 11:46:35,585  5505ms Global                 Application_Start  - Application startup too 00:00:05.3570000
+INFO  2009-01-11 11:46:48,133 18053ms BenchmarkModule        EndRequest         - Request for /mubble/news.aspx/post/20080110-intel-responds-to-new-antitrust-inquiry-by-new-york-ag.html took 12.483 seconds to load. 148 queries.
+INFO  2009-01-11 11:52:31,203 361123ms BenchmarkModule        EndRequest         - Request for /mubble/news.aspx/post/20080110-intel-responds-to-new-antitrust-inquiry-by-new-york-ag.html took 4.182 seconds to load. 1 queries.
+INFO  2009-01-11 12:01:56,539 926459ms BenchmarkModule        EndRequest         - Request for /mubble/news.aspx/post/20080110-intel-responds-to-new-antitrust-inquiry-by-new-york-ag.html took 8.158 seconds to load. 3 queries.
+INFO  2009-01-11 12:07:58,984 1288904ms BenchmarkModule        EndRequest         - Request for /mubble/business/smb-resources.aspx took 6.999 seconds to load. 55 queries.
+INFO  2009-01-11 12:15:50,062 1759982ms BenchmarkModule        EndRequest         - Request for /mubble/index.aspx took 6.463 seconds to load. 22 queries.
+INFO  2009-01-11 12:18:17,345 1907265ms BenchmarkModule        EndRequest         - Request for /mubble/index.aspx took 2.904 seconds to load. 6 queries.
+INFO  2009-01-11 12:18:43,463 1933383ms BenchmarkModule        EndRequest         - Request for /mubble/index.aspx took 2.657 seconds to load. 0 queries.
+INFO  2009-01-11 12:19:40,851  5166ms Lucene                 ResetSearcher      - Opened searcher
+INFO  2009-01-11 12:19:40,948  5263ms Global                 Application_Start  - Application startup too 00:00:05.1250000
+INFO  2009-01-11 12:19:55,400 19715ms BenchmarkModule        EndRequest         - Request for /mubble/index.aspx took 14.414 seconds to load. 181 queries.
+INFO  2009-01-11 12:22:23,602 167917ms BenchmarkModule        EndRequest         - Request for /mubble/index.aspx took 2.758 seconds to load. 0 queries.
+INFO  2009-01-11 22:56:59,252 11915ms Lucene                 ResetSearcher      - Opened searcher
+INFO  2009-01-11 22:56:59,613 12276ms Global                 Application_Start  - Application startup too 00:00:11.9260000
+INFO  2009-01-11 22:57:19,908 32571ms BenchmarkModule        EndRequest         - Request for /mubble/news.aspx/post/20080110-intel-responds-to-new-antitrust-inquiry-by-new-york-ag.html took 19.804 seconds to load. 148 queries.

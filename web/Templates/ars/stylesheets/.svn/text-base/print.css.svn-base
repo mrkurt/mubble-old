@@ -1,0 +1,204 @@
+﻿body {
+	font: normal 12px/160% Verdana, sans-serif;
+	margin: 0;
+	padding: 0;
+	color: #000;
+}
+
+a img
+{
+	border: none;
+}
+
+#Page #Masthead
+{
+	display: none;
+}
+
+#Page #Banner .Ad
+{
+	width: 728px;
+	margin: 10px auto;
+}
+
+#Page #Footer .Links
+{
+	display: none;
+}
+
+#Page #Footer .Copyright
+{
+	color: #666;
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a
+{
+	text-decoration: none;
+}
+
+#Content .Content div.ContentBody, #Content .Content div.ContentBody div
+{
+	display: block;
+}
+
+#Page #Masthead .Nav,
+#Page #Banner #Notice,
+#Page #Nav,
+#Page #Footer a,
+#Page #Main #Sidebar,
+#Content .Content div,
+#Content #LatestPosts,
+.Content .Inset
+{
+	display: none;
+}
+
+#Content .Content div.ContentBody div.PostOptions,
+#Content .Content div.ContentBody div.Comments
+{
+	display: none !important;
+}
+
+
+/* Content things */
+.Content h2 {
+	font: bold 19px/100% Helvetica, Arial, sans-serif;
+	margin: 24px 0 8px;
+	padding: 0;
+}
+
+.Content h3 {
+	font: bold 16px/130% Helvetica, Arial, sans-serif;
+	margin: 24px 0 0;
+	padding: 0;
+}
+
+	.Content h3 a {
+		color: #000;
+	}
+
+.Content h4 {
+	font: bold 13px/100% Helvetica, Arial, sans-serif;
+}
+
+.Content p {
+	margin: 4px 0 14px;
+}
+
+.Content img.Bordered {
+	background-color: #eee;
+	border: 1px solid #d4d0c9;
+	margin-top: 2px;
+	padding: 4px;
+}
+
+.Content .ImageLeft {
+	color: #690000;
+	float: left;
+	margin: 5px 10px 10px 0;
+	text-align: center;
+}
+
+.Content .ImageRight {
+	color: #690000;
+	float: right;
+	margin: 5px 0 10px 10px;
+	text-align: center;
+}
+
+.Content .CenteredImage {
+	color: #690000;
+	margin: 10px 0;
+	text-align: center;
+}
+
+.Content .flash
+{
+	margin: 0px auto;
+}
+
+.Content .ImageCaption, .media {
+	font-size: 11px;
+	line-height: 140%;
+}
+
+.Content img {
+	max-width: 580px;
+}
+
+.Content pre {
+	font: 13px/140% 'Courier New', Courier, monospace;
+	margin: 4px 0 14px;
+	padding: 12px 18px;
+}
+
+.Content pre.Code {
+	background-color: #e7e7e7;
+	border: 1px solid #999;
+	max-height: 640px;
+	overflow: auto;
+}
+
+	.Content pre.Code .Comment {
+		color: #393;
+		font-style: italic;
+	}
+
+	.Content pre.Code .Constant {
+		color: #666;
+	}
+
+	.Content pre.Code .Identifier {
+		color: #933;
+	}
+
+	.Content pre.Code .PreProc {
+		color: #939;
+	}
+
+	.Content pre.Code .Special {
+		color: #993;
+	}
+
+	.Content pre.Code .Statement {
+		color: #339;
+	}
+
+.Content ul, .Content ol, .Content dl {
+}
+
+	.Content li, .Content dt, .Content dd {
+		margin-bottom: 3px;
+		margin-top: 3px;
+	}
+
+.Content .Tags {
+	font: bold 14px/130% Helvetica, Arial, sans-serif;
+	margin: 10px auto 0;
+	width: 583px;
+}
+
+	.Content .Tags p {
+		margin: 0;
+		padding: 10px 10px 10px 16px;
+	}
+
+		.Content .Tags p a {
+			color: #660000;
+		}
+
+.Content table {
+	margin: 10px 0;
+}
+
+.Content .Interview {
+	color: #9d0404;
+	font-style: italic;
+}
+
+.Content .Interview strong {
+	font-style: normal;
+}

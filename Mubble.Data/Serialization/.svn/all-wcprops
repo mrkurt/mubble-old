@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/mubble/!svn/ver/661/trunk/Mubble.Data/Serialization
+END
+TypeInfo.cs
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/mubble/!svn/ver/672/trunk/Mubble.Data/Serialization/TypeInfo.cs
+END
+Xml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/mubble/!svn/ver/672/trunk/Mubble.Data/Serialization/Xml.cs
+END
+ISerializer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/mubble/!svn/ver/672/trunk/Mubble.Data/Serialization/ISerializer.cs
+END
+Description.cs
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/mubble/!svn/ver/672/trunk/Mubble.Data/Serialization/Description.cs
+END
+Utility.cs
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/mubble/!svn/ver/672/trunk/Mubble.Data/Serialization/Utility.cs
+END
+Html.cs
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/mubble/!svn/ver/672/trunk/Mubble.Data/Serialization/Html.cs
+END
+NodeType.cs
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/mubble/!svn/ver/672/trunk/Mubble.Data/Serialization/NodeType.cs
+END

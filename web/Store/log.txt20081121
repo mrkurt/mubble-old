@@ -1,0 +1,7 @@
+INFO  2008-11-21 09:08:00,092 20103ms Lucene                 ResetSearcher      - Opened searcher
+INFO  2008-11-21 09:08:00,714 20725ms Global                 Application_Start  - Application startup too 00:00:20.5060000
+INFO  2008-11-21 09:08:38,164 58175ms BenchmarkModule        EndRequest         - Request for /mubble/index.aspx took 36.4205 seconds to load. 181 queries.
+INFO  2008-11-21 09:15:22,807 462818ms BenchmarkModule        EndRequest         - Request for /mubble/index.aspx took 6.0545 seconds to load. 0 queries.
+INFO  2008-11-21 09:45:38,896  5939ms Lucene                 ResetSearcher      - Opened searcher
+INFO  2008-11-21 09:45:38,997  6040ms Global                 Application_Start  - Application startup too 00:00:05.9045000
+INFO  2008-11-21 09:45:51,414 18457ms BenchmarkModule        EndRequest         - Request for /mubble/index.aspx took 12.368 seconds to load. 181 queries.

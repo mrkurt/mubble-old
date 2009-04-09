@@ -1,0 +1,42 @@
+8
+
+dir
+672
+http://svn.mubble.net/mubble/trunk/Vendor/MVCToolkit/MVCToolkit/Binaries
+http://svn.mubble.net/mubble
+
+
+
+2008-03-15T23:04:41.329605Z
+672
+kurt
+
+
+svn:special svn:externals svn:needs-lock
+
+MVCToolkit.pdb
+file
+
+
+
+
+2008-02-09T21:58:31.270000Z
+ab08813f9808d7ca52eeead4e4c6ca24
+2008-03-15T23:04:41.329605Z
+672
+kurt
+has-props
+
+MVCToolkit.dll
+file
+
+
+
+
+2008-02-09T21:58:31.230000Z
+f7e64726f5d8fb6b375f45351e202d30
+2008-03-15T23:04:41.329605Z
+672
+kurt
+has-props
+

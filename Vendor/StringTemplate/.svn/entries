@@ -1,0 +1,54 @@
+8
+
+dir
+661
+http://svn.mubble.net/mubble/trunk/Vendor/StringTemplate
+http://svn.mubble.net/mubble
+
+
+
+2006-10-20T02:32:42.989445Z
+187
+kurt
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+e9299cb4-260d-0410-a363-f84a8d58d427
+
+StringTemplate.dll
+file
+
+
+
+
+2007-11-27T14:47:13.352131Z
+c0a3a6807efd1ad848048634a19350a6
+2006-10-20T02:32:42.989445Z
+187
+kurt
+has-props
+
+antlr.runtime.dll
+file
+
+
+
+
+2007-11-27T14:47:13.358131Z
+2c366c1d0d169d35dc20d74b5b35f023
+2006-10-20T02:32:42.989445Z
+187
+kurt
+has-props
+

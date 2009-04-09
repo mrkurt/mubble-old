@@ -1,0 +1,6 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <StartArguments>counters</StartArguments>
+    <StartWorkingDirectory>C:\Documents and Settings\Kurt\My Documents\Visual Studio 2005\Projects\Mubble\Tools\</StartWorkingDirectory>
+  </PropertyGroup>
+</Project>

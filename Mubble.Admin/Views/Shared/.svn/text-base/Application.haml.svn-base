@@ -1,0 +1,15 @@
+!!!
+%html{xmlns="http://www.w3.org/1999/xhtml"}
+  %head
+    %title Mubble Admin
+    %link{href="/styles/site.css", rel="stylesheet", type="text/css"}
+  %body{ class = (ViewData.CurrentContent is IPublished) ? "Published" : "" }
+    #inner
+      #header
+        %h1 Mubble Admin
+      #crumbs
+        -foreach(var parent in ViewData.CurrentContent.Breadcrumb)
+          &raquo;
+          %a{ href = parent["Path"] }= parent["Title"]
+      #main
+        _

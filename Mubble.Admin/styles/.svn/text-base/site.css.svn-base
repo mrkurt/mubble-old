@@ -1,0 +1,83 @@
+﻿html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #999;
+  font-size: 10pt;
+}
+
+#main
+{
+	width: 940px;
+	padding: 10px;
+	margin: 0px auto;
+	position: relative;
+	background: #fff;
+}
+
+form#content
+{
+	border: 1px solid #aaa;
+	padding: 10px;
+	position: relative;
+}
+form#content.Collapsed
+{
+	height: 10px;
+	overflow: hidden;
+}
+	form#content p
+	{
+		clear: left;
+	}
+		form#content p label
+		{
+			width: 100px;
+			float: left;
+		}
+		
+		form#content p textarea
+		{
+			clear: left;
+			width: 915px;
+			height: 300px;
+		}
+		body.Published form#content p textarea
+		{
+			width: 715px;
+		}
+	form#content #metadata
+	{
+		position: absolute;
+		top: 0px;
+		right: 0px;
+		width: 180px;
+		background-color: #FFFFcc;
+		padding: 5px;
+	}
+		
+table#children
+{
+	display: block;
+	border: 1px solid #ccc;
+	padding: 0px;
+	border-collapse: collapse;
+}
+	table#children th, table#children td
+	{
+		border: 1px solid #ccc;		
+		padding: 2px 2px 2px 5px;
+	}
+	table#children thead th
+	{
+		background-color: #ddd;
+		color: Black;
+		font-weight: bold;
+		text-align: left;
+		padding: 3px 2px 3px 5px;
+	}

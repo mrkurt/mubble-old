@@ -1,0 +1,136 @@
+<%@	Master Language="vb" Inherits="Mubble.UI.MasterPage" %>
+<%@ Register Src="ads/Banner.ascx" TagName="Banner" TagPrefix="ads" %>
+<%@ Register TagPrefix="layout" Src="Sidebar.ascx" TagName="SideBar"%><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+	<head runat="server">
+	    <html:Javascript FileType="Application" runat="server" />
+	    <script type="text/javascript" src="http://media.arstechnica.com/ads/cats/ad-1.0.js"></script>
+	    <script type="text/javascript">
+		var url = "/ads/cats/vars.aspx?url=" + escape(window.location.pathname);
+		document.write('<scr' + 'ipt type="text/javascript" src="' + url + '"></s' + 'cript>');
+	    </script>
+
+		
+		<![if gte IE 7]>
+	    <html:Stylesheet href="stylesheets/style.css" runat="server" media="screen" />
+	    <html:Stylesheet href="stylesheets/print.css" runat="server" media="print" />
+	    <html:Stylesheet href="jscripts/code/SyntaxHighlighter.css" runat="server" media="screen" />
+		<html:Javascript FileLocation="Shared" Src="jscripts/jquery.js" runat="server" />
+		<html:Javascript Src="jscripts/code/shCore.js" runat="server" />
+		<html:Javascript Src="jscripts/jquery.plugins.js" runat="server" />
+		<html:Javascript Src="jscripts/swfobject.js" runat="server" />		
+		<html:Javascript Src="jscripts/fun.js" runat="server" />
+		<![endif]>
+		
+		<script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+        </script>
+        
+		<script type="text/javascript">
+            var pageTracker = _gat._getTracker("UA-31997-1");
+            pageTracker._trackPageview();
+        </script>
+        
+        <script type="text/javascript" src="http://mediaplayer.yahoo.com/js"></script>
+
+	    <!--[if lt IE 7]>
+		<html:Stylesheet href="stylesheets/style.css" runat="server" UseStaticFileHost="false" />
+		<html:Stylesheet href="stylesheets/iesux.css" runat="server" UseStaticFileHost="false" media="screen" />
+		<html:Stylesheet href="jscripts/code/SyntaxHighlighter.css" runat="server" UseStaticFileHost="false" />
+		<html:Javascript FileLocation="Shared" Src="jscripts/jquery.js" runat="server" UseStaticFileHost="false" />
+		<html:Javascript Src="jscripts/code/shCore.js" runat="server" UseStaticFileHost="false" />
+		<html:Javascript Src="jscripts/jquery.plugins.js" runat="server" UseStaticFileHost="false" />
+		<html:Javascript Src="jscripts/swfobject.js" runat="server" UseStaticFileHost="false" />
+		<html:Javascript Src="jscripts/fun.js" runat="server" UseStaticFileHost="false" />
+		
+		<html:Javascript Src="jscripts/ie7/ie7-standard-p.js" runat="server" UseStaticFileHost="false" />
+		<html:Javascript Src="jscripts/ie7/ie7-recalc.js" runat="server" UseStaticFileHost="false" />
+		<html:Javascript Src="jscripts/iesux.js" runat="server" UseStaticFileHost="false" />
+		<![endif]-->
+
+		<!-- Generated at: <%# DateTime.Now %> -->
+
+		<html:RssHeaderLink runat='server' />
+	
+		<link rel="SHORTCUT ICON" href="/favicon.ico" />
+	</head>
+	<body runat="server">
+		<html:AddClassToParent runat="server" ClassName="$FileName" />
+
+		<div id="Page">
+			<div id="Masthead">
+				<div id="Logo">
+					<mbl:HyperLink ContentPath="/index" runat="server"><html:Image src="images/logo.gif" runat="server" alt="Ars Technica" class="Logo" /></mbl:HyperLink>
+				</div>
+				<div class="Nav">
+					<ul class="Subscribe Menu">
+						<li><html:HyperLink runat='server' Path="/site/subscribe"><html:Image runat="server" src="images/top-tab-subscribe.gif" alt="Subscribe" /></html:HyperLink></li>
+						<li><html:HyperLink runat="server" Path="/site/contact"><html:Image runat="server" src="images/top-tab-contact.gif" alt="Contact Us" /></html:HyperLink></li>
+					</ul>
+					<ul class="Tabs Menu">
+						<li id="HomeTab"><mbl:HyperLink ContentPath="/index" runat="server"><span class="Replace">Home</span></mbl:HyperLink></li>
+						<li id="BusinessTab"><mbl:HyperLink ContentPath="/business" runat="server"><span class="Replace">Business</span></mbl:HyperLink></li>
+						<li id="AppleTab"><mbl:HyperLink ContentPath="/apple" runat="server"><span class="Replace">Apple</span></mbl:HyperLink></li>
+						<li id="GamingTab"><mbl:HyperLink ContentPath="/gaming" runat="server"><span class="Replace">Gaming</span></mbl:HyperLink></li>
+						<li id="HardwareTab"><mbl:HyperLink ContentPath="/hardware" runat="server"><span class="Replace">Hardware</span></mbl:HyperLink></li>
+						<li id="GadgetsTab"><mbl:HyperLink ContentPath="/gadgets" runat="server"><span class="Replace">Gear &amp; Gadgets</span></mbl:HyperLink></li>
+						<li id="SecurityTab"><mbl:HyperLink ContentPath="/security" runat="server"><span class="Replace">Security</span></mbl:HyperLink></li>
+						<li id="LawTab"><mbl:HyperLink ContentPath="/law" runat="server"><span class="Replace">Law &amp; Disorder</span></mbl:HyperLink></li>
+					</ul>
+				</div>
+			</div>
+			<div id="Banner">
+				<div id="Notice">
+					<a href="http://www.servercentral.net"><html:Image src="images/sc_pimp.jpg" runat="server" alt="Server Central" /></a>
+				</div>
+				<div class="Ad">
+				<script type="text/javascript">
+					var pbanner = cnp.ad.create(cnp.ad.refreshable, false);
+					pbanner.addParameter({'sz':'728x90'});
+					pbanner.load();
+				</script>
+				</div>
+			</div>
+			<div id="Nav">
+				<ul class="Site Menu">
+					<li id="HomeNav"><mbl:HyperLink runat="server" ContentPath="/index"><span class="Replace">Home</span></mbl:HyperLink></li>
+					<li id="NewsNav"><mbl:HyperLink runat="server" ContentPath="/news"><span class="Replace">News</span></mbl:HyperLink></li>
+					<li id="ArticlesNav"><mbl:HyperLink runat="server" ContentPath="/articles"><span class="Replace">Articles</span></mbl:HyperLink></li>
+					<li id="GuidesNav"><mbl:HyperLink runat="server" ContentPath="/guides"><span class="Replace">Guides</span></mbl:HyperLink></li>
+					<li id="JournalsNav"><mbl:HyperLink runat="server" ContentPath="/journals"><span class="Replace">Journals</span></mbl:HyperLink></li>
+					<li class="Search">
+						<html:Form runat='server' Path="/search"><html:Image src="images/search.gif" runat="server" alt="Search" /><input type="text" class="Text" name="search" /><html:Image src="images/go.gif" runat="server" alt="Go" class="FormSubmit" /></html:Form>
+					</li>
+				</ul>
+				<ul class="Sub Menu">
+					<li id="ForumNav"><a href="http://episteme.arstechnica.com"><span class="Replace">Forum</span></a></li>
+					<li id="ShopNav"><a href="http://arstechnica.pgpartner.com/"><span class="Replace">Shop.ars</span></a></li>
+					<li id="EmporiumNav"><a href="http://store.arstechnica.com/"><span class="Replace">Emporium</span></a></li>
+					<li id="RssNav"><mbl:HyperLink runat="server" ContentPath="/site/rss"><span class="Replace">RSS</span></mbl:HyperLink></li>
+				</ul>
+			</div>
+			<div id="Main">
+				<div id="Content">
+					<asp:contentplaceholder id="Content" runat="server" />
+				</div>
+				<layout:Sidebar runat="server" />
+				<div style="clear: both;"></div>
+			</div>
+			<div id="Footer">
+				<div class="Copyright">&copy; <%# DateTime.Now.Year %> Cond&eacute;Net Inc.  All rights reserved.</div>
+				<div class="Links">
+				<mbl:HyperLink runat="server" ContentPath="/site/about">About Ars Technica</mbl:HyperLink> |
+				<mbl:Hyperlink runat="server" ContentPath="/site/advertise">Advertise</mbl:Hyperlink> |
+				<mbl:Hyperlink runat="server" ContentPath="/site/contact">Contact Us</mbl:Hyperlink> |
+				<mbl:Hyperlink runat="server" ContentPath="/site/faq">FAQ</mbl:Hyperlink> |
+				<mbl:Hyperlink runat="server" ContentPath="/site/privacy">Privacy Policy</mbl:Hyperlink> |
+				<mbl:Hyperlink runat="server" ContentPath="/site/useragreement">User Agreement</mbl:Hyperlink> |
+				<mbl:Hyperlink runat="server" ContentPath="/site/reprints">Reprints</mbl:Hyperlink> |
+				<mbl:Hyperlink runat="server" ContentPath="/site/rss">RSS Feeds</mbl:Hyperlink> |
+				<mbl:Hyperlink runat="server" ContentPath="/site/subscribe">Subscribe</mbl:Hyperlink>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
